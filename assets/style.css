@@ -500,3 +500,84 @@ footer>h4 {
 }
 
 /*--------------------------------------- Book page*/
+#bookpage {
+    /*background-color: #f7f0f0;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#book-title {
+    text-align: center;
+    background-color: #E39A79;
+    font-size: 20px;
+    color: #fafafa;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.books {
+    display: inline-block;
+    padding: 5px 5px 10px 30px;
+}
+
+.book-col {
+    margin-left: 45px;
+}
+
+.books h4 {
+    color: #050505;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+}
+
+.books img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.books img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.date-month {
+    width: 250px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    background-color: #883129;
+    color: #E4E6F2;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-right: -15px;
+}
+
+.btn-shop {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    border: none;
+    margin-top: -5px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgba(68, 68, 146, 0.664);
+    border: 1px solid rgba(68, 68, 146, 0.664);
+}
+
+.btn-shop:hover {
+    background-color: rgba(68, 68, 146, 0.664);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-shop a {
+    text-decoration: none;
+}
