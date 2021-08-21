@@ -19,3 +19,79 @@ body {
 .responsive-image {
     border-radius: 50%;
 }
+
+.navbar {
+    background-color: #E39A79;
+    border: 0;
+    font-size: larger !important;
+    letter-spacing: 0.1em;
+    opacity: 0.9;
+    min-height: 90px;
+    padding-right: 15px;
+    overflow-x: hidden
+}
+
+.navbar {
+    background-color: #E39A79;
+    border: 0;
+    font-size: larger !important;
+    letter-spacing: 0.1em;
+    opacity: 0.9;
+    min-height: 90px;
+    padding-right: 15px;
+    overflow-x: hidden
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #d5d5d5 !important;
+    margin-top: 1px;
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+
+}
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+
+}
+
+.navbar-collapse {
+    margin-top: 27px;
+}
+
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/*-----------------------------------------------------Landing page image*/
+#heading-title {
+    text-align: center;
+    padding: 165px 0 0 0;
+    margin-top: 90px;
+    width: 100%;
+    height: 75vh;
+    background: url('/assets/images/read-papaya.jpeg');
+    background-size: cover;
+}
+
+#heading-title h2 {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-size: 1.4rem;
+    color: #fafafa;
+    letter-spacing: 2px;
+}
