@@ -213,18 +213,24 @@ hr {
     font-size: 20px;
 }
 
+#reason-space5 {
+    padding-bottom: 23px;
+}
+
+.about-text {
+    padding-bottom: 20px;
+}
+
 /*--------------------------------------- Meetup section*/
 #meetup-section {
     background-color: #f7f0f0;
     padding-bottom: 20px;
-    padding-top: 20px;
 }
-
 
 .location-box {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
@@ -237,19 +243,19 @@ hr {
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 10px
+    padding: 20px 10px
 }
 
 .bg-image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 360px;
+    width: 300px;
     height: 250px;
     padding-top: 30px;
     color: white;
 
-
+    margin-left: -10px;
     margin-bottom: 10px;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -310,5 +316,63 @@ hr {
 
 .local-month .coffee-icon {
     color: rgb(8, 6, 6);
+}
 
+/*--------------------------------------- Subscribe section*/
+#subscribe-section {
+    background-color: #e78e65;
+    padding: 25px 0 25px 0;
+}
+
+#subscribe-section h4 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fafafa;
+    letter-spacing: 2px;
+}
+
+#subscribe-section h5 {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 15px 0 15px 0;
+    color: #fafafa;
+    letter-spacing: 2px;
+}
+
+#subscribe-field {
+    text-align: center;
+}
+
+#envelope {
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+    margin-left: 600px;
+}
+
+.far:hover {
+    color: rgba(224, 191, 80, 0.911);
+}
+
+#email-subscribe {
+    width: 30%;
+    height: 34px;
+    border: none;
+    padding-left: 6px;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.btn-subscribe {
+    width: 8%;
+    height: 35px;
+    background-color: #540b0e;
+    border: none;
+    color: #fafafa;
+    font-size: 1.5rem;
+}
+
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+    background-color: #01497c;
 }
