@@ -13,6 +13,7 @@ body {
     font-weight: 300;
     background-color: #f7f5f4;
 }
+
 /*------------------------------------------------ Navigation bar */
 /*logo*/
 .responsive-image {
@@ -119,3 +120,49 @@ body {
 }
 
 /*--------------------------------------- About section*/
+/*title*/
+#about-section {
+    background-color: #f7f0f0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-title {
+    text-align: center;
+    background-color: #E39A79;
+    font-size: 120%;
+    color: #fafafa;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10px;
+}
+
+/*images and text*/
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    display: inline-block;
+    background-color: #f7f5f4;
+}
+
+.thumbnail h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.thumbnail p {
+    margin: auto;
+    color: #333;
+    width: 95%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.thumbnail img {
+    height: 550px;
+    width: 85%;
+    margin-top: 20px;
+}
