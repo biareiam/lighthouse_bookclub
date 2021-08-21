@@ -383,7 +383,7 @@ footer {
     background-size: cover;
     padding-top: 5px;
     letter-spacing: 2px;
-    height: 200px;
+    height: 250px;
 }
 
 footer>h4 {
@@ -416,9 +416,85 @@ footer>h4 {
 #copyright {
     text-align: center;
     background-color: #E39A79;
-    margin-left: -20px;
     color: #fafafa;
     font-size: 12px;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+/*Social media links*/
+
+:root {
+    --social-icon1: #3b5999;
+    --social-icon2: #e4405f;
+    --social-icon3: #0077B5;
+}
+
+.icon-list {
+    padding-left: 1.2rem;
+    display: flex;
+    font-size: 130%;
+    color: #380404;
+    margin-left: 495px;
+}
+
+.icon-item {
+    list-style: none;
+    padding-left: 30px;
+
+}
+
+.icon-link {
+    display: inline-flex;
+    font-size: 160%;
+    text-decoration: none;
+    color: var(--color-icon);
+    width: 4rem;
+    height: 4rem;
+    transition: .3s linear;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    color: #fafafa;
+}
+
+.icon-link:hover {
+    color: #fff;
+}
+
+.icon-link i {
+    margin: auto;
+}
+
+.icon-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: 4rem;
+    background: #000;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+}
+
+.icon-link:hover::before {
+    transform: scale(1.1);
+}
+
+.icon-item:nth-child(1) a:hover:before {
+    background: var(--social-icon1);
+}
+
+.icon-item:nth-child(2) a:hover:before {
+    background: var(--social-icon2);
+}
+
+.icon-item:nth-child(3) a:hover:before {
+    background: var(--social-icon3);
 }
