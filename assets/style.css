@@ -171,9 +171,13 @@ body {
 }
 
 .thumbnail img {
-    height: 190px;
-    width: 85%;
+    height: 170px;
+    width: 100%;
     margin-top: 20px;
+}
+
+.about-text {
+    padding-bottom: 20px;
 }
 
 /*--------------------------------------- Reasons section*/
@@ -216,9 +220,17 @@ hr {
     padding-bottom: 23px;
 }
 
-.about-text {
-    padding-bottom: 20px;
+#reason-image1,
+#reason-image2,
+#reason-image3,
+#reason-image4,
+#reason-image5,
+#reason-image6 {
+    width: 100%;
+    height: 250px;
+
 }
+
 
 /*--------------------------------------- Meetup section*/
 #meetup-section {
