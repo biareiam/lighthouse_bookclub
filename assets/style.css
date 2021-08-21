@@ -11,7 +11,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background-color: #f7f5f4;
+    /*background-color: #f7f5f4;*/
 }
 
 /*------------------------------------------------ Navigation bar */
@@ -101,7 +101,6 @@ body {
     color: #FFF;
     border: 2px solid #D97B59;
     margin-top: 20px;
-    ;
     border-radius: 0px;
     padding: 18px 50px;
     display: inline-block;
@@ -128,7 +127,7 @@ body {
 /*--------------------------------------- About section*/
 /*title*/
 #about-section {
-    background-color: #f7f0f0;
+    /*background-color: #f7f0f0;*/
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -155,7 +154,7 @@ body {
     border: none;
     border-radius: 0;
     display: inline-block;
-    background-color: #f7f5f4;
+    background-color: transparent;
 }
 
 .thumbnail h3 {
@@ -172,7 +171,7 @@ body {
 }
 
 .thumbnail img {
-    height: 200px;
+    height: 190px;
     width: 85%;
     margin-top: 20px;
 }
@@ -421,6 +420,7 @@ footer>h4 {
     padding: 10px 0 10px 0;
     font-family: 'Abel', sans-serif;
     text-align: center;
+    margin-bottom: 0;
 }
 
 /*Social media links*/
@@ -498,3 +498,5 @@ footer>h4 {
 .icon-item:nth-child(3) a:hover:before {
     background: var(--social-icon3);
 }
+
+/*--------------------------------------- Book page*/
