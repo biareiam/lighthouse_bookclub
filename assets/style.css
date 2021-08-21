@@ -130,7 +130,7 @@ body {
 .about-title {
     text-align: center;
     background-color: #E39A79;
-    font-size: 120%;
+    font-size: 24px;
     color: #fafafa;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -201,4 +201,39 @@ hr {
 .reason-subtitle {
     text-align: center;
     font-size: 20px;
+}
+
+/*--------------------------------------- Meetup section*/
+#meetup-section {
+    background-color: #f7f0f0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.location-box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.local-box {
+    text-align: center;
+    background-color: #E39A79;
+    font-size: 20px;
+    color: #fafafa;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 10px
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 350px;
+    padding-top: 30px;
+    color: white;
 }
