@@ -372,7 +372,7 @@ hr {
 }
 
 /*--------------------------------------- Contact section*/
-footer {
+#contact-section {
     background: url('/assets/images/read-papaya.jpeg') bottom;
     background-size: cover;
     padding-top: 5px;
@@ -380,7 +380,7 @@ footer {
     height: 250px;
 }
 
-footer>h4 {
+#contact-section>h4 {
     text-align: center;
     font-family: 'Abel', sans-serif;
     color: #fafafa;
@@ -498,6 +498,7 @@ footer>h4 {
     /*background-color: #f7f0f0;*/
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .book-container {
@@ -577,16 +578,19 @@ footer>h4 {
 /*--------------------------------------- Join page*/
 #form-container {
     background-color: rgba(228, 133, 99, 0.589);
-    padding: 40px 100px 40px 250px;
+    padding: 40px 100px 40px 230px;
+    background: url('/assets/images/read-papaya.jpeg') center no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-top: 90px;
 }
 
 .signup-form {
-    /*margin: 50px 300px 50px 550px;*/
     max-width: 800px;
     padding: 50px;
     color: #fafafa;
     font-size: 1.6rem;
-    background-color: rgba(228, 133, 99, 0.212);
+    background-color: rgba(230, 165, 142, 0.397);
 }
 
 .signup-form h2 {
@@ -614,7 +618,7 @@ footer>h4 {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border: 2px solid #f16c6b;
 }
 
 #term {
@@ -640,7 +644,7 @@ footer>h4 {
     position: relative;
     padding: 15px 60px 15px 60px;
     margin-left: 250px;
-    background-color: #0d6d3d;
+    background-color: #075159;
     font-size: 1.9rem;
     text-decoration: none;
 }
@@ -694,6 +698,7 @@ footer>h4 {
     opacity: 0;
     transform: scale(0.1, 1);
 }
+
 
 
 /*--------------------------------------- Media query*/
