@@ -659,13 +659,13 @@ hr {
 
 
 /*--------------------------------------- Media query*/
+/*
 
 @media (min-width: 1441px) {
-    /*{
+    * {
         background-color: lightblue;
-    }*/
-
-    #heading-title {
+    }
+     #heading-title {
         height: 70vh;
     }
 
@@ -723,11 +723,148 @@ hr {
         background-repeat: space;
 
     }
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+/*
+@media screen and (max-width: 1200px) {
+    * {
+        background-color: coral;
+    }
+
+    #heading-title {
+        height: 60vh;
+    }
+
+    #reason-space2,
+    #reason-space3 {
+        padding-bottom: 20px;
+    }
+
+    .book-container {
+        margin-left: 15px;
+    }
+}
+
+
+/* For medium screens sizes from 950px wide and down */
+/*
+@media screen and (max-width: 950px) {
+    * {
+        background-color: darkgoldenrod;
+    }
+
+    .thumbnail img {
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #reason-image1,
+    #reason-image2,
+    #reason-image3,
+    #reason-image4,
+    #reason-image5,
+    #reason-image6 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .bg-image {
+        width: 228px;
+        height: 250px;
+    }
+
+    .book-container {
+        margin-left: 100px;
+    }
+
+    .signup-form {
+        left: 18%;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+/*
+@media screen and (max-width: 800px) {
+    * {
+        background-color: rgb(0, 102, 255);
+    }
+
+    .thumbnail img {
+        height: 220px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #reason-image1,
+    #reason-image2,
+    #reason-image3,
+    #reason-image4,
+    #reason-image5,
+    #reason-image6 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .bg-image {
+        width: 190px;
+        height: 230px;
+    }
+
+    .bg-image h4 {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    .bg-image h5 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .book-container {
+        margin-left: 80px;
+    }
+
+    #email-subscribe {
+        width: 50%;
+    }
+
+    .btn-subscribe {
+        width: 12%;
+    }
+
+    .signup-form {
+        left: 12%;
+    }
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Query for Large screens */
-/*
+
 @media (min-width: 1281px) and (max-width: 1440px) {
     * {
         background-color: rgb(206, 63, 158);
@@ -742,7 +879,7 @@ hr {
     }
 
     .thumbnail img {
-        height: 200px;
+        height: 300px;
         width: 100%;
         margin-top: 20px;
     }
