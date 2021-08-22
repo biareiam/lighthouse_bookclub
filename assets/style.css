@@ -21,22 +21,23 @@ body {
 }
 
 .navbar {
-    background-color: #E39A79;
+    /* background-color: #E39A79;*/
     border: 0;
     font-size: larger !important;
     letter-spacing: 0.1em;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
     min-height: 90px;
     padding-right: 15px;
     overflow-x: hidden
 }
 
 .navbar {
-    background-color: #E39A79;
+    background-color: #F1CEAE;
+    /*background-color: #E39A79;*/
     border: 0;
     font-size: larger !important;
     letter-spacing: 0.1em;
-    opacity: 0.9;
+    /*opacity: 0.9;*/
     min-height: 90px;
     padding-right: 15px;
     overflow-x: hidden
@@ -44,9 +45,10 @@ body {
 
 .navbar li a,
 .navbar .navbar-brand {
-    color: #d5d5d5 !important;
+    /* color: #d5d5d5 !important;*/
     margin-top: 1px;
     text-decoration: none;
+    color: #333 !important;
 }
 
 .navbar-nav li a:hover {
@@ -84,7 +86,8 @@ body {
     margin-top: 90px;
     width: 100%;
     height: 85vh;
-    background: url('/assets/images/read-papaya.jpeg');
+    /*background: url('/assets/images/read-papaya.jpeg');*/
+    background: url('/assets/images/pexels-photo-5939401.jpeg') center center no-repeat;
     background-size: cover;
 }
 
@@ -99,7 +102,8 @@ body {
 /*------------------------------------------------ button that leads to join page*/
 .btn {
     color: #FFF;
-    border: 2px solid #D97B59;
+    border: 2px solid #BF884F;
+    /*border: 2px solid #D97B59;*/
     margin-top: 30px;
     border-radius: 0px;
     padding: 18px 50px;
@@ -107,7 +111,8 @@ body {
     font-size: 2rem;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 #D97B59;
+    /*box-shadow: inset 0 0 0 0 #D97B59;*/
+    box-shadow: inset 0 0 0 0 #BF884F;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
@@ -115,7 +120,9 @@ body {
 }
 
 .btn-join:hover {
-    box-shadow: inset 400px 0 0 0 #D97B59;
+    box-shadow: inset 400px 0 0 0 #BF884F;
+    /*box-shadow: inset 400px 0 0 0 #D97B59;*/
+    color: #fafafa;
 }
 
 /**/
@@ -134,7 +141,8 @@ body {
 
 .about-title {
     text-align: center;
-    background-color: #E39A79;
+    background-color: #F2D1B3;
+    /*background-color: #E39A79;*/
     font-size: 24px;
     color: #fafafa;
     letter-spacing: 2px;
@@ -190,7 +198,8 @@ body {
 
 .reason-title {
     text-align: center;
-    background-color: #E39A79;
+    background-color: #F2D1B3;
+    /*background-color: #E39A79;*/
     color: #fafafa;
     letter-spacing: 2px;
     font-size: 28px;
@@ -206,7 +215,8 @@ hr {
 }
 
 .reasons-icon {
-    color: #333;
+    /* color: #333;*/
+    color: #013440;
     font-size: 350%;
     text-align: center;
 }
@@ -214,10 +224,6 @@ hr {
 .reason-subtitle {
     text-align: center;
     font-size: 20px;
-}
-
-#reason-space5 {
-    padding-bottom: 23px;
 }
 
 #reason-image1,
@@ -245,7 +251,8 @@ hr {
 
 .local-box {
     text-align: center;
-    background-color: #E39A79;
+    background-color: #F2D1B3;
+    /*background-color: #E39A79;*/
     font-size: 20px;
     color: #fafafa;
     letter-spacing: 2px;
@@ -309,12 +316,14 @@ hr {
 .local-month a {
     color: white;
     padding: 3px;
-    background-color: #c55fee;
+    /*background-color: #c55fee;*/
+    background-color: #013440;
 }
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
-    background-color: #e78e65;
+    background-color: #D9B18F;
+    /* background-color: #e78e65;*/
     padding: 25px 0 25px 0;
 }
 
@@ -373,7 +382,8 @@ hr {
 
 /*--------------------------------------- Contact section*/
 #contact-section {
-    background: url('/assets/images/read-papaya.jpeg') bottom;
+    /*background: url('/assets/images/read-papaya.jpeg') bottom;*/
+    background: url('/assets/images/pexels-photo-5939401.jpeg') bottom;
     background-size: cover;
     padding-top: 5px;
     letter-spacing: 2px;
@@ -403,7 +413,8 @@ hr {
 /*copyright */
 #copyright {
     text-align: center;
-    background-color: #E39A79;
+    background-color: #D9B18F;
+    /*background-color: #E39A79;*/
     color: #fafafa;
     font-size: 12px;
     padding: 10px 0 10px 0;
@@ -507,7 +518,8 @@ hr {
 
 #book-title {
     text-align: center;
-    background-color: #E39A79;
+    background-color: #F2D1B3;
+    /*background-color: #E39A79;*/
     font-size: 20px;
     color: #fafafa;
     letter-spacing: 2px;
@@ -544,7 +556,8 @@ hr {
     width: 250px;
     padding: 5px 0 5px 0;
     text-align: center;
-    background-color: #883129;
+    /*background-color: #883129;*/
+    background-color: #F29999;
     color: #E4E6F2;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -561,12 +574,15 @@ hr {
     margin-top: -5px;
     font-weight: bold;
     padding: 5px;
-    color: rgba(68, 68, 146, 0.664);
-    border: 1px solid rgba(68, 68, 146, 0.664);
+    /* color: rgba(68, 68, 146, 0.664);
+    border: 1px solid rgba(68, 68, 146, 0.664);*/
+    color: #86A0A6;
+    border: 1px solid #86A0A6;
 }
 
 .btn-shop:hover {
-    background-color: rgba(68, 68, 146, 0.664);
+    /* background-color: rgba(68, 68, 146, 0.664);*/
+    background-color: #094456;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -577,9 +593,10 @@ hr {
 
 /*--------------------------------------- Join page*/
 #form-container {
-    background-color: rgba(228, 133, 99, 0.589);
+    background-color: rgba(228, 225, 225, 0.384);
     padding: 40px 100px 40px 230px;
-    background: url('/assets/images/read-papaya.jpeg') center no-repeat;
+    /*background: url('/assets/images/read-papaya.jpeg') center no-repeat;*/
+    background: url('/assets/images/food-brain.jpeg') center center no-repeat;
     background-size: cover;
     background-position: top;
     margin-top: 90px;
@@ -588,21 +605,26 @@ hr {
 .signup-form {
     max-width: 800px;
     padding: 50px;
-    color: #fafafa;
+    /*color: #fafafa;*/
+    color: #333;
     font-size: 1.6rem;
-    background-color: rgba(230, 165, 142, 0.397);
+    /*background-color: rgba(230, 165, 142, 0.397);*/
+    background-color: rgba(228, 225, 225, 0.384);
+
 }
 
 .signup-form h2 {
-    color: #fafafa;
+    /*color: #fafafa;*/
     margin-bottom: 20px;
+    color: #333;
 
 }
 
 .signup-form p {
-    color: #fafafa;
+    /* color: #fafafa;*/
     margin-bottom: 20px;
     text-align: justify;
+    color: #333;
 
 }
 
@@ -611,8 +633,9 @@ hr {
     color: #0000008f;
     width: 100%;
     height: 30px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    margin: 5px 0 5px 0;
+    /*border: 1px solid #fafafa;*/
+    border: 1px solid #333;
     border-radius: 2px;
     font-size: 1.7rem;
 }
@@ -702,7 +725,7 @@ hr {
 
 
 /*--------------------------------------- Media query*/
-/*
+
 @media (min-width: 1441px) {
     * {
         background-color: lightblue;
