@@ -338,9 +338,9 @@ hr {
 }
 
 #envelope {
+    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 350%;
-    margin-left: 600px;
 }
 
 .far:hover {
@@ -397,14 +397,8 @@ footer>h4 {
 #contact h5 {
     padding: 10px 0 0 0;
     color: #fafafa;
-}
-
-#follow {
-    font-size: 1rem;
-    color: #fafafa;
     text-align: center;
 }
-
 
 /*copyright */
 #copyright {
@@ -418,6 +412,11 @@ footer>h4 {
     margin-bottom: 0;
 }
 
+#follow {
+    text-align: center;
+    color: #fafafa;
+}
+
 /*Social media links*/
 
 :root {
@@ -426,17 +425,18 @@ footer>h4 {
     --social-icon3: #0077B5;
 }
 
+
 .icon-list {
-    padding-left: 1.2rem;
     display: flex;
-    font-size: 130%;
+    justify-content: center;
+    font-size: 90%;
     color: #380404;
-    margin-left: 495px;
 }
 
 .icon-item {
     list-style: none;
-    padding-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .icon-link {
@@ -699,6 +699,7 @@ footer>h4 {
 
 
 /*--------------------------------------- Media query*/
+/*
 @media (min-width: 1441px) {
     * {
         background-color: lightblue;
@@ -772,6 +773,7 @@ footer>h4 {
 }
 
 /* Media Query for Large screens */
+/*
 @media (min-width: 1281px) and (max-width: 1440px) {
     * {
         background-color: rgb(206, 63, 158);
@@ -846,6 +848,7 @@ footer>h4 {
 }
 
 /* Media Query for Laptops and Desktops */
+/*
 @media (min-width: 1024px) and (max-width: 1280px) {
     * {
         background-color: green;
@@ -862,6 +865,7 @@ footer>h4 {
 }
 
 /* Media Query for Tablets Ipads portrait mode */
+/*
 @media (min-width: 768px) and (max-width: 1023px) {
     * {
         background-color: blue;
@@ -916,7 +920,8 @@ footer>h4 {
     }
 }
 
-/* Media Query for low resolution  Tablets, Ipads */
+/* Media Query for low resolution  Tablets, Ipads *
+/
 @media (min-width: 481px) and (max-width: 767px) {
     * {
         background-color: yellow;
@@ -993,6 +998,7 @@ footer>h4 {
 }
 
 /* Media Query for Mobile Devices */
+/*
 @media (max-width: 480px) and (min-width:424px) {
     * {
         background-color: red;
@@ -1065,6 +1071,7 @@ footer>h4 {
         background-color: khaki;
     }
 }*/
+/*
 @media (max-width: 375px) and (min-width:320px) {
     * {
         background-color: rgb(17, 75, 67);
