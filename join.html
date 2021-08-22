@@ -44,7 +44,7 @@
     <!-- <div id="heading-title">
         <h1>The Lighthouse Book Club</h1>
     </div>-->
-    <div id="form-section">
+    <!--<div id="form-section">
         <div id="form-container">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                 <h2>Let's get you signed up!</h2>
@@ -80,36 +80,40 @@
                 </div>
             </form>
         </div>
-    </div>
-        <!-- Footer and social media account links -->
-    <!--<footer>
-        <div id="contact">
-            <h4>Contact Us</h4>
-            <h5>Email: info@lighthousebookclub.com</h5>
-            <h5>Phone: (01) 234 567 890</h5>
-        </div>
-        <div id="follow">
-            <h4><i aria-hidden="true"></i>Follow Us</h4>
-            <ul class="icon-list">
-                <li class="icon-item">
-                    <a href="https://www.facebook.com" class="icon-link"
-                        aria-label="visit our Facebook page (opens in a new tab)"><i class=" fab fa-facebook-f"
-                            aria-hidden="true"></i></a>
-                </li>
-                <li class="icon-item">
-                    <a href="https://www.instagram.com" class="icon-link"
-                        aria-label="visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"
-                            aria-hidden="true"></i></a>
-                </li>
-                <li class="icon-item">
-                    <a href="https://twitter.com" class="icon-link"
-                        aria-label="visit our Twitter page (opens in a new tab)"><i class=" fab fa-twitter-square"
-                            aria-hidden="true"></i></a>
-                </li>
-            </ul>
-        </div>
-        <p id="copyright">©2021 The Lighthouse Book Club, LLC. All Rights Reserved</p>
-    </footer>-->
+    </div>-->
+    <section id="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Let's get you signed up!</h2>
+            <p>Subscribe to The LightHouse book club newsletter and be the first one to find out which are the
+                books
+                suggested for the next's month discussion. You will be able to vote and help us to pick our next
+                gem! If
+                you have any suggestions,please do not be afraid to speak up!</p>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text" name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required />
+
+            <div>
+                <p class="terms-agree" id="term"><input type="checkbox" name="newsletter-yes"> I want to hear more
+                    about the
+                    book club.
+                </p>
+                <p class="terms-agree" id="term1"><input type="checkbox" required name="terms"> I accept the Light
+                    House book
+                    club <a href="#">
+                        Terms
+                        and
+                        Conditions </a> and <a href="#"> Privacy Policy</a>.</p>
+            </div>
+            <input class="join-button" type="submit" value="Sign me in!">
+
+        </form>
+    </section>
+
+
 
     <!-- icons link-->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>

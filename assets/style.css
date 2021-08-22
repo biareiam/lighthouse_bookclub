@@ -102,7 +102,7 @@ body {
 /*------------------------------------------------ button that leads to join page*/
 .btn {
     color: #FFF;
-    border: 2px solid #BF884F;
+    border: 2px solid #86A0A6;
     /*border: 2px solid #D97B59;*/
     margin-top: 30px;
     border-radius: 0px;
@@ -112,7 +112,7 @@ body {
     letter-spacing: 1px;
     cursor: pointer;
     /*box-shadow: inset 0 0 0 0 #D97B59;*/
-    box-shadow: inset 0 0 0 0 #BF884F;
+    box-shadow: inset 0 0 0 0 #86A0A6;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
@@ -120,7 +120,7 @@ body {
 }
 
 .btn-join:hover {
-    box-shadow: inset 400px 0 0 0 #BF884F;
+    box-shadow: inset 400px 0 0 0 #86A0A6;
     /*box-shadow: inset 400px 0 0 0 #D97B59;*/
     color: #fafafa;
 }
@@ -246,7 +246,6 @@ hr {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-
 }
 
 .local-box {
@@ -353,7 +352,7 @@ hr {
 }
 
 .far:hover {
-    color: rgba(224, 191, 80, 0.911);
+    color: #F29999;
 }
 
 #email-subscribe {
@@ -377,7 +376,7 @@ hr {
 
 .btn-subscribe:hover,
 .btn-subscribe:focus {
-    background-color: #01497c;
+    background-color: #568196;
 }
 
 /*--------------------------------------- Contact section*/
@@ -592,134 +591,69 @@ hr {
 }
 
 /*--------------------------------------- Join page*/
-#form-container {
-    background-color: rgba(228, 225, 225, 0.384);
-    padding: 40px 100px 40px 230px;
-    /*background: url('/assets/images/read-papaya.jpeg') center no-repeat;*/
-    background: url('/assets/images/food-brain.jpeg') center center no-repeat;
+/*Sign up page*/
+#form-section {
+    clear: left;
+    background: url("/assets/images/food-brain.jpeg");
     background-size: cover;
-    background-position: top;
-    margin-top: 90px;
+    background-position: center;
+    height: 900px;
 }
 
 .signup-form {
-    max-width: 800px;
-    padding: 50px;
-    /*color: #fafafa;*/
+    margin: 180px 10% 0 0;
     color: #333;
-    font-size: 1.6rem;
-    /*background-color: rgba(230, 165, 142, 0.397);*/
-    background-color: rgba(228, 225, 225, 0.384);
-
+    background-color: rgba(255, 253, 253, 0.253);
+    max-width: 600px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
 .signup-form h2 {
-    /*color: #fafafa;*/
-    margin-bottom: 20px;
     color: #333;
+    margin-bottom: 20px;
 
 }
 
-.signup-form p {
-    /* color: #fafafa;*/
-    margin-bottom: 20px;
-    text-align: justify;
+.signup-form {
     color: #333;
-
+    margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #0000008f;
+    color: #333;
     width: 100%;
-    height: 30px;
-    margin: 5px 0 5px 0;
-    /*border: 1px solid #fafafa;*/
+    height: 25px;
+    margin: 5px 0 20px 0;
     border: 1px solid #333;
     border-radius: 2px;
-    font-size: 1.7rem;
 }
 
 .text-input:hover {
-    border: 2px solid #f16c6b;
+    border-color: #F29D98;
 }
 
-#term {
-    margin-bottom: 5px;
+.join-button {
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #F29D98;
+    color: #fafafa;
+    display: block;
+    margin: 0 auto;
 }
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #F29D98;
+}
+
 
 #term1 {
-    padding-bottom: 20px;
-}
-
-.terms-agree {
-    margin-bottom: 20px;
-}
-
-.btn-box a {
-    text-decoration: none;
-    color: #fafafa;
-}
-
-.btn-join1-form {
-    color: #FFF;
-    transition: all 0.3s;
-    position: relative;
-    padding: 15px 60px 15px 60px;
-    margin-left: 250px;
-    background-color: #075159;
-    font-size: 1.9rem;
-    text-decoration: none;
-}
-
-.btn-join1-form a {
-    transition: all 0.1s;
-    text-decoration: none;
-}
-
-.btn-join1-form::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    transform: scale(0.1, 1);
-
-}
-
-.btn-join1-form:hover span {
-    letter-spacing: 2px;
-
-}
-
-.btn-join1-form:hover::before {
-    opacity: 1;
-    transform: scale(1, 1);
-
-}
-
-.btn-join1-form::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255, 255, 255, 0.1);
-
-}
-
-.btn-join1-form:hover::after {
-    opacity: 0;
-    transform: scale(0.1, 1);
+    margin-bottom: 30px;
 }
 
 
@@ -743,10 +677,6 @@ hr {
         height: 300px;
         width: 100%;
         margin-top: 20px;
-    }
-
-    #reason-space5 {
-        margin-bottom: -20px;
     }
 
     #reason-image1,
@@ -781,21 +711,11 @@ hr {
         width: 5%;
     }
 
-    #envelope {
-        margin-left: 925px;
+    .book-container {
+        margin-left: 150px;
     }
 
-    .icon-list {
-        margin-left: 825px;
-    }
 
-    .book-col {
-        margin-left: 70px;
-    }
-
-    #form-container {
-        padding: 40px 100px 40px 535px;
-    }
 }
 
 /* Media Query for Large screens */
