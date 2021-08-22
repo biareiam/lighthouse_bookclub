@@ -662,6 +662,12 @@ hr {
 
     #heading-title>h1 {
         font-size: 4.5rem;
+    }
+
+    .thumbnail img {
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
 
     }
 
@@ -681,7 +687,11 @@ hr {
     }
 
     .book-container {
-        margin-left: 0px;
+        margin-left: 75px;
+    }
+
+    .signup-form {
+        margin: 140px 10% 0 0;
     }
 
 }
@@ -705,7 +715,7 @@ hr {
     }
 
     .bg-image {
-        width: 335px;
+        width: 285px;
         height: 300px;
         float: left;
         margin-left: 5px;
@@ -719,13 +729,9 @@ hr {
         width: 13%;
     }
 
-    .book-container {
-        margin-left: 10px;
-    }
-
     .books {
         float: left;
-        margin-left: 55px;
+        margin-left: 10px;
     }
 
 }
@@ -872,6 +878,12 @@ hr {
         margin-top: 20px;
     }
 
+    .thumbnail .reason-img {
+        height: 300px;
+    }
+
+    #reason-space2,
+    #reason-space4,
     #reason-space5 {
         padding-bottom: 0px;
     }
