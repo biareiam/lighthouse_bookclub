@@ -382,7 +382,7 @@ hr {
 /*--------------------------------------- Contact section*/
 #contact-section {
     /*background: url('/assets/images/read-papaya.jpeg') bottom;*/
-    background: url('/assets/images/pexels-photo-5939401.jpeg') bottom;
+    background: url('/assets/images/pexels-photo-5939401.jpeg') center center;
     background-size: cover;
     padding-top: 5px;
     letter-spacing: 2px;
@@ -661,9 +661,9 @@ hr {
 /*--------------------------------------- Media query*/
 
 @media (min-width: 1441px) {
-    * {
+    /*{
         background-color: lightblue;
-    }
+    }*/
 
     #heading-title {
         height: 70vh;
@@ -715,6 +715,14 @@ hr {
         margin-left: 150px;
     }
 
+    #form-section {
+        clear: left;
+        background: url("/assets/images/food-brain.jpeg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: space;
+
+    }
 
 }
 
