@@ -183,7 +183,7 @@ body {
 /*--------------------------------------- Reasons section*/
 /* reasons title*/
 #reasons-container {
-    background-color: #f7f0f0;
+    /*background-color: #f7f0f0;*/
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -263,8 +263,8 @@ hr {
     background-repeat: no-repeat;
     width: 300px;
     height: 250px;
-    padding-top: 30px;
-    color: white;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
 
     margin-left: -10px;
     margin-bottom: 10px;
@@ -294,6 +294,7 @@ hr {
 .bg-image h5 {
     font-size: 1.7rem;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 .bg-image a {
@@ -302,32 +303,18 @@ hr {
 }
 
 .coffee-icon {
-    color: whitesmoke;
+    color: white;
     font-size: 220%;
     text-align: center;
 }
 
-.gray-image {
-    filter: saturate(0.2)
-}
-
-.filter-image {
-    filter: grayscale(30%);
-}
-
-.local-month {
-    background-color: rgba(245, 240, 234, 0.459);
-    color: rgb(8, 6, 6);
-}
-
 .local-month a {
-    color: rgb(8, 6, 6);
-    border-bottom: 2px #c55fee solid;
+    color: white;
+    padding: 3px;
+    background-color: #c55fee;
 }
 
-.local-month .coffee-icon {
-    color: rgb(8, 6, 6);
-}
+
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
