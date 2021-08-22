@@ -860,3 +860,59 @@ footer>h4 {
 
     }
 }
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1023px) {
+    * {
+        background-color: blue;
+    }
+
+    #heading-title {
+        height: 60vh;
+    }
+
+    .thumbnail img {
+        height: 160px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #reason-space5 {
+        margin-bottom: -25px;
+    }
+
+    .bg-image {
+        width: 250px;
+        height: 280px;
+    }
+
+    #envelope {
+        margin-left: 460px;
+    }
+
+    #email-subscribe {
+        width: 40%;
+    }
+
+    .btn-subscribe {
+        width: 9%;
+    }
+
+    .icon-list {
+        margin-left: 370px;
+    }
+
+    .book-col {
+        margin-left: 60px;
+    }
+
+    #form-container {
+        padding: 40px 50px 40px 90px;
+    }
+
+    .btn-join1-form {
+        margin-left: 250px;
+
+    }
+
+}
