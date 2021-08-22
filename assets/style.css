@@ -500,6 +500,10 @@ footer>h4 {
     padding-bottom: 15px;
 }
 
+.book-container {
+    margin-left: 30px;
+}
+
 #book-title {
     text-align: center;
     background-color: #E39A79;
@@ -507,23 +511,13 @@ footer>h4 {
     color: #fafafa;
     letter-spacing: 2px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.books {}
-
-
-/*
-.book-col {
-    margin-left: 45px;
-}*/
-
 .books h4 {
     color: #050505;
-    text-align: left;
+    text-align: start;
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -541,6 +535,10 @@ footer>h4 {
     -webkit-transform: scale(1.01);
 }
 
+#book-title {
+    text-align: center;
+}
+
 .date-month {
     width: 250px;
     padding: 5px 0 5px 0;
@@ -551,8 +549,9 @@ footer>h4 {
     margin-bottom: 10px;
     letter-spacing: 2px;
     font-size: 1.5rem;
-    margin-right: -15px;
+    /*margin-left: 20px;*/
 }
+
 
 .btn-shop {
     font-size: 1.3rem;
