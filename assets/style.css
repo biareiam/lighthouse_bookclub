@@ -843,5 +843,20 @@ footer>h4 {
         margin-left: 230px;
 
     }
+}
 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    * {
+        background-color: green;
+    }
+
+    #form-container {
+        padding: 40px 100px 40px 240px;
+    }
+
+    .btn-join1-form {
+        margin-left: 230px;
+
+    }
 }
