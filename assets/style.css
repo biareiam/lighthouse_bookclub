@@ -179,14 +179,17 @@ body {
 }
 
 .thumbnail img {
-    height: 170px;
+    height: 200px;
     width: 100%;
     margin-top: 20px;
 }
 
-.about-text {
-    padding-bottom: 20px;
+.reason-img {
+    width: 100%;
+    height: 300px;
 }
+
+
 
 /*--------------------------------------- Reasons section*/
 /* reasons title*/
@@ -226,15 +229,7 @@ hr {
     font-size: 20px;
 }
 
-#reason-image1,
-#reason-image2,
-#reason-image3,
-#reason-image4,
-#reason-image5,
-#reason-image6 {
-    width: 100%;
-    height: 250px;
-}
+
 
 /*--------------------------------------- Meetup section*/
 #meetup-section {
@@ -659,9 +654,133 @@ hr {
 
 
 /*--------------------------------------- Media query*/
-/*
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+    ...
+}
 
-@media (min-width: 1441px) {
+/* Small devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    * {
+        background-color: rgb(177, 145, 43);
+    }
+ 
+
+
+}
+
+/* Extra large devices (laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    * {
+        background-color: rgb(40, 165, 46);
+    }
+
+  }
+
+/* Extra large devices (laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+    * {
+        background-color: deepskyblue;
+    }
+
+    #heading-title {
+        height: 70vh;
+    }
+
+    .btn {
+        margin-top: 50px;
+    }
+
+    .thumbnail img {
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bg-image {
+        width: 460px;
+        height: 380px;
+    }
+
+    .bg-image h4 {
+        font-size: 2.5rem;
+        margin-top: 70px;
+    }
+
+    .bg-image h5 {
+        font-size: 1.9rem;
+    }
+
+    #email-subscribe {
+        width: 23%;
+    }
+
+    .btn-subscribe {
+        width: 5%;
+    }
+
+    .book-container {
+        margin-left: 150px;
+    }
+
+    #form-section {
+        clear: left;
+        background: url("/assets/images/food-brain.jpeg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-repeat: space;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (min-width: 1441px) {
     * {
         background-color: lightblue;
     }
@@ -864,6 +983,7 @@ hr {
 
 
 /* Media Query for Large screens */
+/*
 
 @media (min-width: 1281px) and (max-width: 1440px) {
     * {
