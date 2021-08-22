@@ -100,7 +100,7 @@ body {
 .btn {
     color: #FFF;
     border: 2px solid #D97B59;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 0px;
     padding: 18px 50px;
     display: inline-block;
@@ -704,6 +704,14 @@ footer>h4 {
         background-color: lightblue;
     }
 
+    #heading-title {
+        height: 70vh;
+    }
+
+    .btn {
+        margin-top: 50px;
+    }
+
     .thumbnail img {
         height: 300px;
         width: 100%;
@@ -738,6 +746,14 @@ footer>h4 {
         font-size: 1.9rem;
     }
 
+    #email-subscribe {
+        width: 23%;
+    }
+
+    .btn-subscribe {
+        width: 5%;
+    }
+
     #envelope {
         margin-left: 925px;
     }
@@ -746,6 +762,13 @@ footer>h4 {
         margin-left: 825px;
     }
 
+    .book-col {
+        margin-left: 70px;
+    }
+
+    #form-container {
+        padding: 40px 100px 40px 535px;
+    }
 
 
 
