@@ -656,17 +656,116 @@ hr {
 /*--------------------------------------- Media query*/
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
-    ...
+    * {
+        background-color: rgb(216, 187, 114);
+    }
+
+    #heading-title>h1 {
+        font-size: 4.5rem;
+
+    }
+
+    .bg-image {
+        width: 400px;
+        height: 300px;
+        margin-left: -3px;
+    }
+
+    #email-subscribe {
+        width: 65%;
+        margin: auto;
+    }
+
+    .btn-subscribe {
+        width: 25%;
+    }
+
+    .book-container {
+        margin-left: 70px;
+    }
+
 }
+
 
 /* Small devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    ...
+    * {
+        background-color: crimson;
+    }
+
+    .thumbnail img {
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .bg-image {
+        width: 335px;
+        height: 300px;
+        float: left;
+        margin-left: 5px;
+    }
+
+    #email-subscribe {
+        width: 55%;
+    }
+
+    .btn-subscribe {
+        width: 13%;
+    }
+
+    .book-container {
+        margin-left: 10px;
+    }
+
+    .books {
+        float: left;
+        margin-left: 55px;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    ...
+    * {
+        background-color: chocolate;
+    }
+
+    .thumbnail img {
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .thumbnail .reason-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .txt-column {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .bg-image {
+        width: 235px;
+        height: 300px;
+    }
+
+    .book-container {
+        margin-left: 130px;
+    }
+
+    .signup-form {
+        left: 20%;
+    }
+
+}
+
+
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -674,8 +773,24 @@ hr {
     * {
         background-color: rgb(177, 145, 43);
     }
- 
 
+    .thumbnail .reason-img {
+        width: 90%;
+        height: 350px;
+    }
+
+    .txt-column {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .txt-column img {
+        margin-left: 20px;
+    }
+
+    .book-container {
+        margin-left: 80px;
+    }
 
 }
 
@@ -685,7 +800,18 @@ hr {
         background-color: rgb(40, 165, 46);
     }
 
-  }
+    .thumbnail .reason-img {
+        height: 290px;
+        width: 100%;
+    }
+
+
+
+    .signup-form {
+        left: 25%;
+    }
+
+}
 
 /* Extra large devices (laptops and desktops, 1400px and up) */
 @media only screen and (min-width: 1400px) {
@@ -705,6 +831,10 @@ hr {
         height: 300px;
         width: 100%;
         margin-top: 20px;
+    }
+
+    #reason-space5 {
+        padding-bottom: 0px;
     }
 
     .bg-image {
