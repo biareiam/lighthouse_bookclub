@@ -86,7 +86,7 @@ body {
     margin-top: 90px;
     margin-bottom: 20px;
     width: 100%;
-    height: 85vh;
+    height: 65vh;
     /*background: url('/assets/images/read-papaya.jpeg');*/
     background: url('/assets/images/pexels-photo-5939401.jpeg') center center no-repeat;
     background-size: cover;
@@ -99,6 +99,8 @@ body {
     margin-bottom: 50px;
     color: #fafafa;
 }
+
+
 
 /*------------------------------------------------ button that leads to join page*/
 .btn {
@@ -133,7 +135,7 @@ body {
 }
 
 
-/*--------------------------------------- About section*/
+/*--------------------------------------- About page*/
 /*title*/
 #about-section {
     /*background-color: #f7f0f0;*/
@@ -191,6 +193,13 @@ body {
     width: 100%;
 }
 
+@media (min-width:1440px) {
+
+    .thumbnail img {
+        height: 300px;
+    }
+}
+
 
 
 /*--------------------------------------- Reasons section*/
@@ -231,12 +240,42 @@ hr {
     font-size: 20px;
 }
 
+#cookie {
+    color: #A67246;
+}
+
+#heart {
+    color: #F29999;
+}
+
+#pageline {
+    color: rgb(22, 107, 22);
+}
+
+#plane {
+    color: #4e4d4a;
+}
+
+#glasses {
+    color: #809EA9;
+}
+
+#utensils {
+    color: #5A5250;
+}
+
+@media (min-width:1440px) {
+
+    .thumbnail .reason-img {
+        height: 350px;
+    }
+}
 
 
 /*--------------------------------------- Meetup section*/
 #meetup-section {
     background-color: #f7f0f0;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .location-box {
@@ -249,7 +288,7 @@ hr {
     text-align: center;
     background-color: #F2D1B3;
     /*background-color: #E39A79;*/
-    font-size: 20px;
+    font-size: 16px;
     color: #fafafa;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -313,8 +352,20 @@ hr {
     color: white;
     padding: 3px;
     /*background-color: #c55fee;*/
-    background-color: #013440;
+    background-color: #F29999;
 }
+
+@media (min-width:1440px) {
+    .bg-image {
+        width: 470px;
+        height: 350px;
+    }
+
+    .bg-image h4 {
+        padding-top: 50px;
+    }
+}
+
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
@@ -377,6 +428,18 @@ hr {
 .btn-subscribe:focus {
     background-color: #568196;
 }
+
+@media (min-width:1440px) {
+    #email-subscribe {
+        width: 20%;
+    }
+
+    .btn-subscribe {
+        width: 5%;
+    }
+}
+
+
 
 /*--------------------------------------- Contact section*/
 #contact-section {
@@ -527,6 +590,12 @@ hr {
     margin-left: 30px;
 }
 
+@media (min-width:1440px) {
+    .book-container {
+        margin-left: 150px;
+    }
+}
+
 #book-title {
     text-align: center;
     background-color: #F2D1B3;
@@ -672,10 +741,62 @@ hr {
 
 /*--------------------------------------- Media query*/
 /* Extra small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {
-    /* {
+/*
+@media only screen and (max-width: 320px) {
+    * {
+        background-color: blueviolet;
+    }
+
+    #heading-title {
+        height: 45vh;
+    }
+
+    #heading-title>h1 {
+        font-size: 4rem;
+    }
+
+    .thumbnail img {
+        height: 200px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .bg-image {
+        width: 300px;
+        height: 300px;
+        margin-left: -3px;
+    }
+
+    #email-subscribe {
+        width: 65%;
+        margin: auto;
+    }
+
+    .btn-subscribe {
+        width: 25%;
+    }
+
+    .book-container {
+        margin-left: 20px;
+    }
+
+    .signup-form {
+        margin: 140px 10% 0 0;
+    }
+
+}
+
+
+@media screen and (min-width: 480px) {
+    * {
         background-color: rgb(216, 187, 114);
-    }*/
+    }
+
+    #heading-title {
+        height: 45vh;
+
+    }
 
     #heading-title>h1 {
         font-size: 4.5rem;
@@ -692,6 +813,7 @@ hr {
         width: 400px;
         height: 300px;
         margin-left: -3px;
+
     }
 
     #email-subscribe {
@@ -715,10 +837,13 @@ hr {
 
 
 /* Small devices (tablets and large phones, 600px and up) */
+/*
+
 @media only screen and (min-width: 600px) {
-    /* {
+    * {
         background-color: crimson;
-    }*/
+    }
+
 
     .thumbnail img {
         height: 400px;
@@ -754,10 +879,13 @@ hr {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+/*
+
 @media only screen and (min-width: 768px) {
-    /* {
+    * {
         background-color: chocolate;
-    }*/
+    }
+
 
     .thumbnail img {
         height: 300px;
@@ -800,6 +928,8 @@ hr {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
+/*
+
 @media only screen and (min-width: 992px) {
     * {
         background-color: rgb(177, 145, 43);
@@ -826,13 +956,16 @@ hr {
 }
 
 /* Extra large devices (laptops and desktops, 1200px and up) */
+/*
 
 @media only screen and (min-width: 1200px) {
+
     * {
         background-color: rgb(40, 165, 46);
     }
 
-    * .thumbnail img {
+
+    .thumbnail img {
         height: 210px;
         width: 100%;
         margin-top: 20px;
@@ -876,6 +1009,7 @@ hr {
 }
 
 /* Extra large devices (laptops and desktops, 1400px and up) */
+/*
 @media only screen and (min-width: 1400px) {
     * {
         background-color: deepskyblue;
@@ -890,13 +1024,13 @@ hr {
     }
 
     .thumbnail img {
-        height: 300px;
+        height: 320px;
         width: 100%;
         margin-top: 20px;
     }
 
     .thumbnail .reason-img {
-        height: 300px;
+        height: 380px;
     }
 
     #reason-space2,
