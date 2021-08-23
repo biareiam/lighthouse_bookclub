@@ -84,6 +84,7 @@ body {
     text-align: center;
     padding: 165px 0 0 0;
     margin-top: 90px;
+    margin-bottom: 20px;
     width: 100%;
     height: 85vh;
     /*background: url('/assets/images/read-papaya.jpeg');*/
@@ -130,6 +131,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 
 /*--------------------------------------- About section*/
 /*title*/
@@ -319,6 +321,7 @@ hr {
     background-color: #D9B18F;
     /* background-color: #e78e65;*/
     padding: 25px 0 25px 0;
+
 }
 
 #subscribe-section h4 {
@@ -349,6 +352,7 @@ hr {
 .far:hover {
     color: #F29999;
 }
+
 
 #email-subscribe {
     width: 30%;
@@ -415,6 +419,19 @@ hr {
     font-family: 'Abel', sans-serif;
     text-align: center;
     margin-bottom: 0;
+}
+
+.copyright-footer {
+    text-align: center;
+    background-color: #D9B18F;
+    /*background-color: #E39A79;*/
+    color: #fafafa;
+    font-size: 12px;
+    padding: 10px 0 10px 0;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+
 }
 
 #follow {
@@ -656,9 +673,9 @@ hr {
 /*--------------------------------------- Media query*/
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
-    * {
+    /* {
         background-color: rgb(216, 187, 114);
-    }
+    }*/
 
     #heading-title>h1 {
         font-size: 4.5rem;
@@ -699,9 +716,9 @@ hr {
 
 /* Small devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    * {
+    /* {
         background-color: crimson;
-    }
+    }*/
 
     .thumbnail img {
         height: 400px;
@@ -738,9 +755,9 @@ hr {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    * {
+    /* {
         background-color: chocolate;
-    }
+    }*/
 
     .thumbnail img {
         height: 300px;
@@ -815,7 +832,7 @@ hr {
         background-color: rgb(40, 165, 46);
     }
 
-    .thumbnail img {
+    * .thumbnail img {
         height: 210px;
         width: 100%;
         margin-top: 20px;
@@ -834,7 +851,7 @@ hr {
 
     .bg-image {
         width: 300px;
-        height: 380px;
+        height: 300px;
         margin-left: -5px;
     }
 
@@ -890,7 +907,7 @@ hr {
 
     .bg-image {
         width: 460px;
-        height: 380px;
+        height: 350px;
     }
 
     .bg-image h4 {
