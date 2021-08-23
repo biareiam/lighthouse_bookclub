@@ -100,6 +100,23 @@ body {
     color: #fafafa;
 }
 
+@media only screen and (min-width: 1200px) {
+    #heading-title {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    #heading-title {
+        height: 80vh;
+    }
+}
+
+@media (min-width: 992px) {
+    #heading-title {
+        height: 80vh;
+    }
+}
 
 
 /*------------------------------------------------ button that leads to join page*/
@@ -200,7 +217,25 @@ body {
     }
 }
 
+@media (min-width: 1200px) {
+    .thumbnail img {
+        height: 210px;
+    }
+}
 
+@media (min-width: 1024px) {
+    .thumbnail img {
+        height: 150px;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .thumbnail img {
+        height: 150px;
+
+    }
+}
 
 /*--------------------------------------- Reasons section*/
 /* reasons title*/
@@ -271,6 +306,33 @@ hr {
     }
 }
 
+@media (min-width: 1200px) {
+    #reason-space5 {
+        padding-top: 25px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .thumbnail .reason-img {
+        height: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .thumbnail .reason-img {
+        height: 290px;
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    .thumbnail p {
+        width: 85%;
+    }
+
+    #reason-space5 {
+        padding-top: 25px;
+    }
+}
 
 /*--------------------------------------- Meetup section*/
 #meetup-section {
@@ -366,6 +428,23 @@ hr {
     }
 }
 
+@media (min-width: 1024px) {
+    .bg-image {
+        width: 250px;
+        height: 300px;
+    }
+
+    .bg-image h4 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg-image {
+        width: 240px;
+        height: 250px;
+    }
+}
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
@@ -439,6 +518,15 @@ hr {
     }
 }
 
+@media (min-width: 1024px) {
+    #email-subscribe {
+        width: 35%;
+    }
+
+    .btn-subscribe {
+        width: 10%;
+    }
+}
 
 
 /*--------------------------------------- Contact section*/
@@ -596,6 +684,12 @@ hr {
     }
 }
 
+@media (min-width: 1024px) {
+    .book-container {
+        margin-left: 50px;
+    }
+}
+
 #book-title {
     text-align: center;
     background-color: #F2D1B3;
@@ -689,6 +783,17 @@ hr {
     position: absolute;
     left: 10%;
     padding: 30px;
+}
+
+@media (min-width: 1024px) {
+    .signup-form {
+        left: 21%;
+    }
+}
+@media (min-width: 992px){
+    .signup-form {
+        left: 21%;
+    }
 }
 
 .signup-form h2 {
