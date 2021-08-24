@@ -170,49 +170,6 @@ body {
     margin-top: 30px;
 }
 
-/*--------------------------------------- About page*/
-.mycontainer {
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.about {
-    flex: 1;
-}
-
-/*title*/
-#about-section {
-    /*background-color: #f7f0f0;*/
-
-    padding-bottom: 30px;
-
-}
-
-.about-title {
-    text-align: center;
-    background-color: #F2D1B3;
-    /*background-color: #E39A79;*/
-    font-size: 24px;
-    color: #fafafa;
-    letter-spacing: 2px;
-
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-}
-
-.about-txt {}
-
-.about-txt p {
-    font-size: 16px;
-    text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    padding: 50px;
-    color: #0f0f0f;
-    line-height: 20px;
-}
 
 
 /*images and text*/
@@ -265,9 +222,9 @@ body {
 
 .reason-title {
     text-align: center;
-    background-color: #F2D1B3;
+    /*background-color: #F2D1B3;*/
     /*background-color: #E39A79;*/
-    color: #fafafa;
+    color: #333;
     letter-spacing: 2px;
     font-size: 28px;
     margin-left: auto;
@@ -329,10 +286,53 @@ hr {
     padding-bottom: 20px;
 }
 
+/*---------------------------------------About page*/
+/*--------------------------------------- About page*/
+.mycontainer {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    flex: 1;
+}
+
+/*title*/
+#about-section {
+    /*background-color: #f7f0f0;*/
+
+    padding-bottom: 30px;
+
+}
+
+.about-title {
+    text-align: center;
+    /* background-color: #F2D1B3;*/
+    /*background-color: #E39A79;*/
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 2px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.about-txt p {
+    font-size: 16px;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+    color: #333;
+    line-height: 30px;
+}
+
 
 /*--------------------------------------- Meetup section*/
 #meetup-section {
-    background-color: #f7f0f0;
+
     padding-bottom: 5px;
 }
 
@@ -344,10 +344,10 @@ hr {
 
 .local-box {
     text-align: center;
-    background-color: #F2D1B3;
+    /*background-color: #F2D1B3;*/
     /*background-color: #E39A79;*/
     font-size: 16px;
-    color: #fafafa;
+    color: #333;
     letter-spacing: 2px;
     margin-bottom: 10px;
     margin-left: auto;
