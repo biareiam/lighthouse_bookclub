@@ -99,6 +99,10 @@ body {
     color: #fafafa;
 }
 
+#heading-title>h2 {
+    color: #fafafa;
+}
+
 
 
 /*------------------------------------------------ button that leads to join page*/
@@ -136,7 +140,7 @@ body {
 /****/
 .Introduction {
 
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     margin-top: 0;
     height: 320px;
@@ -145,7 +149,6 @@ body {
 .text-intro {
     text-align: center;
     color: #272727;
-    text-align: center;
 
     letter-spacing: 2px;
     font-size: 20px;
@@ -162,15 +165,36 @@ body {
     font-size: 14px;
 }
 
-.icon-work {
-    color: #F29999;
-    font-size: 300%;
+.profile {
     text-align: center;
-    margin-bottom: -20px;
-    margin-top: 30px;
+
 }
 
+.profile1 {
+    background: url('/assets/images/kate.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
 
+.profile2 {
+    background: url('/assets/images/rita.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+
+}
+
+.circle-image {
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
 /*images and text*/
 .about,
@@ -218,18 +242,19 @@ body {
 /* reasons title*/
 #reasons-section {
     padding-bottom: 10px;
+    margin-top: 50px;
 }
 
 .reason-title {
     text-align: center;
-    /*background-color: #F2D1B3;*/
-    /*background-color: #E39A79;*/
+    background-color: #F2D1B3;
     color: #333;
     letter-spacing: 2px;
     font-size: 28px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 hr {
@@ -308,12 +333,10 @@ hr {
 
 .about-title {
     text-align: center;
-    /* background-color: #F2D1B3;*/
-    /*background-color: #E39A79;*/
+    background-color: #F2D1B3;
     font-size: 24px;
     color: #333;
     letter-spacing: 2px;
-
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
@@ -344,8 +367,7 @@ hr {
 
 .local-box {
     text-align: center;
-    /*background-color: #F2D1B3;*/
-    /*background-color: #E39A79;*/
+    background-color: #F2D1B3;
     font-size: 16px;
     color: #333;
     letter-spacing: 2px;
