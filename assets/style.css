@@ -1,6 +1,6 @@
 /*font family we are using from Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -9,8 +9,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
     /*background-color: #f7f5f4;*/
 }
 
@@ -91,8 +90,8 @@ body {
 }
 
 #heading-title>h1 {
-    font-size: 5.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 7.5rem;
+    font-family: 'Amatic SC', cursive;
     letter-spacing: 6px;
     margin-bottom: 50px;
     color: #fafafa;
@@ -314,14 +313,12 @@ hr {
 
 .steps {
     margin-top: 30px;
-
-
 }
 
 #step1 {
     background: url('/assets/images/join.jpeg') center;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 30%;
     width: 180px;
     height: 180px;
     margin: 0 auto;
@@ -332,7 +329,7 @@ hr {
 #step2 {
     background: url('/assets/images/work.jpeg') center;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 30%;
     width: 180px;
     height: 180px;
     margin: 0 auto;
@@ -341,7 +338,7 @@ hr {
 #step3 {
     background: url('/assets/images/book-fun.jpeg') center;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 30%;
     width: 180px;
     height: 180px;
     margin: 0 auto;
