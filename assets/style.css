@@ -191,37 +191,6 @@ body {
 }
 
 
-.about,
-.reason {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-    display: inline-block;
-    background-color: transparent;
-}
-
-.about h4,
-.reason h4 {
-    font-size: 20px;
-    text-align: center;
-}
-
-.about p,
-.reason p {
-    margin: auto;
-    color: #333;
-    width: 95%;
-    text-align: justify;
-    font-size: 16px;
-}
-
-.about img {
-    height: 190px;
-    width: 100%;
-    margin-top: 20px;
-}
-
-
 /*--------------------------------------- Reasons section*/
 .why-container {
     width: 100%;
@@ -257,7 +226,6 @@ hr {
 }
 
 .reasons-icon {
-    /* color: #333;*/
     color: #013440;
     font-size: 350%;
     text-align: center;
@@ -293,41 +261,19 @@ hr {
     color: #5A5250;
 }
 
-.reason img {
-    height: 200px;
-    width: 95%;
-    padding-top: 20px;
+.reason {
+    border: none;
 }
 
-#reason-space2,
-#reason-space3 {
-    padding-bottom: 20px;
+.reason h4 {
+    text-align: center;
 }
 
-/*---------------------------------------About page*/
-
-.mycontainer {
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.about {
-    flex: 1;
+.reason p {
+    text-align: justify;
 }
 
 
-.illustration-style img {
-    width: 270px;
-    height: 255px;
-    float: left;
-    /*shape-outside: circle(50%);
-    shape-margin: 5px;*/
-    padding-right: 20px;
-    margin-left: 40px;
-}
-
-/*---Reasons section*/
 
 /*---- How it works section*/
 .section-work {
@@ -395,6 +341,29 @@ hr {
 }
 
 
+/*---------------------------------------About page*/
+
+.mycontainer {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    flex: 1;
+}
+
+.illustration-style img {
+    width: 270px;
+    height: 255px;
+    float: left;
+    /*shape-outside: circle(50%);
+    shape-margin: 5px;*/
+    padding-right: 20px;
+    margin-left: 40px;
+}
+
+
 /*title*/
 
 
@@ -418,6 +387,62 @@ hr {
     color: #333;
     line-height: 30px;
 }
+
+/*----------- Know the team*/
+.know-team {
+    padding-top: 40px;
+    margin-top: 0;
+
+}
+
+.team-title {
+    text-align: center;
+    background-color: #F2D1B3;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.about-team {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #272727;
+}
+
+
+.team1 {
+    background: url('/assets/images/kate.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.team2 {
+    background: url('/assets/images/rita.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.circle-image {
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
 
 
 /*--------------------------------------- Meetup section*/
