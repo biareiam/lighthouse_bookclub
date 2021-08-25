@@ -295,21 +295,26 @@ hr {
     padding-top: 50px;
 }
 
-.work-container h4 {
+.work-container h5 {
     text-decoration: underline;
+    font-size: 16px;
 }
 
 .work-container h4,
 .work-container h5 {
     text-align: center;
+    padding-top: 10px;
 }
 
 .work-container p {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .steps {
     margin-top: 30px;
+
 
 }
 
@@ -320,6 +325,8 @@ hr {
     width: 180px;
     height: 180px;
     margin: 0 auto;
+    padding-top: 20px;
+
 }
 
 #step2 {
@@ -339,110 +346,6 @@ hr {
     height: 180px;
     margin: 0 auto;
 }
-
-
-/*---------------------------------------About page*/
-
-.mycontainer {
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.about {
-    flex: 1;
-}
-
-.illustration-style img {
-    width: 270px;
-    height: 255px;
-    float: left;
-    /*shape-outside: circle(50%);
-    shape-margin: 5px;*/
-    padding-right: 20px;
-    margin-left: 40px;
-}
-
-
-/*title*/
-
-
-.about-title {
-    text-align: center;
-    background-color: #F2D1B3;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-}
-
-.about-txt p {
-    font-size: 16px;
-    text-align: justify;
-    width: 90%;
-    margin: 0 auto;
-    padding: 50px 50px 50px 0;
-    color: #333;
-    line-height: 30px;
-}
-
-/*----------- Know the team*/
-.know-team {
-    padding-top: 40px;
-    margin-top: 0;
-
-}
-
-.team-title {
-    text-align: center;
-    background-color: #F2D1B3;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-.about-team {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    color: #272727;
-}
-
-
-.team1 {
-    background: url('/assets/images/kate.jpeg') center;
-    background-size: cover;
-    border-radius: 50%;
-    height: 100%;
-}
-
-.team2 {
-    background: url('/assets/images/rita.jpeg') center;
-    background-size: cover;
-    border-radius: 50%;
-    height: 100%;
-}
-
-.circle-image {
-    width: 180px;
-    height: 180px;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-
 
 
 /*--------------------------------------- Meetup section*/
@@ -568,7 +471,7 @@ hr {
 
 
 #email-subscribe {
-    width: 30%;
+    width: 50%;
     height: 34px;
     border: none;
     padding-left: 6px;
@@ -578,7 +481,7 @@ hr {
 }
 
 .btn-subscribe {
-    width: 8%;
+    width: 10%;
     height: 35px;
     background-color: #540b0e;
     border: none;
@@ -730,6 +633,127 @@ hr {
 .icon-item:nth-child(3) a:hover:before {
     background: var(--social-icon3);
 }
+
+/*--------------------------------------- About page*/
+
+
+.mycontainer {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about {
+    flex: 1;
+}
+
+.illustration-style img {
+    width: 270px;
+    height: 255px;
+    float: left;
+    /*shape-outside: circle(50%);
+    shape-margin: 5px;*/
+    padding-right: 20px;
+    margin-left: 40px;
+}
+
+
+/*title*/
+
+
+.about-title {
+    text-align: center;
+    background-color: #F2D1B3;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.about-txt p {
+    font-size: 16px;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 50px 50px 0;
+    color: #333;
+    line-height: 30px;
+}
+
+/*----------- Know the team*/
+.know-team {
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+
+.team-title {
+    text-align: center;
+    background-color: #F2D1B3;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.about-team {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #272727;
+}
+
+.team {
+    padding-top: 20px;
+}
+
+#team1 {
+    background: url('/assets/images/girl-people-landscape-sun-38554.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+#team2 {
+    background: url('/assets/images/pexels-photo-1181424.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+#team3 {
+    background: url('/assets/images/pexels-photo-1181690.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+#team4 {
+    background: url('/assets/images/pexels-photo-2701660.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.circle-image {
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 
 /*--------------------------------------- Book page*/
 #bookpage {
