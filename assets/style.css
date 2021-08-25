@@ -328,6 +328,67 @@ hr {
     margin-left: 40px;
 }
 
+/*---Reasons section*/
+
+/*---- How it works section*/
+.section-work {
+    padding-bottom: 30px;
+}
+
+.work-title {
+    text-align: center;
+    background-color: #F2D1B3;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.work-container {
+    padding-top: 50px;
+}
+
+.work-container h4,
+.work-container h5 {
+    text-align: center;
+}
+
+.work-container p {
+    text-align: center;
+}
+
+.steps {
+    margin-top: 30px;
+}
+
+#step1 {
+    background: url('/assets/images/join.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#step2 {
+    background: url('/assets/images/join.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#step3 {
+    background: url('/assets/images/join.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
 
 /*title*/
 
