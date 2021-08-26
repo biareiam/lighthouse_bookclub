@@ -839,6 +839,11 @@ hr {
     padding-top: 20px;
 }
 
+.vote h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .vote p {
     text-align: center;
     font-size: 16px;
@@ -878,22 +883,24 @@ hr {
     margin-bottom: -20px;
 }
 
-#book-section {
-
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
+#books-section {
+    padding: 15px 0 50px 0;
 }
 
-.book-container {
-    margin-left: 30px;
+.book-container,
+.book-container-1,
+.book-container-2 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.books {
+    flex: 2;
+}
 
 #book-title {
     text-align: center;
     background-color: #F2D1B3;
-    /*background-color: #E39A79;*/
     font-size: 20px;
     color: #fafafa;
     letter-spacing: 2px;
@@ -902,13 +909,13 @@ hr {
     padding-bottom: 20px;
 }
 
-.books h4 {
+.books p {
     color: #050505;
     text-align: start;
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 
 .books img {
@@ -933,16 +940,15 @@ hr {
 
     background-color: #F29999;
     color: #E4E6F2;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 }
 
-
 .btn-shop {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     letter-spacing: 2px;
     border: none;
     margin-top: -5px;
@@ -951,6 +957,7 @@ hr {
 
     color: #86A0A6;
     border: 1px solid #86A0A6;
+    text-decoration: none;
 }
 
 .btn-shop:hover {
@@ -960,9 +967,7 @@ hr {
     color: rgb(255, 255, 255);
 }
 
-.btn-shop a {
-    text-decoration: none;
-}
+
 
 /*--------------------------------------- Join page*/
 /*Sign up page*/
