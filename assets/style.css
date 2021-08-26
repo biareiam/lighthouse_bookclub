@@ -142,12 +142,6 @@ body {
     justify-content: space-evenly;
 }
 
-
-
-
-
-
-
 .member p {
     width: 60%;
 }
@@ -177,39 +171,6 @@ body {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*************************/
-.Introduction {
-    padding-top: 40px;
-    margin-top: 0;
-
-}
-
-.text-intro {
-    text-align: center;
-    color: #272727;
-    letter-spacing: 2px;
-    font-size: 20px;
-}
-
 .review {
     text-align: justify;
     width: 80%;
@@ -224,8 +185,6 @@ body {
     text-align: center;
 
 }
-
-
 
 .quotation {
     font-size: 15px;
@@ -268,18 +227,6 @@ body {
 
 
 /*--------------------------------------- Reasons section*/
-.why-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: auto;
-
-}
-
-.reason {
-    flex: 1;
-}
-
-/* reasons title*/
 #reasons-section {
     padding-bottom: 10px;
     margin-top: 50px;
@@ -296,6 +243,34 @@ body {
     padding: 5px;
 }
 
+.join-container {
+    display: flex;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.reason {
+    flex: 1;
+    border: none;
+
+}
+
+.reason p,
+.reason h4,
+.reason hr {
+    width: 90%;
+}
+
+.reason h4 {
+    text-align: center;
+}
+
+.reason p {
+    text-align: justify;
+}
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
@@ -305,7 +280,7 @@ hr {
 .reasons-icon {
     color: #013440;
     font-size: 350%;
-    text-align: center;
+    margin-left: -40px;
     padding-top: 20px;
 }
 
@@ -337,20 +312,6 @@ hr {
 #utensils {
     color: #5A5250;
 }
-
-.reason {
-    border: none;
-}
-
-.reason h4 {
-    text-align: center;
-}
-
-.reason p {
-    text-align: justify;
-}
-
-
 
 /*---- How it works section*/
 .section-work {
