@@ -836,6 +836,10 @@ hr {
 }
 
 /*--------------------------------------- Book page*/
+.vote {
+    padding-top: 20px;
+}
+
 .vote p {
     text-align: center;
     font-size: 16px;
@@ -1026,15 +1030,12 @@ hr {
 }
 
 
-
-
-
 /************************************************/
 /*Media*/
 @media screen and (max-width:2000px) {
-    * {
+    /* {
         background-color: #3b5999
-    }
+    }*/
 
     #heading-title {
         height: 600px;
@@ -1068,9 +1069,9 @@ hr {
 
 
 @media screen and (max-width:1440px) and (min-width:1199px) {
-    * {
+    /* {
         background-color: darkolivegreen;
-    }
+    }*/
 
     #subscribe-section h5 {
         width: 40%;
@@ -1122,9 +1123,9 @@ hr {
 
 /* For larger to medium screens size from 1200px wide and down*/
 @media screen and (max-width:1200px) {
-    * {
+    /* {
         background-color: rgb(107, 64, 47);
-    }
+    }*/
 
     #subscribe-section h5 {
         width: 50%;
@@ -1168,9 +1169,9 @@ hr {
 
 
 @media screen and (max-width:1024px) {
-    * {
+    /* {
         background-color: rgb(142, 140, 240);
-    }
+    }*/
 
     .review {
         text-align: justify;
@@ -1256,9 +1257,9 @@ hr {
 
 
     @media screen and (max-width:768px) {
-        * {
+        /* {
             background-color: #568196;
-        }
+        }*/
 
         .mycontainer {
             width: 95%;
@@ -1313,18 +1314,14 @@ hr {
             border: none;
         }
 
-
-
         .options {
-            margin-left: 50px;
+            margin-left: 80px;
         }
 
         .book-vote-container p {
             font-size: 14px;
             text-align: justify;
             margin-left: -6px;
-
-
         }
 
         .list-vote h4 {
@@ -1389,6 +1386,18 @@ hr {
             font-size: 23px;
             font-weight: bold;
         }
+
+        .vote h3 {
+            font-size: 20px;
+        }
+
+        .vote p {
+            font-size: 14px;
+        }
+
+        .options {
+            margin-left: 150px;
+        }
     }
 
     @media screen and (max-width:375px) {
@@ -1435,33 +1444,38 @@ hr {
             font-size: 20px;
             font-weight: bold;
         }
-    }
 
-    @media screen and (max-width:320px) {
-        .review {
-            width: 100%;
-        }
-
-        .reason {
-            margin-left: 30px;
-        }
-
-        .why-container {
-            margin: 0;
-        }
-
-        #subscribe-section h5 {
-            font-size: 1rem;
-            width: 80%;
-            margin: 0 auto;
-
-        }
-
-        .book-container {
-            margin-left: 20px;
-        }
-
-        .signup-form {
-            margin: 155px 10% 0 0;
+        .options {
+            margin-left: 120px;
         }
     }
+}
+
+@media screen and (max-width:320px) {
+    .review {
+        width: 100%;
+    }
+
+    .reason {
+        margin-left: 30px;
+    }
+
+    .why-container {
+        margin: 0;
+    }
+
+    #subscribe-section h5 {
+        font-size: 1rem;
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .book-container {
+        margin-left: 20px;
+    }
+
+    .signup-form {
+        margin: 155px 10% 0 0;
+    }
+}
