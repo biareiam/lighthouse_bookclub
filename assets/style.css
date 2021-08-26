@@ -78,13 +78,20 @@ body {
     color: #000 !important;
 }
 
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 60px;
+    height: 10px;
+    border-radius: 1px;
+}
+
 /*------------------------------------------------Landing page image*/
 #heading-title {
     text-align: center;
     padding: 165px 0 0 0;
     margin-top: 90px;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background: url('/assets/images/pexels-photo-5939401.jpeg') center center no-repeat;
     background-size: cover;
     margin-bottom: 30px;
@@ -231,6 +238,7 @@ body {
 #reasons-section {
     padding-bottom: 10px;
     margin-top: 50px;
+
 }
 
 .reason-title {
@@ -246,7 +254,7 @@ body {
 
 .join-container {
     display: flex;
-    width: 90%;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -679,8 +687,6 @@ hr {
 
 
 /*title*/
-
-
 .about-title {
     text-align: center;
     background-color: #F2D1B3;
@@ -735,7 +741,6 @@ hr {
     line-height: 1.7;
     width: 60%;
 }
-
 
 .team {
     padding-top: 20px;
@@ -864,8 +869,6 @@ hr {
     margin-left: 170px;
 }
 
-
-
 .book-list p {
     width: 50%;
     text-align: justify;
@@ -915,7 +918,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .books img {
@@ -943,12 +946,12 @@ hr {
     margin-top: 40px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 }
 
 .btn-shop {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     border: none;
     margin-top: -5px;
@@ -1038,457 +1041,55 @@ hr {
 
 /************************************************/
 /*Media*/
-/*
+
 @media screen and (max-width:2000px) {
-    /* {
+    * {
         background-color: #3b5999
-    }*/
-/*
-
-    #heading-title {
-        height: 600px;
-    }
-
-    #subscribe-section h5 {
-        line-height: 1.6;
-    }
-
-    .book-container {
-        margin-left: 150px;
     }
 
     .bg-image {
-        width: auto;
-        height: 300px;
+        width: 410px;
+        height: 250px;
     }
 
-    .bg-image h4 {
-        padding-top: 30px;
-    }
-
-    #email-subscribe {
-        width: 23%;
-    }
-
-    .btn-subscribe {
-        width: 6%;
-    }
 }
 
 
 @media screen and (max-width:1440px) and (min-width:1199px) {
-    /* {
+    * {
         background-color: darkolivegreen;
-    }*/
-/*
-
-    #subscribe-section h5 {
-        width: 40%;
     }
 
-    .bg-image {
-        width: auto;
-        height: 300px;
-    }
-
-    #email-subscribe {
-        width: 24%;
-    }
-
-    .btn-subscribe {
-        width: 8%;
-    }
-
-    .book-container {
-        margin-left: 60px;
-    }
-
-    .book-vote-container {
-        width: 90%;
-        text-align: center;
-    }
-
-    .book-vote-container p {
-        width: 80%;
-        text-align: justify;
-        margin-left: 50px;
-    }
-
-    .options {
-        margin-left: 110px;
-    }
-
-    .list-vote {
-        text-align: center;
-    }
-
-    .list-vote h4 {
-        text-align: start;
-        margin-left: 50px;
-    }
 }
 
 
 
 /* For larger to medium screens size from 1200px wide and down*/
-/*
+
 @media screen and (max-width:1200px) {
-    /* {
+    * {
         background-color: rgb(107, 64, 47);
-    }*/
-/*
-
-    #subscribe-section h5 {
-        width: 50%;
     }
-
-    #email-subscribe {
-        width: 30%;
-    }
-
-    .book-container {
-        margin-left: 20px;
-    }
-
-    .book-vote-container {
-        width: 90%;
-        text-align: center;
-    }
-
-    .book-vote-container p {
-        width: 90%;
-        text-align: justify;
-        margin-left: 20px;
-    }
-
-    .options {
-        margin-left: 100px;
-    }
-
-    .list-vote {
-        text-align: center;
-    }
-
-    .list-vote h4 {
-        text-align: start;
-        margin-left: 20px;
-    }
-
 }
-
-
 
 
 @media screen and (max-width:1024px) {
-    /* {
+    * {
         background-color: rgb(142, 140, 240);
-    }*/
-/*
-
-    .review {
-        text-align: justify;
-    }
-
-    .work-container p {
-        text-align: justify;
-    }
-
-    .why-container {
-        width: 93%;
-        display: grid;
-        column-gap: normal;
-
-    }
-
-    .about p {
-        width: 95%;
-    }
-
-    .reason {
-        width: 89%;
-    }
-
-    .review {
-        width: 100%;
-    }
-
-    .reason {
-        margin-left: 30px;
-    }
-
-    .about-txt p {
-        padding: 50px 20px 20px 0;
-
-    }
-
-    .bg-image {
-        width: auto;
-        height: 300px;
-    }
-
-    #email-subscribe {
-        width: 40%;
-    }
-
-    .btn-subscribe {
-        width: 10%;
-    }
-
-    .book-container {
-        margin-left: 50px;
-    }
-
-
-    .book-vote-container {
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .book-vote-container p {
-        width: 100%;
-        text-align: justify;
-        margin-left: 10px;
-    }
-
-    .options {
-        margin-left: 100px;
-    }
-
-    .list-vote img {
-        margin-left: 5px;
-
-    }
-
-    .list-vote h4 {
-        text-align: start;
-        margin-left: 6px;
-
-    }
-
-
-
-    @media screen and (max-width:768px) {
-        /* {
-            background-color: #568196;
-        }*/
-/*
-
-        .mycontainer {
-            width: 95%;
-
-        }
-
-        .review {
-            width: 100%;
-        }
-
-        .work-container p {
-            width: 70%;
-            margin: 0 auto;
-            margin-bottom: 10px;
-        }
-
-        .about {
-            width: 90%;
-            margin-left: 15px;
-
-        }
-
-        .reason {
-            width: 85%;
-            margin-left: 30px;
-
-        }
-
-        #subscribe-section h5 {
-            width: 60%;
-        }
-
-
-        #email-subscribe {
-            width: 35%;
-            margin: 0;
-        }
-
-        .btn-subscribe {
-            width: 15%;
-        }
-
-        .book-container {
-            margin-left: 60px;
-        }
-
-        blockquote {
-            border: none;
-        }
-
-        .team-line-mark {
-            border: none;
-        }
-
-        .options {
-            margin-left: 80px;
-        }
-
-        .book-vote-container p {
-            font-size: 14px;
-            text-align: justify;
-            margin-left: -6px;
-        }
-
-        .list-vote h4 {
-            font-size: 16px;
-            margin-left: -5px;
-        }
-
-        .img-book {
-            width: 245px;
-            height: 350px;
-            margin-left: -20px;
-        }
-
-        .list-vote img {
-            margin-left: -15px;
-        }
-    }
-
-    @media screen and (max-width:425px) {
-        #heading-title {
-            height: 550px;
-        }
-
-        #heading-title h1 {
-            font-size: 4rem;
-        }
-
-        #heading-title h2 {
-            font-size: 2.1rem;
-        }
-
-        .why-container {
-            margin: 0;
-        }
-
-        .review {
-            width: 100%;
-        }
-
-        .reason-title h3 {
-            font-size: 20px;
-        }
-
-        .reason {
-            margin-left: 40px;
-        }
-
-        #email-subscribe {
-            width: 70%;
-            margin: 0;
-        }
-
-        .btn-subscribe {
-            width: 20%;
-        }
-
-        .book-container {
-            margin-left: 70px;
-        }
-
-        .signup-form h2 {
-            font-size: 23px;
-            font-weight: bold;
-        }
-
-        .vote h3 {
-            font-size: 20px;
-        }
-
-        .vote p {
-            font-size: 14px;
-        }
-
-        .options {
-            margin-left: 150px;
-        }
-    }
-
-    @media screen and (max-width:375px) {
-        #heading-title {
-            height: 550px;
-        }
-
-        .why-container {
-            margin: 0;
-        }
-
-        .review {
-            width: 100%;
-        }
-
-        #subscribe-section h5 {
-            width: 80%;
-        }
-
-
-        #email-subscribe {
-            width: 80%;
-            margin: 0;
-        }
-
-        .btn-subscribe {
-            width: 30%;
-            padding-bottom: -10px;
-        }
-
-        .illustration-style img {
-            margin-left: 50px;
-        }
-
-        .book-container {
-            margin-left: 50px;
-        }
-
-        .signup-form {
-            margin: 180px 10% 0 0;
-        }
-
-        .signup-form h2 {
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .options {
-            margin-left: 120px;
-        }
     }
 }
 
-@media screen and (max-width:320px) {
-    .review {
-        width: 100%;
+
+
+@media screen and (max-width:768px) {
+    * {
+        background-color: #568196;
     }
 
-    .reason {
-        margin-left: 30px;
-    }
-
-    .why-container {
-        margin: 0;
-    }
-
-    #subscribe-section h5 {
-        font-size: 1rem;
-        width: 80%;
-        margin: 0 auto;
-
-    }
-
-    .book-container {
-        margin-left: 20px;
-    }
-
-    .signup-form {
-        margin: 155px 10% 0 0;
-    }
 }
+
+@media screen and (max-width:425px) {}
+
+@media screen and (max-width:375px) {}
+
+@media screen and (max-width:320px) {}
