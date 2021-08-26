@@ -190,9 +190,10 @@ body {
     font-size: 15px;
     margin: 0 auto;
     quotes: "\201C""\201D""\2018""\2019";
-    padding: 10px 20px;
+    padding: 10px 0;
     line-height: 1.4;
 }
+
 
 .quotation:before {
     content: open-quote;
@@ -332,23 +333,27 @@ hr {
 .work-container {
     padding-top: 50px;
     width: 100%;
+    display: flex;
 }
 
-.work-container h5 {
+
+.work-steps h5 {
     text-decoration: underline;
     font-size: 16px;
 }
 
-.work-container h4,
-.work-container h5 {
+.work-steps h4,
+.work-steps h5 {
     text-align: center;
     padding-top: 10px;
 }
 
-.work-container p {
+.work-steps p {
     text-align: justify;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .steps {
@@ -387,14 +392,7 @@ hr {
 
 /*--------------------------------------- Meetup section*/
 #meetup-section {
-
     padding-bottom: 5px;
-}
-
-.location-box {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
 }
 
 .local-box {
@@ -409,17 +407,21 @@ hr {
     margin-bottom: 10px;
 }
 
+.location {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+}
+
 .bg-image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 300px;
+    width: 470px;
     height: 250px;
     padding-top: 20px;
     color: rgb(255, 255, 255);
 
-    margin-left: -10px;
-    margin-bottom: 10px;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -443,7 +445,7 @@ hr {
     text-align: center;
 }
 
-.bg-image h5 {
+.bg-image>p {
     font-size: 1.7rem;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -454,27 +456,22 @@ hr {
     color: white;
 }
 
+.place-month a {
+    background-color: #F29999;
+
+}
+
 .coffee-icon {
     color: white;
     font-size: 220%;
     text-align: center;
 }
 
-.local-month a {
-    color: white;
-    padding: 3px;
-    /*background-color: #c55fee;*/
-    background-color: #F29999;
-}
-
-
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
     background-color: #D9B18F;
-    /* background-color: #e78e65;*/
     padding: 25px 0 25px 0;
-
 }
 
 #subscribe-section h4 {
@@ -510,7 +507,7 @@ hr {
 
 
 #email-subscribe {
-    width: 50%;
+    width: 24%;
     height: 34px;
     border: none;
     padding-left: 6px;
@@ -520,7 +517,7 @@ hr {
 }
 
 .btn-subscribe {
-    width: 10%;
+    width: 6%;
     height: 35px;
     background-color: #540b0e;
     border: none;
@@ -559,10 +556,11 @@ hr {
     font-size: 1rem;
 }
 
-#contact h5 {
+#contact p {
     padding: 10px 0 0 0;
     color: #fafafa;
     text-align: center;
+    font-size: 14px;
 }
 
 /*copyright */
@@ -671,19 +669,6 @@ hr {
 }
 
 /*--------------------------------------- About page*/
-
-
-.mycontainer {
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.about {
-    flex: 1;
-}
-
 .illustration-style img {
     width: 270px;
     height: 205px;
@@ -718,9 +703,9 @@ hr {
 }
 
 /*----------- Know the team*/
-.know-team {
-    padding-top: 40px;
-    padding-bottom: 20px;
+.team-container {
+    display: flex;
+
 }
 
 .team-title {
@@ -732,7 +717,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .about-team {
@@ -748,6 +733,7 @@ hr {
 .about-team p {
     text-align: justify;
     line-height: 1.7;
+    width: 60%;
 }
 
 
@@ -795,10 +781,28 @@ hr {
 }
 
 
+
+.team-line-mark-right {
+    margin-left: 150px;
+}
+
+.team-line-mark-left {
+    margin-right: 150px;
+}
+
+
+.team-line-mark {
+    border-left: none;
+    border-right: none;
+}
+
+/*questions section*/
 .question-container {
-    width: 100%;
+    width: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .question-section {
@@ -822,16 +826,12 @@ hr {
     margin: 0 auto;
     text-align: justify;
     padding: 15px;
+    width: 25%;
 }
 
 .questions h4 {
     font-weight: bold;
     text-align: center;
-}
-
-.team-line-mark {
-    border-left: 5px solid #eee;
-    border-right: 5px solid #eee;
 }
 
 /*--------------------------------------- Book page*/
@@ -1031,10 +1031,12 @@ hr {
 
 /************************************************/
 /*Media*/
+/*
 @media screen and (max-width:2000px) {
     /* {
         background-color: #3b5999
     }*/
+/*
 
     #heading-title {
         height: 600px;
@@ -1071,6 +1073,7 @@ hr {
     /* {
         background-color: darkolivegreen;
     }*/
+/*
 
     #subscribe-section h5 {
         width: 40%;
@@ -1121,10 +1124,12 @@ hr {
 
 
 /* For larger to medium screens size from 1200px wide and down*/
+/*
 @media screen and (max-width:1200px) {
     /* {
         background-color: rgb(107, 64, 47);
     }*/
+/*
 
     #subscribe-section h5 {
         width: 50%;
@@ -1171,6 +1176,7 @@ hr {
     /* {
         background-color: rgb(142, 140, 240);
     }*/
+/*
 
     .review {
         text-align: justify;
@@ -1259,6 +1265,7 @@ hr {
         /* {
             background-color: #568196;
         }*/
+/*
 
         .mycontainer {
             width: 95%;
