@@ -192,9 +192,10 @@ body {
 
 /*--------------------------------------- Reasons section*/
 .why-container {
-    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: auto;
+
 }
 
 .reason {
@@ -292,6 +293,7 @@ hr {
 
 .work-container {
     padding-top: 50px;
+    width: 100%;
 }
 
 .work-container h5 {
@@ -684,7 +686,6 @@ hr {
 .know-team {
     padding-top: 40px;
     padding-bottom: 20px;
-
 }
 
 .team-title {
@@ -706,6 +707,10 @@ hr {
     padding-top: 30px;
     padding-bottom: 10px;
     color: #272727;
+}
+
+.team-container {
+    width: 100%;
 }
 
 .team {
@@ -752,6 +757,15 @@ hr {
 }
 
 
+.question-container {
+    width: 100%;
+}
+
+.question-section {
+    padding-bottom: 20px;
+
+}
+
 .question-title {
     text-align: center;
     background-color: #F2D1B3;
@@ -765,10 +779,14 @@ hr {
 }
 
 .questions {
-    padding: 20px 0 20px 450px;
-    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
 }
 
+.questions h4 {
+    font-weight: bold;
+}
 
 
 
@@ -1121,6 +1139,13 @@ hr {
 }
 
 @media screen and (max-width:320px) {
+    #subscribe-section h5 {
+        font-size: 1rem;
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
     .book-container {
         margin-left: 20px;
     }
