@@ -489,7 +489,7 @@ hr {
     letter-spacing: 2px;
 }
 
-#subscribe-section h5 {
+#subscribe-section p {
     text-align: center;
     font-size: 1.4rem;
     padding: 15px 0 15px 0;
@@ -785,8 +785,6 @@ hr {
     margin: 0 auto;
 }
 
-
-
 .team-line-mark-right {
     margin-left: 150px;
 }
@@ -873,7 +871,7 @@ hr {
     width: 50%;
     text-align: justify;
     margin: 0 auto;
-    ;
+
 }
 
 .options {
@@ -1048,10 +1046,9 @@ hr {
     }
 
     .bg-image {
-        width: 410px;
-        height: 250px;
+        width: 470px;
+        height: 300px;
     }
-
 }
 
 
@@ -1060,6 +1057,23 @@ hr {
         background-color: darkolivegreen;
     }
 
+    .bg-image {
+        width: 350px;
+        height: 250px;
+    }
+
+    .options {
+        margin-left: 150px;
+    }
+
+    .book-list h4 {
+        margin-left: 90px;
+    }
+
+    .book-list p {
+        width: 65%;
+        text-align: justify;
+    }
 }
 
 
@@ -1070,6 +1084,37 @@ hr {
     * {
         background-color: rgb(107, 64, 47);
     }
+
+    .reason {
+        margin-left: 20px;
+    }
+
+    .bg-image {
+        width: 295px;
+        height: 250px;
+    }
+
+    #email-subscribe {
+        width: 30%;
+    }
+
+    .btn-subscribe {
+        width: 9%;
+    }
+
+    .book-list h4 {
+        margin-left: 50px;
+    }
+
+    .book-list p {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .vote p {
+        text-align: center;
+
+    }
 }
 
 
@@ -1077,6 +1122,28 @@ hr {
     * {
         background-color: rgb(142, 140, 240);
     }
+
+    .book-container {
+        display: inline-block;
+        float: left;
+        column-gap: 20px;
+
+    }
+
+    .bg-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .book-list h4 {
+        margin-left: 20px;
+    }
+
+    .book-list p {
+        width: 85%;
+        text-align: justify;
+    }
+
 }
 
 
@@ -1086,10 +1153,182 @@ hr {
         background-color: #568196;
     }
 
+    .member-testimony {
+        width: 100%;
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .reason {
+        margin-left: 70px;
+    }
+
+    .work-steps p {
+        width: 90%;
+        margin-left: 15px;
+
+    }
+
+    #subscribe-section p {
+        width: 55%;
+    }
+
+    .bg-image {
+        width: 185px;
+        height: 250px;
+    }
+
+    #email-subscribe {
+        width: 40%;
+    }
+
+    .btn-subscribe {
+        width: 15%;
+    }
+
+    .team-container {
+        flex-direction: column;
+    }
+
+    .team-line {
+        border: none;
+    }
+
+    .about-txt-1 {
+        width: 100%;
+
+    }
+
+    .questions {
+        width: 50%
+    }
+
+
 }
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+    * {
+        background-color: #F29999;
+    }
 
-@media screen and (max-width:375px) {}
+    .navbar-default .navbar-toggle {
+        background-color: #ddd;
+        margin-top: 20px;
+
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 50px;
+        height: 6px;
+        border-radius: 1px;
+    }
+
+    #heading-title {
+        height: 600px;
+
+    }
+
+    .member-testimony {
+        flex-direction: column;
+        padding-top: 10px;
+        margin-bottom: -40px;
+    }
+
+    .reason {
+        margin-left: 45px;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-steps p {
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .location {
+        flex-direction: column;
+    }
+
+    .bg-image {
+        width: 405px;
+        height: 290px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+
+    #subscribe-section p {
+        width: 75%;
+    }
+
+    #email-subscribe {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 25%;
+        margin-top: 20px
+    }
+
+    .about-txt {
+        margin-left: 40px;
+        margin-right: -20px;
+    }
+
+    .question-container {
+        flex-direction: column;
+
+    }
+
+    .questions {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    blockquote {
+        padding: 0;
+        margin: 0 0 20px;
+        font-size: 17.5px;
+        border-left: 5px solid #eee;
+    }
+
+    .book-vote-container {
+        flex-direction: column;
+    }
+
+    .book-container {
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+
+    .books-section {
+        margin-bottom: 100px;
+    }
+
+
+
+}
+
+@media screen and (max-width:375px) {
+    #heading-title {
+        height: 700px;
+    }
+    .bg-image {
+        width: 350px;
+        height: 290px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+}
+
+/* ajustar book page on all the sizes*/
 
 @media screen and (max-width:320px) {}
