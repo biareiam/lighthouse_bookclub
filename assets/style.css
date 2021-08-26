@@ -491,6 +491,8 @@ hr {
     padding: 15px 0 15px 0;
     color: #fafafa;
     letter-spacing: 2px;
+    width: 30%;
+    margin: 0 auto;
 }
 
 #subscribe-field {
@@ -748,7 +750,6 @@ hr {
     color: #272727;
 
 }
-
 
 
 .team {
