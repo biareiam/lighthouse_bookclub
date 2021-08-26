@@ -1312,6 +1312,35 @@ hr {
         .team-line-mark {
             border: none;
         }
+
+
+
+        .options {
+            margin-left: 50px;
+        }
+
+        .book-vote-container p {
+            font-size: 14px;
+            text-align: justify;
+            margin-left: -6px;
+
+
+        }
+
+        .list-vote h4 {
+            font-size: 16px;
+            margin-left: -5px;
+        }
+
+        .img-book {
+            width: 245px;
+            height: 350px;
+            margin-left: -20px;
+        }
+
+        .list-vote img {
+            margin-left: -15px;
+        }
     }
 
     @media screen and (max-width:425px) {
