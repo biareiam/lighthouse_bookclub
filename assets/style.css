@@ -688,7 +688,7 @@ hr {
 
 .illustration-style img {
     width: 270px;
-    height: 255px;
+    height: 225px;
     float: left;
     /*shape-outside: circle(50%);
     shape-margin: 5px;*/
@@ -827,7 +827,10 @@ hr {
     font-weight: bold;
 }
 
-
+.team-line-mark {
+    border-left: 5px solid #eee;
+    border-right: 5px solid #eee;
+}
 
 
 
@@ -918,8 +921,7 @@ hr {
     margin-top: -5px;
     font-weight: bold;
     padding: 5px;
-    /* color: rgba(68, 68, 146, 0.664);
-    border: 1px solid rgba(68, 68, 146, 0.664);*/
+
     color: #86A0A6;
     border: 1px solid #86A0A6;
 }
