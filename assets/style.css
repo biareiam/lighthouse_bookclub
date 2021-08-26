@@ -87,6 +87,7 @@ body {
     height: 500px;
     background: url('/assets/images/pexels-photo-5939401.jpeg') center center no-repeat;
     background-size: cover;
+    margin-bottom: 30px;
 }
 
 #heading-title>h1 {
@@ -136,6 +137,66 @@ body {
 }
 
 /*------------------------------- Introduction */
+.member-testimony {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+.member p {
+    width: 60%;
+}
+
+#profile1 {
+    background: url('/assets/images/kate.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+#profile2 {
+    background: url('/assets/images/rita.jpeg') center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.circle-image {
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************/
 .Introduction {
     padding-top: 40px;
     margin-top: 0;
@@ -164,30 +225,7 @@ body {
 
 }
 
-.profile1 {
-    background: url('/assets/images/kate.jpeg') center;
-    background-size: cover;
-    border-radius: 50%;
-    height: 100%;
-}
 
-.profile2 {
-    background: url('/assets/images/rita.jpeg') center;
-    background-size: cover;
-    border-radius: 50%;
-    height: 100%;
-}
-
-.circle-image {
-    width: 180px;
-    height: 180px;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
 
 .quotation {
     font-size: 15px;
