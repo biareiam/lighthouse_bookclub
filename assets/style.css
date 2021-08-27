@@ -1093,7 +1093,7 @@ hr {
     }
 
     .bg-image {
-        width: 355px;
+        width: 305px;
         height: 250px;
     }
 
@@ -1135,14 +1135,18 @@ hr {
         text-align: justify;
     }
 
-    /*join*/
-
 
 
 }
 
 /* For larger to medium screens size from 1200px wide and down*/
+@media screen and (max-width: 1040px) {
+    .bg-image {
+        width: 105px;
+        height: 250px;
+    }
 
+}
 
 @media screen and (max-width: 1200px) {
     * {
@@ -1183,10 +1187,6 @@ hr {
     .flex-container .book-column {
         margin-left: 70px;
     }
-
-    /*Join club*/
-
-
 
 
 }
@@ -1247,9 +1247,6 @@ hr {
     .flex-container .book-column {
         margin-left: 70px;
     }
-
-    /*Join page*/
-
 }
 
 @media screen and (max-width: 992px) {
@@ -1356,9 +1353,6 @@ hr {
     .flex-container .book-column {
         margin-left: 90px;
     }
-
-    /*Join page*/
-
 
 }
 
@@ -1522,9 +1516,6 @@ hr {
     .books-section {
         margin-bottom: 100px;
     }
-
-    /*join us page*/
-
 }
 
 @media screen and (max-width: 375px) {
