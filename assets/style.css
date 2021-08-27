@@ -975,9 +975,9 @@ hr {
 /*Media*/
 
 @media screen and (min-width: 2560px) {
-    * {
+    /* {
         background-color: #b2d4e6;
-    }
+    }*/
 
 
     .reason {
@@ -1024,9 +1024,9 @@ hr {
 
 
 @media screen and (max-width: 2000px) {
-    * {
+    /* {
         background-color: #3b5999;
-    }
+    }*/
 
     /*main page*/
 
