@@ -979,7 +979,7 @@ hr {
 /*Media*/
 
 @media screen and (max-width: 2000px) {
-    * {
+    /* {
         background-color: #3b5999;
     }
 
@@ -1001,7 +1001,7 @@ hr {
 }
 
 @media screen and (max-width: 1680px) {
-    * {
+    /* {
         background-color: #993b4f;
     }
 
@@ -1093,14 +1093,14 @@ hr {
         left: 30%;
         top: 10.5%;
     }
-}
 
 
-/*books*/
 
-.flex-container .book-column {
-    margin-left: 180px;
-}
+    /*books*/
+
+    .flex-container .book-column {
+        margin-left: 130px;
+    }
 }
 
 /* For larger to medium screens size from 1200px wide and down*/
@@ -1146,7 +1146,7 @@ hr {
 
 
     .flex-container .book-column {
-        margin-left: 110px;
+        margin-left: 70px;
     }
 
     /*Join club*/
@@ -1242,7 +1242,7 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    * {
+    /* {
         background-color: #568196;
     }
 
@@ -1343,9 +1343,9 @@ hr {
 }
 
 @media screen and (max-width: 425px) {
-    * {
+    /* {
         background-color: #f29999;
-    }
+    }*/
 
     .navbar-toggle {
         position: relative;
