@@ -886,15 +886,16 @@ hr {
     padding: 15px 0 50px 0;
 }
 
-.book-container,
-.book-container-1,
-.book-container-2 {
+.flex-container {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.books {
-    flex: 2;
+.flex-container .book-column {
+    margin-top: -15px;
+    margin-left: 110px;
+    text-align: center;
+    font-size: 30px;
 }
 
 #book-title {
@@ -920,6 +921,10 @@ hr {
 .books img {
     filter: gray;
     -webkit-filter: grayscale(1);
+}
+
+.books p {
+    margin-bottom: -5px;
 }
 
 .books img:hover {
@@ -950,7 +955,7 @@ hr {
     font-size: 1.2rem;
     letter-spacing: 2px;
     border: none;
-    margin-top: -5px;
+    margin-left: -150px;
     font-weight: bold;
     padding: 5px;
 
@@ -1038,19 +1043,18 @@ hr {
 /************************************************/
 /*Media*/
 
+
 @media screen and (max-width:2000px) {
     * {
         background-color: #3b5999
     }
 
     /*main page*/
+
     .bg-image {
         width: 470px;
         height: 300px;
     }
-
-    /*book page*/
-    /*vote section - ok*/
 }
 
 @media screen and (max-width:1680px) {
@@ -1059,6 +1063,7 @@ hr {
     }
 
     /*main page*/
+
     .reason {
         margin-left: 40px;
     }
@@ -1070,6 +1075,7 @@ hr {
 
     /*book page*/
     /* vote*/
+
     .book-list h4 {
         margin-left: 130px;
     }
@@ -1079,6 +1085,10 @@ hr {
     }
 
     /*books*/
+    .flex-container .book-column {
+        margin-left: 130px;
+    }
+
 }
 
 
@@ -1088,6 +1098,7 @@ hr {
     }
 
     /*main page*/
+
 
     .reason {
         margin-left: 40px;
@@ -1100,6 +1111,7 @@ hr {
 
     /*book page*/
     /*vote*/
+
     .options {
         margin-left: 150px;
     }
@@ -1114,12 +1126,15 @@ hr {
     }
 
     /*books*/
+    .flex-container .book-column {
+        margin-left: 90px;
+    }
+
 }
 
 
 
 /* For larger to medium screens size from 1200px wide and down*/
-
 
 @media screen and (max-width:1200px) {
     * {
@@ -1127,6 +1142,7 @@ hr {
     }
 
     /*main page*/
+
     .reason {
         margin-left: 20px;
     }
@@ -1145,6 +1161,7 @@ hr {
     }
 
     /*book page*/
+
     .book-list h4 {
         margin-left: 50px;
     }
@@ -1156,6 +1173,9 @@ hr {
 
     /*books*/
 
+    .flex-container .book-column {
+        margin-left: 110px;
+    }
 }
 
 
@@ -1165,6 +1185,7 @@ hr {
     }
 
     /*main page*/
+
     blockquote {
         padding: 0;
     }
@@ -1195,12 +1216,14 @@ hr {
 
     /*about page*/
 
+
     .questions {
         width: 30%;
     }
 
     /*book page*/
     /*vote*/
+
     .options {
         margin-left: 120px;
     }
@@ -1215,6 +1238,10 @@ hr {
     }
 
     /*books*/
+    .flex-container .book-column {
+        margin-left: 70px;
+    }
+}
 
 
 }
@@ -1224,7 +1251,12 @@ hr {
         width: 240px;
         height: 250px;
     }
+
+    .flex-container .book-column {
+        margin-left: 60px;
+    }
 }
+
 
 @media screen and (max-width:768px) {
     * {
@@ -1232,6 +1264,7 @@ hr {
     }
 
     /*main page*/
+
     .member-testimony {
         width: 100%;
     }
@@ -1299,7 +1332,7 @@ hr {
     }
 
     .options {
-        margin-left: 320px;
+        margin-left: 270px;
     }
 
     .book-list h4 {
@@ -1311,12 +1344,12 @@ hr {
     }
 
     /*books*/
-
-
-
-
-
+    .flex-container .book-column {
+        margin-left: 90px;
+    }
 }
+
+
 
 @media screen and (max-width:425px) {
     * {
@@ -1401,6 +1434,7 @@ hr {
 
     /*about page*/
 
+
     .illustration-style img {
         width: 300px;
         height: 215px;
@@ -1431,6 +1465,7 @@ hr {
 
     /*books page*/
     /*vote*/
+
     .book-vote-container {
         flex-direction: column;
     }
@@ -1451,34 +1486,35 @@ hr {
     }
 
     .vote h4 {
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     /*books*/
 
-    .book-container {
-        flex-direction: column;
-        margin-left: 60px;
 
+    /*books*/
+    .flex-container .book-column {
+        margin-left: 85px;
     }
+}
 
-    .books-section {
-        margin-bottom: 100px;
-    }
+.books-section {
+    margin-bottom: 100px;
+}
 
-    /*join us page*/
-    .signup-form {
-        margin: 215px 5% 0 0;
-        max-width: 400px;
-        left: 5%;
-        padding: 10px;
-    }
+/*join us page*/
 
+.signup-form {
+    margin: 215px 5% 0 0;
+    max-width: 400px;
+    left: 5%;
+    padding: 10px;
 }
 
 @media screen and (max-width:375px) {
 
     /*main page*/
+
     #heading-title {
         height: 500px;
     }
@@ -1492,7 +1528,7 @@ hr {
     }
 
     .bg-image {
-        width: 350px;
+        width: 360px;
         height: 290px;
         margin-left: auto;
         margin-right: auto;
@@ -1500,6 +1536,7 @@ hr {
     }
 
     /*about page*/
+
     .illustration-style img {
         width: 300px;
         height: 215px;
@@ -1507,22 +1544,36 @@ hr {
     }
 
     /*books*/
-    .book-container {
+    .options {
+        margin-left: 120px;
+    }
+
+    .flex-container .book-column {
         margin-top: -20px;
+        margin-left: 60px;
+    }
+
+    .vote h4 {
+        margin-left: 40px;
     }
 
 }
 
-/* ajustar book page on all the sizes*/
+
 
 @media screen and (max-width:320px) {
 
     /*main page*/
+    .reason {
+        margin-left: 25px;
+    }
+
     .bg-image {
         width: 305px;
     }
 
     /*about page*/
+
     .illustration-style img {
         width: 290px;
         height: 215px;
@@ -1530,6 +1581,7 @@ hr {
     }
 
     /*books page*/
+
     .options {
         margin-left: 120px;
     }
@@ -1544,12 +1596,14 @@ hr {
     }
 
     /*books*/
-    .book-container {
-        margin-left: 30px;
+
+    .flex-container .book-column {
+        margin-left: 40px;
         margin-top: -20px;
     }
 
     /*join us page*/
+
     .signup-form {
         margin: 195px 5% 0 0;
         max-width: 400px;
