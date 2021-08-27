@@ -1149,7 +1149,7 @@ hr {
     .background-image-join form {
         max-width: 500px;
         left: 30%;
-        top: 10.5%;
+        top: 5.5%;
     }
 
     /*books*/
@@ -1210,7 +1210,7 @@ hr {
     .background-image-join form {
         max-width: 500px;
         left: 30%;
-        top: 10.5%;
+        top: 5.5%;
     }
 }
 
@@ -1281,8 +1281,8 @@ hr {
 
     .background-image-join form {
         max-width: 500px;
-        left: 27%;
-        top: 10.5%;
+        left: 25%;
+        top: 5.5%;
     }
 }
 
@@ -1400,7 +1400,7 @@ hr {
     .background-image-join form {
         max-width: 500px;
         left: 18%;
-        top: 10.5%;
+        top: 5.5%;
     }
 }
 
@@ -1578,8 +1578,8 @@ hr {
     .background-image-join form {
         max-width: 500px;
         left: 0%;
-        top: 10%;
-        background-color: transparent;
+        top: 4.5%;
+
         padding: 20px;
     }
 }
@@ -1649,7 +1649,12 @@ hr {
     .signup-form h2 {
         font-size: 26px;
     }
+
+    .background-image-join form {
+        top: 5.5%;
+    }
 }
+
 
 @media screen and (max-width: 320px) {
 
@@ -1714,6 +1719,6 @@ hr {
     }
 
     .background-image-join form {
-        top: 8.5%;
+        top: 4.5%;
     }
 }
