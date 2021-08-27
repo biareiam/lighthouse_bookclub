@@ -227,12 +227,9 @@ body {
     font-size: 5em;
 }
 
-.text-right {
+.text-mark-right {
     border-left: none;
 }
-
-
-
 
 
 /*--------------------------------------- Reasons section*/
@@ -1326,23 +1323,23 @@ hr {
         background-color: #F29999;
     }
 
-    .navbar-default .navbar-toggle {
-        /*background-color: #ddd;*/
-        margin-top: 20px;
-    }
-
-    .open .dropdown-toggle {
-        color: #fff;
-        background-color: #555 !important;
-    }
 
     .navbar-toggle .icon-bar {
         width: 50px;
         height: 6px;
+        margin-top: 14px;
     }
 
     #heading-title {
-        height: 600px;
+        height: 550px;
+    }
+
+    #heading-title h1 {
+        font-size: 4.5rem;
+    }
+
+    #heading-title h2 {
+        font-size: 2rem;
     }
 
     .member-testimony {
@@ -1351,8 +1348,20 @@ hr {
         margin-bottom: -40px;
     }
 
+    .text-mark-left {
+        border: none;
+    }
+
+    .text-mark-right {
+        border: none;
+    }
+
     .reason {
-        margin-left: 45px;
+        margin-left: 30px;
+    }
+
+    .reason p {
+        width: 100%;
     }
 
     .work-container {
@@ -1377,7 +1386,7 @@ hr {
     }
 
     #subscribe-section p {
-        width: 75%;
+        width: 80%;
     }
 
     #email-subscribe {
@@ -1391,6 +1400,13 @@ hr {
     }
 
     /*about page*/
+
+    .illustration-style img {
+        width: 300px;
+        height: 215px;
+        margin-left: 60px;
+    }
+
     .about-txt {
         margin-left: 40px;
         margin-right: -20px;
@@ -1415,6 +1431,10 @@ hr {
 
     /*books page*/
     /*vote*/
+    .book-vote-container {
+        flex-direction: column;
+    }
+
     .vote h3 {
         font-size: 20px;
         width: 90%;
@@ -1426,14 +1446,19 @@ hr {
         margin-left: 40px;
     }
 
-
-    .book-vote-container {
-        flex-direction: column;
+    .options {
+        margin-left: 150px;
     }
+
+    .vote h4 {
+        margin-left: 40px;
+    }
+
+    /*books*/
 
     .book-container {
         flex-direction: column;
-        margin-left: 80px;
+        margin-left: 60px;
 
     }
 
@@ -1441,13 +1466,29 @@ hr {
         margin-bottom: 100px;
     }
 
-
+    /*join us page*/
+    .signup-form {
+        margin: 215px 5% 0 0;
+        max-width: 400px;
+        left: 5%;
+        padding: 10px;
+    }
 
 }
 
 @media screen and (max-width:375px) {
+
+    /*main page*/
     #heading-title {
-        height: 700px;
+        height: 500px;
+    }
+
+    #heading-title h1 {
+        font-size: 3.8rem;
+    }
+
+    #heading-title h2 {
+        font-size: 2rem;
     }
 
     .bg-image {
@@ -1457,8 +1498,65 @@ hr {
         margin-right: auto;
         margin-bottom: 5px;
     }
+
+    /*about page*/
+    .illustration-style img {
+        width: 300px;
+        height: 215px;
+        margin-left: 35px;
+    }
+
+    /*books*/
+    .book-container {
+        margin-top: -20px;
+    }
+
 }
 
 /* ajustar book page on all the sizes*/
 
-@media screen and (max-width:320px) {}
+@media screen and (max-width:320px) {
+
+    /*main page*/
+    .bg-image {
+        width: 305px;
+    }
+
+    /*about page*/
+    .illustration-style img {
+        width: 290px;
+        height: 215px;
+        margin-left: 15px;
+    }
+
+    /*books page*/
+    .options {
+        margin-left: 120px;
+    }
+
+    .book-list h4 {
+        margin-left: 15px;
+    }
+
+    .book-list p {
+        width: 90%;
+        margin: auto;
+    }
+
+    /*books*/
+    .book-container {
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+
+    /*join us page*/
+    .signup-form {
+        margin: 195px 5% 0 0;
+        max-width: 400px;
+        padding: 5px;
+    }
+
+    .signup-form h2 {
+        font-size: 22px;
+    }
+}
