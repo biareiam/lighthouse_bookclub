@@ -93,8 +93,9 @@ body {
     width: 100%;
     height: 550px;
     background: url('/assets/images/pexels-photo-5939401.jpeg') center center no-repeat;
-    background-size: cover;
+    background-size: 48%;
     margin-bottom: 30px;
+    background-color: #F1CEAE;
 }
 
 #heading-title>h1 {
@@ -1045,10 +1046,42 @@ hr {
         background-color: #3b5999
     }
 
+    /*main page*/
     .bg-image {
         width: 470px;
         height: 300px;
     }
+
+    /*book page*/
+    /*vote section - ok*/
+}
+
+@media screen and (max-width:1680px) {
+    * {
+        background-color: #993b4f
+    }
+
+    /*main page*/
+    .reason {
+        margin-left: 40px;
+    }
+
+    .bg-image {
+        width: 410px;
+        height: 300px;
+    }
+
+    /*book page*/
+    /* vote*/
+    .book-list h4 {
+        margin-left: 130px;
+    }
+
+    .book-list p {
+        width: 55%;
+    }
+
+    /*books*/
 }
 
 
@@ -1057,11 +1090,19 @@ hr {
         background-color: darkolivegreen;
     }
 
+    /*main page*/
+
+    .reason {
+        margin-left: 40px;
+    }
+
     .bg-image {
         width: 350px;
         height: 250px;
     }
 
+    /*book page*/
+    /*vote*/
     .options {
         margin-left: 150px;
     }
@@ -1074,17 +1115,21 @@ hr {
         width: 65%;
         text-align: justify;
     }
+
+    /*books*/
 }
 
 
 
 /* For larger to medium screens size from 1200px wide and down*/
 
+
 @media screen and (max-width:1200px) {
     * {
         background-color: rgb(107, 64, 47);
     }
 
+    /*main page*/
     .reason {
         margin-left: 20px;
     }
@@ -1102,6 +1147,7 @@ hr {
         width: 9%;
     }
 
+    /*book page*/
     .book-list h4 {
         margin-left: 50px;
     }
@@ -1111,10 +1157,8 @@ hr {
         text-align: justify;
     }
 
-    .vote p {
-        text-align: center;
+    /*books*/
 
-    }
 }
 
 
@@ -1123,16 +1167,45 @@ hr {
         background-color: rgb(142, 140, 240);
     }
 
-    .book-container {
-        display: inline-block;
-        float: left;
-        column-gap: 20px;
+    /*main page*/
+    blockquote {
+        padding: 0;
+    }
 
+    .member p {
+        width: 75%;
+    }
+
+    .about-team p {
+
+        width: 80%;
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .reason {
+        margin-left: 115px;
+        width: 85%;
     }
 
     .bg-image {
         width: 250px;
         height: 250px;
+    }
+
+
+    /*about page*/
+
+    .questions {
+        width: 30%;
+    }
+
+    /*book page*/
+    /*vote*/
+    .options {
+        margin-left: 120px;
     }
 
     .book-list h4 {
@@ -1144,15 +1217,24 @@ hr {
         text-align: justify;
     }
 
+    /*books*/
+
+
 }
 
-
+@media screen and (max-width:992px) {
+    .bg-image {
+        width: 240px;
+        height: 250px;
+    }
+}
 
 @media screen and (max-width:768px) {
     * {
         background-color: #568196;
     }
 
+    /*main page*/
     .member-testimony {
         width: 100%;
     }
@@ -1188,6 +1270,8 @@ hr {
         width: 15%;
     }
 
+    /*about page*/
+
     .team-container {
         flex-direction: column;
     }
@@ -1205,6 +1289,35 @@ hr {
         width: 50%
     }
 
+    /*books*/
+    /*vote*/
+    .vote h3 {
+        font-size: 24px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .book-vote-container {
+        flex-direction: column;
+    }
+
+    .options {
+        margin-left: 320px;
+    }
+
+    .book-list h4 {
+        margin-left: 230px;
+    }
+
+    .book-list p {
+        width: 65%;
+    }
+
+    /*books*/
+
+
+
+
 
 }
 
@@ -1214,21 +1327,22 @@ hr {
     }
 
     .navbar-default .navbar-toggle {
-        background-color: #ddd;
+        /*background-color: #ddd;*/
         margin-top: 20px;
+    }
 
+    .open .dropdown-toggle {
+        color: #fff;
+        background-color: #555 !important;
     }
 
     .navbar-toggle .icon-bar {
-        display: block;
         width: 50px;
         height: 6px;
-        border-radius: 1px;
     }
 
     #heading-title {
         height: 600px;
-
     }
 
     .member-testimony {
@@ -1276,6 +1390,7 @@ hr {
         margin-top: 20px
     }
 
+    /*about page*/
     .about-txt {
         margin-left: 40px;
         margin-right: -20px;
@@ -1297,6 +1412,20 @@ hr {
         font-size: 17.5px;
         border-left: 5px solid #eee;
     }
+
+    /*books page*/
+    /*vote*/
+    .vote h3 {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .vote p {
+        font-size: 14px;
+        width: 80%;
+        margin-left: 40px;
+    }
+
 
     .book-vote-container {
         flex-direction: column;
@@ -1320,6 +1449,7 @@ hr {
     #heading-title {
         height: 700px;
     }
+
     .bg-image {
         width: 350px;
         height: 290px;
