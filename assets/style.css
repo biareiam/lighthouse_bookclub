@@ -912,7 +912,7 @@ hr {
     max-width: 500px;
     margin: 0 auto;
     position: absolute;
-    left: 37%;
+    left: 30%;
     top: 20%;
     /*background-color: #f2b3b928;*/
     padding: 70px;
@@ -973,11 +973,12 @@ hr {
 
 /************************************************/
 /*Media*/
-
+/*
 @media screen and (min-width: 2560px) {
     /* {
         background-color: #b2d4e6;
     }*/
+/*
 
 
     .reason {
@@ -1000,11 +1001,13 @@ hr {
     }
 
     /*books*/
+/*
     .flex-container .book-column {
         margin-left: 210px;
     }
 
     /*Join club*/
+/*
 
     .background-image-join form {
         max-width: 800px;
@@ -1028,7 +1031,8 @@ hr {
         background-color: #3b5999;
     }*/
 
-    /*main page*/
+/*main page*/
+/*
 
 
     .bg-image {
@@ -1037,6 +1041,7 @@ hr {
     }
 
     /*join*/
+/*
 
     .background-image-join form {
         max-width: 500px;
@@ -1051,6 +1056,7 @@ hr {
     }
 
     /*main page*/
+/*
 
 
     .reason {
@@ -1063,7 +1069,8 @@ hr {
     }
 
     /*book page*/
-    /* vote*/
+/* vote*/
+/*
 
 
     .book-list h4 {
@@ -1075,19 +1082,21 @@ hr {
     }
 
     /*books*/
+/*
     .flex-container .book-column {
         margin-left: 130px;
     }
 }
-
+*/
 @media screen and (max-width: 1440px) {
 
-    /* {
+    * {
         background-color: darkolivegreen;
     }
-    
+
 
     /*main page*/
+
     .work-container {
         width: 100%;
     }
@@ -1131,6 +1140,7 @@ hr {
     /*vote*/
 
 
+
     .options {
         margin-left: 150px;
     }
@@ -1146,13 +1156,15 @@ hr {
 
     /*join*/
 
+
     .background-image-join form {
         max-width: 500px;
-        left: 30%;
-        top: 5.5%;
+        left: 32%;
+        top: 5%;
     }
 
     /*books*/
+
 
     .flex-container .book-column {
         margin-left: 130px;
@@ -1160,13 +1172,15 @@ hr {
 }
 
 /* For larger to medium screens size from 1200px wide and down*/
+/*
 
 @media screen and (max-width: 1200px) {
-    /* {
+    * {
         background-color: rgb(107, 64, 47);
     }
 
     /*main page*/
+/*
 
 
     .reason {
@@ -1187,6 +1201,7 @@ hr {
     }
 
     /*book page*/
+/*
 
 
     .book-list h4 {
@@ -1199,6 +1214,7 @@ hr {
     }
 
     /*books*/
+/*
 
 
     .flex-container .book-column {
@@ -1206,19 +1222,22 @@ hr {
     }
 
     /*Join club*/
+/*
 
     .background-image-join form {
         max-width: 500px;
         left: 25%;
-        top: 10.5%;
+        top: 16.5%;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    /* {
+    * {
         background-color: rgb(142, 140, 240);
     }
-  /*main page*/
+
+    /*main page*/
+/*
 
 
     blockquote {
@@ -1248,6 +1267,7 @@ hr {
     }
 
     /*about page*/
+/*
 
 
     .questions {
@@ -1255,7 +1275,8 @@ hr {
     }
 
     /*book page*/
-    /*vote*/
+/*vote*/
+/*
 
 
     .options {
@@ -1272,12 +1293,14 @@ hr {
     }
 
     /*books*/
+/*
 
     .flex-container .book-column {
         margin-left: 70px;
     }
 
     /*Join page*/
+/*
 
     .background-image-join form {
         max-width: 500px;
@@ -1298,11 +1321,12 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    /* {
+    * {
         background-color: #568196;
     }
 
     /*main page*/
+/*
 
 
     .member-testimony {
@@ -1346,6 +1370,7 @@ hr {
     }
 
     /*about page*/
+/*
 
 
     .team-container {
@@ -1365,7 +1390,8 @@ hr {
     }
 
     /*books*/
-    /*vote*/
+/*vote*/
+/*
 
     .vote h3 {
         font-size: 24px;
@@ -1391,11 +1417,12 @@ hr {
 
     /*books*/
 
-    .flex-container .book-column {
-        margin-left: 90px;
-    }
+.flex-container .book-column {
+    margin-left: 90px;
+}
 
-    /*Join page*/
+/*Join page*/
+/*
 
     .background-image-join form {
         max-width: 500px;
@@ -1408,6 +1435,7 @@ hr {
     /* {
         background-color: #f29999;
     }*/
+/*
 
     .navbar-toggle {
         position: relative;
@@ -1501,6 +1529,7 @@ hr {
     }
 
     /*about page*/
+/*
 
 
     .illustration-style img {
@@ -1531,7 +1560,8 @@ hr {
     }
 
     /*books page*/
-    /*vote*/
+/*vote*/
+/*
 
 
     .book-vote-container {
@@ -1559,7 +1589,8 @@ hr {
 
     /*books*/
 
-    /*books*/
+/*books*/
+/*
 
     .flex-container .book-column {
         margin-left: 85px;
@@ -1570,6 +1601,7 @@ hr {
     }
 
     /*join us page*/
+/*
 
     #form-section {
         margin-bottom: -100px;
@@ -1586,6 +1618,7 @@ hr {
 
 @media screen and (max-width: 375px) {
     /*main page*/
+/*
 
 
     #heading-title {
@@ -1617,6 +1650,7 @@ hr {
     }
 
     /*about page*/
+/*
 
 
     .illustration-style img {
@@ -1626,6 +1660,7 @@ hr {
     }
 
     /*books*/
+/*
 
     .options {
         margin-left: 120px;
@@ -1641,6 +1676,7 @@ hr {
     }
 
     /*join us page*/
+/*
 
     #form-section {
         margin-bottom: -100px;
@@ -1659,6 +1695,7 @@ hr {
 @media screen and (max-width: 320px) {
 
     /*main page*/
+/*
 
     .reason {
         margin-left: 25px;
@@ -1673,6 +1710,7 @@ hr {
     }
 
     /*about page*/
+/*
 
 
     .illustration-style img {
@@ -1682,6 +1720,7 @@ hr {
     }
 
     /*books page*/
+/*
 
 
     .options {
@@ -1698,6 +1737,7 @@ hr {
     }
 
     /*books*/
+/*
 
 
     .flex-container .book-column {
@@ -1706,6 +1746,7 @@ hr {
     }
 
     /*join us page*/
+/*
 
 
     .signup-form {
