@@ -910,7 +910,6 @@ hr {
 
 .background-image-join form {
     max-width: 500px;
-    width: 100%;
     margin: 0 auto;
     position: absolute;
     left: 37%;
@@ -975,7 +974,7 @@ hr {
 /************************************************/
 /*Media*/
 
-@media screen and (max-width: 2500px) {
+@media screen and (max-width: 2560px) {
     * {
         background-color: #b2d4e6;
     }
@@ -1013,14 +1012,16 @@ hr {
     /*Join club*/
 
     .background-image-join form {
-        max-width: 500px;
-        left: 40%;
-        top: 5.5%;
+        max-width: 800px;
+        left: 34.5%;
+        top: 7%;
     }
 
     #form-section {
         height: 950px;
+
     }
+
 
 }
 
