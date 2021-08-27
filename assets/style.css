@@ -974,7 +974,7 @@ hr {
 /************************************************/
 /*Media*/
 
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 2560px) {
     * {
         background-color: #b2d4e6;
     }
@@ -985,13 +985,11 @@ hr {
     }
 
     .bg-image {
-        width: 615px;
+        width: 625px;
         height: 370px;
-    }
-
-    .bg-image {
         padding-top: 60px;
     }
+
 
     .team-container {
         width: 2500px;
@@ -1026,7 +1024,7 @@ hr {
 
 
 @media screen and (max-width: 2000px) {
-    /* {
+    * {
         background-color: #3b5999;
     }
 
