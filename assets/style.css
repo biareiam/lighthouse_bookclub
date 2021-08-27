@@ -11,18 +11,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fffaf4;
-    color: #050505;
+    color: #4A5759;
 }
 
 /*------------------------------------------------ Navigation bar */
 /*logo*/
 .responsive-image {
     border-radius: 50%;
-    margin-left: 20px;
 }
 
 .navbar {
-    background-color: #fbf6f0a1;
+    background-color: #fbf6f0e5;
     border: 0;
     font-size: larger !important;
     letter-spacing: 0.1em;
@@ -56,23 +55,26 @@ body {
 
 .navbar-collapse {
     margin-top: 27px;
+
+
 }
 
 .open .dropdown-toggle {
     color: #fff;
     background-color: #555 !important;
+
 }
 
 .dropdown-menu li a {
     color: #000 !important;
 }
 
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 60px;
-    height: 10px;
-    border-radius: 1px;
+.open .dropdown-toggle:hover {
+    color: #fff;
+    background-color: rgb(175, 29, 29) !important;
+
 }
+
 
 /*------------------------------------------------Landing page image*/
 #heading-title {
@@ -183,6 +185,12 @@ body {
     quotes: "\201C""\201D""\2018""\2019";
     padding: 10px 0;
     line-height: 1.4;
+
+}
+
+.team-line {
+    border-left: #F1D9D5 5px solid;
+
 }
 
 
@@ -212,6 +220,11 @@ body {
 
 .text-mark-right {
     border-left: none;
+}
+
+.text-mark-left {
+    border-left: #F1D9D5 5px solid;
+
 }
 
 
@@ -281,28 +294,23 @@ hr {
 }
 
 #cookie {
-    color: #A67246;
+    color: #EDAFB8;
 }
 
 #heart {
     color: #F29999;
 }
 
-#pageline {
-    color: rgb(22, 107, 22);
-}
 
 #plane {
-    color: #4e4d4a;
+    color: #DEDBD2;
 }
 
 #glasses {
-    color: #809EA9;
+    color: #B0C4B1;
 }
 
-#utensils {
-    color: #5A5250;
-}
+
 
 /*---- How it works section*/
 .section-work {
@@ -758,19 +766,13 @@ hr {
     margin: 0 auto;
 }
 
-.team-line-mark-right {
-    margin-left: 150px;
-}
-
-.team-line-mark-left {
-    margin-right: 150px;
-}
 
 
 .team-line-mark {
     border-left: none;
     border-right: none;
 }
+
 
 /*questions section*/
 .question-container {
@@ -949,22 +951,33 @@ hr {
 /*--------------------------------------- Join page*/
 /*Sign up page*/
 #form-section {
-    clear: left;
-    background: url("/assets/images/2.jpg");
+    background: url("/assets/images/background-image.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 790px;
 }
 
-.signup-form {
-    margin: 180px 10% 0 0;
-    color: #333;
-    background-color: rgba(255, 253, 253, 0.253);
-    max-width: 600px;
+.background-image-join form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    left: 37%;
+    top: 20%;
+    background-color: #f2b3b928;
+    padding: 70px;
 }
+
+
+.signup-form {
+    margin: 180px 150% 0 0;
+    color: #333;
+    max-width: 650px;
+    position: relative;
+
+    padding: 50px;
+}
+
 
 .signup-form h2 {
     color: #333;
@@ -988,7 +1001,7 @@ hr {
 }
 
 .text-input:hover {
-    border-color: #F29D98;
+    border-color: #F2B3B9;
 }
 
 .join-button {
@@ -996,7 +1009,7 @@ hr {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #F29D98;
+    background-color: #F2B3B9;
     color: #fafafa;
     display: block;
     margin: 0 auto;
@@ -1018,7 +1031,7 @@ hr {
 
 
 @media screen and (max-width:2000px) {
-    /* {
+    * {
         background-color: #3b5999
     }
 
@@ -1028,6 +1041,15 @@ hr {
         width: 470px;
         height: 300px;
     }
+
+    /*join*/
+    .background-image-join form {
+        max-width: 500px;
+        left: 38%;
+        top: 10%;
+    }
+
+
 }
 
 @media screen and (max-width:1680px) {
@@ -1071,14 +1093,20 @@ hr {
     }
 
     /*main page*/
+    #email-subscribe {
+        width: 30%;
+    }
 
+    .btn-subscribe {
+        width: 9%;
+    }
 
     .reason {
         margin-left: 40px;
     }
 
     .bg-image {
-        width: 350px;
+        width: 310px;
         height: 250px;
     }
 
@@ -1101,6 +1129,13 @@ hr {
     /*books*/
     .flex-container .book-column {
         margin-left: 90px;
+    }
+
+    /*join*/
+    .background-image-join form {
+        max-width: 500px;
+        left: 30%;
+        top: 10.5%;
     }
 
 }
@@ -1148,6 +1183,14 @@ hr {
 
     .flex-container .book-column {
         margin-left: 110px;
+    }
+
+    /*Join club*/
+    .background-image-join form {
+        max-width: 500px;
+        left: 30%;
+        top: 10.5%;
+
     }
 }
 
@@ -1214,10 +1257,18 @@ hr {
     .flex-container .book-column {
         margin-left: 70px;
     }
+
+    /*Join page*/
+    .background-image-join form {
+        max-width: 500px;
+        left: 27%;
+        top: 10.5%;
+
+    }
 }
 
 
-}
+
 
 @media screen and (max-width:992px) {
     .bg-image {
@@ -1247,7 +1298,7 @@ hr {
     }
 
     .reason {
-        margin-left: 70px;
+        margin-left: 90px;
     }
 
     .work-steps p {
@@ -1320,6 +1371,14 @@ hr {
     .flex-container .book-column {
         margin-left: 90px;
     }
+
+    /*Join page*/
+    .background-image-join form {
+        max-width: 500px;
+        left: 18%;
+        top: 10.5%;
+
+    }
 }
 
 
@@ -1328,11 +1387,27 @@ hr {
         background-color: #F29999;
     }
 
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        margin-right: -10px;
+    }
 
     .navbar-toggle .icon-bar {
-        width: 50px;
-        height: 6px;
-        margin-top: 14px;
+        width: 45px;
+        height: 4px;
+        margin-top: 10px;
+    }
+
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+
     }
 
     #heading-title {
@@ -1468,19 +1543,25 @@ hr {
     .flex-container .book-column {
         margin-left: 85px;
     }
-}
 
-.books-section {
-    margin-bottom: 100px;
-}
 
-/*join us page*/
+    .books-section {
+        margin-bottom: 100px;
+    }
 
-.signup-form {
-    margin: 215px 5% 0 0;
-    max-width: 400px;
-    left: 5%;
-    padding: 10px;
+    /*join us page*/
+    #form-section {
+        margin-bottom: -100px;
+
+    }
+
+    .background-image-join form {
+        max-width: 500px;
+        left: 0%;
+        top: 10%;
+        background-color: transparent;
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -1497,6 +1578,14 @@ hr {
 
     #heading-title h2 {
         font-size: 2rem;
+    }
+
+    .reason {
+        margin-left: 30px;
+    }
+
+    .work-steps p {
+        margin-left: 35px;
     }
 
     .bg-image {
@@ -1527,6 +1616,15 @@ hr {
 
     .vote h4 {
         margin-left: 40px;
+    }
+
+    /*join us page*/
+    #form-section {
+        margin-bottom: -100px;
+    }
+
+    .signup-form h2 {
+        font-size: 26px;
     }
 
 }
@@ -1584,5 +1682,9 @@ hr {
 
     .signup-form h2 {
         font-size: 22px;
+    }
+
+    .background-image-join form {
+        top: 8.5%;
     }
 }
