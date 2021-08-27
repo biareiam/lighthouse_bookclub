@@ -10,7 +10,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /*background-color: #f7f5f4;*/
+    background-color: #fffaf4;
+    color: #050505;
 }
 
 /*------------------------------------------------ Navigation bar */
@@ -19,8 +20,6 @@ body {
     border-radius: 50%;
     margin-left: 20px;
 }
-
-
 
 .navbar {
     background-color: #fbf6f0a1;
@@ -41,12 +40,12 @@ body {
 }
 
 .navbar-nav li a:hover {
-    color: #fff !important;
+    color: #D9A711 !important;
 
 }
 
 .navbar-nav li.active a {
-    color: #fff !important;
+    color: #D9A711 !important;
     background-color: #29292c !important;
 }
 
@@ -81,42 +80,37 @@ body {
     padding: 165px 0 0 0;
     width: 100%;
     height: 700px;
-
-    background: url('/assets/images/test.jpg') no-repeat center center;
+    background: url('/assets/images/background-image.jpg') no-repeat center center;
     /*background: url('/assets/images/pexels-photo-5939401.jpeg') center center no-repeat;*/
     background-size: cover;
     margin-bottom: 30px;
-    background-color: #F1CEAE;
+
 }
+
 
 #heading-title>h1 {
     font-size: 7.5rem;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 6px;
     margin-bottom: 50px;
-    color: #fafafa;
 }
 
-#heading-title>h2 {
-    color: #fafafa;
-}
 
 
 
 /*------------------------------------------------ button that leads to join page*/
 .btn {
-    color: #FFF;
-    border: 2px solid #86A0A6;
+    color: #050505;
+    border: 2px solid #A8B6C1;
     /*border: 2px solid #D97B59;*/
     margin-top: 30px;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 18px 50px;
     display: inline-block;
     font-size: 2rem;
     letter-spacing: 1px;
     cursor: pointer;
-    /*box-shadow: inset 0 0 0 0 #D97B59;*/
-    box-shadow: inset 0 0 0 0 #86A0A6;
+    box-shadow: inset 0 0 0 0 #A8B6C1;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
@@ -124,8 +118,7 @@ body {
 }
 
 .btn-join:hover {
-    box-shadow: inset 400px 0 0 0 #86A0A6;
-    /*box-shadow: inset 400px 0 0 0 #D97B59;*/
+    box-shadow: inset 400px 0 0 0 #A8B6C1;
     color: #fafafa;
 }
 
@@ -176,7 +169,6 @@ body {
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 10px;
-    color: #272727;
     font-size: 14px;
 }
 
@@ -202,7 +194,7 @@ body {
     left: -30px;
     position: relative;
     top: 30px;
-    color: #ccc;
+    color: #F1D9D5;
     font-size: 5em;
 }
 
@@ -214,7 +206,7 @@ body {
     left: 30px;
     position: relative;
     top: 50px;
-    color: #ccc;
+    color: #F1D9D5;
     font-size: 5em;
 }
 
@@ -232,9 +224,9 @@ body {
 
 .reason-title {
     text-align: center;
-    background-color: #F2D1B3;
+    background-color: #f1d9d571;
     font-size: 24px;
-    color: rgb(255, 255, 255);
+    color: #333;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -252,6 +244,7 @@ body {
 .reason {
     flex: 1;
     border: none;
+    background-color: #fffaf4;
 
 }
 
@@ -318,9 +311,8 @@ hr {
 
 .work-title {
     text-align: center;
-    background-color: #F2D1B3;
+    background-color: #f1d9d571;
     font-size: 24px;
-    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -394,9 +386,8 @@ hr {
 
 .local-box {
     text-align: center;
-    background-color: #F2D1B3;
+    background-color: #f1d9d571;
     font-size: 24px;
-    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -454,7 +445,7 @@ hr {
 }
 
 .place-month a {
-    background-color: #F29999;
+    background-color: #8A99A6;
 
 }
 
@@ -467,14 +458,13 @@ hr {
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
-    background-color: #D9B18F;
+    background-color: #F1D9D5;
     padding: 25px 0 25px 0;
 }
 
 #subscribe-section h4 {
     text-align: center;
     font-size: 2rem;
-    color: #fafafa;
     letter-spacing: 2px;
 }
 
@@ -482,7 +472,6 @@ hr {
     text-align: center;
     font-size: 1.4rem;
     padding: 15px 0 15px 0;
-    color: #fafafa;
     letter-spacing: 2px;
     width: 30%;
     margin: 0 auto;
@@ -494,7 +483,6 @@ hr {
 
 #envelope {
     text-align: center;
-    color: rgb(255, 255, 255);
     font-size: 350%;
 }
 
@@ -516,7 +504,7 @@ hr {
 .btn-subscribe {
     width: 6%;
     height: 35px;
-    background-color: #540b0e;
+    background-color: #8A99A6;
     border: none;
     color: #fafafa;
     font-size: 1.5rem;
@@ -524,7 +512,7 @@ hr {
 
 .btn-subscribe:hover,
 .btn-subscribe:focus {
-    background-color: #568196;
+    background-color: #f8b8b1;
 }
 
 
@@ -532,7 +520,7 @@ hr {
 /*--------------------------------------- Contact section*/
 
 #contact-section {
-    background: url('/assets/images/pexels-photo-5939401.jpeg') center center;
+    background: url('/assets/images/background-image.jpg') bottom center;
     background-size: cover;
     padding-top: 5px;
     letter-spacing: 2px;
@@ -542,20 +530,17 @@ hr {
 #contact-section>h4 {
     text-align: center;
     font-family: 'Abel', sans-serif;
-    color: #fafafa;
 }
 
 #contact {
     padding: 5px 0 10px 0;
     text-align: center;
-    color: #fafafa;
     font-family: 'Abel', sans-serif;
     font-size: 1rem;
 }
 
 #contact p {
     padding: 10px 0 0 0;
-    color: #fafafa;
     text-align: center;
     font-size: 14px;
 }
@@ -563,8 +548,7 @@ hr {
 /*copyright */
 #copyright {
     text-align: center;
-    background-color: #D9B18F;
-    color: #fafafa;
+    background-color: #F1D9D5;
     font-size: 12px;
     padding: 10px 0 10px 0;
     font-family: 'Abel', sans-serif;
@@ -586,7 +570,7 @@ hr {
 
 #follow {
     text-align: center;
-    color: #fafafa;
+
 }
 
 /*Social media links*/
@@ -622,7 +606,7 @@ hr {
     position: relative;
     z-index: 1;
     margin: auto;
-    color: #fafafa;
+
 }
 
 .icon-link:hover {
@@ -678,7 +662,7 @@ hr {
 /*title*/
 .about-title {
     text-align: center;
-    background-color: #F2D1B3;
+    background-color: #f1d9d571;
     font-size: 24px;
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
@@ -705,7 +689,7 @@ hr {
 
 .team-title {
     text-align: center;
-    background-color: #F2D1B3;
+    background-color: #f1d9d571;
     font-size: 24px;
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
@@ -804,7 +788,7 @@ hr {
 
 .question-title {
     text-align: center;
-    background-color: #F2D1B3;
+    background-color: #f1d9d571;
     font-size: 24px;
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
@@ -891,9 +875,8 @@ hr {
 
 #book-title {
     text-align: center;
-    background-color: #F2D1B3;
+    background-color: #f1d9d571;
     font-size: 20px;
-    color: #fafafa;
     letter-spacing: 2px;
     margin-bottom: 20px;
     padding-top: 20px;
@@ -933,8 +916,7 @@ hr {
     padding: 5px 0 5px 0;
     text-align: center;
 
-    background-color: #F29999;
-    color: #E4E6F2;
+    background-color: #f7ccbd86;
     margin-top: 40px;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -968,7 +950,7 @@ hr {
 /*Sign up page*/
 #form-section {
     clear: left;
-    background: url("/assets/images/food-brain.jpeg");
+    background: url("/assets/images/2.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -1450,7 +1432,7 @@ hr {
         padding: 0;
         margin: 0 0 20px;
         font-size: 17.5px;
-        border-left: 5px solid #eee;
+        border-left: 5px solid #A8B6C1;
     }
 
     /*books page*/
