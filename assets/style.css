@@ -287,11 +287,7 @@ hr {
 }
 
 /*---- How it works section*/
-.section-work {
-    padding-bottom: 30px;
-}
-
-.work-title {
+#work-title {
     text-align: center;
     background-color: #f1d9d571;
     font-size: 24px;
@@ -299,36 +295,9 @@ hr {
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+    margin-bottom: 30px;
 }
 
-.work-container {
-    padding-top: 50px;
-    width: 100%;
-    display: flex;
-}
-
-.work-steps h5 {
-    text-decoration: underline;
-    font-size: 16px;
-}
-
-.work-steps h4,
-.work-steps h5 {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.work-steps p {
-    text-align: justify;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.steps {
-    margin-top: 30px;
-}
 
 #step1 {
     background: url("../assets/images/join.jpeg") center;
@@ -357,6 +326,38 @@ hr {
     height: 180px;
     margin: 0 auto;
 }
+
+
+.work-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item-1 {
+    flex: 1;
+}
+
+.work-container p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.work-container h4,
+.work-container h5 {
+    text-align: center;
+}
+
+
+
+
 
 /*--------------------------------------- Meetup section*/
 #meetup-section {
@@ -974,6 +975,58 @@ hr {
 /************************************************/
 /*Media*/
 
+@media screen and (max-width: 2500px) {
+    * {
+        background-color: #b2d4e6;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .reason {
+        margin-left: 60px;
+    }
+
+    .bg-image {
+        width: 615px;
+        height: 370px;
+    }
+
+    .bg-image {
+        padding-top: 60px;
+    }
+
+    .team-container {
+        width: 2500px;
+    }
+
+    .book-list h4 {
+        margin-left: 270px;
+    }
+
+    /*books*/
+    .flex-container .book-column {
+        margin-left: 210px;
+    }
+
+    /*Join club*/
+
+    .background-image-join form {
+        max-width: 500px;
+        left: 40%;
+        top: 5.5%;
+    }
+
+    #form-section {
+        height: 950px;
+    }
+
+}
+
+
+
+
 @media screen and (max-width: 2000px) {
     /* {
         background-color: #3b5999;
@@ -1032,11 +1085,16 @@ hr {
 }
 
 @media screen and (max-width: 1440px) {
+
     /* {
         background-color: darkolivegreen;
     }
+    
 
     /*main page*/
+    .work-container {
+        width: 100%;
+    }
 
     #email-subscribe {
         width: 30%;
@@ -1051,12 +1109,26 @@ hr {
     }
 
     .bg-image {
-        width: 310px;
+        width: 355px;
         height: 250px;
     }
 
-    .about-team p {
+    .team-container {
         width: 100%;
+
+    }
+
+    .about-team {
+        width: 100%;
+
+    }
+
+    .questions h4 {
+        font-size: 20px;
+    }
+
+    .questions {
+        width: 30%;
     }
 
     /*book page*/
@@ -1076,12 +1148,6 @@ hr {
         text-align: justify;
     }
 
-    /*books*/
-
-    .flex-container .book-column {
-        margin-left: 180px;
-    }
-
     /*join*/
 
     .background-image-join form {
@@ -1089,8 +1155,6 @@ hr {
         left: 30%;
         top: 10.5%;
     }
-
-
 
     /*books*/
 
@@ -1256,6 +1320,12 @@ hr {
     .reason {
         margin-left: 90px;
     }
+
+
+    .work-container {
+        flex-direction: column;
+    }
+
 
     .work-steps p {
         width: 90%;
@@ -1591,6 +1661,10 @@ hr {
 
     .reason {
         margin-left: 25px;
+    }
+
+    .work-container h5 {
+        padding-bottom: 20px;
     }
 
     .bg-image {
