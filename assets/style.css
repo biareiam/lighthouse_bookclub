@@ -360,10 +360,6 @@ hr {
 
 
 /*--------------------------------------- Meetup section*/
-#meetup-section {
-    padding-bottom: 5px;
-}
-
 .local-box {
     text-align: center;
     background-color: #f1d9d571;
@@ -375,20 +371,18 @@ hr {
     margin-bottom: 10px;
 }
 
-.location {
+.square {
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 5px;
+    justify-content: space-around;
 }
 
-.bg-image {
+.responsive {
+    float: left;
+    width: 24.5%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    width: 470px;
-    height: 250px;
-    padding-top: 20px;
-    color: rgb(255, 255, 255);
+    height: 350px;
+    margin-bottom: 10px;
 
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -400,19 +394,21 @@ hr {
     transition-property: transform;
 }
 
-.bg-image:hover,
-.bg-image:focus,
-.bg-image:active {
+
+.responsive:hover,
+.responsive:focus,
+.responsive:active {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
 
-.bg-image h4 {
+.responsive h4 {
     font-size: 2rem;
     text-align: center;
+    padding-top: 40px;
 }
 
-.bg-image>p {
+.responsive>p {
     font-size: 1.7rem;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -432,6 +428,52 @@ hr {
     font-size: 220%;
     text-align: center;
 }
+
+/**************/
+
+
+
+
+@media screen and (max-width:1024px) {
+    .responsive {
+        width: 380px;
+        height: 250px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .square {
+        flex-direction: column-reverse;
+    }
+
+    .responsive {
+        width: 415px;
+        background-size: cover;
+        height: 350px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .responsive {
+        width: 365px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .responsive {
+        width: 305px;
+        height: 300px;
+    }
+}
+
+
+
+
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
@@ -964,8 +1006,9 @@ hr {
 }
 
 /************************************************/
-/*Media*/
 
+/*Media*/
+/*
 @media screen and (min-width: 2560px) {
     * {
         background-color: #b2d4e6;
@@ -990,26 +1033,12 @@ hr {
         margin-left: 270px;
     }
 
-    /*books*/
+   
 
     .flex-container .book-column {
         margin-left: 210px;
     }
 
-    /*Join club*/
-
-
-    /*join us page*/
-    .background-image-join form {
-        width: 500px;
-        margin-left: 1020px;
-        padding-top: 200px;
-
-    }
-
-    #form-section {
-        height: 950px;
-    }
 }
 
 @media screen and (max-width: 2000px) {
@@ -1017,16 +1046,11 @@ hr {
         background-color: #3b5999;
     }
 
-    /*main page*/
 
     .bg-image {
         width: 470px;
         height: 300px;
     }
-
-    /*join*/
-
-    /*join us page*/
 
 }
 
@@ -1035,7 +1059,7 @@ hr {
         background-color: #993b4f;
     }
 
-    /*main page*/
+  
     .reason {
         margin-left: 40px;
     }
@@ -1045,8 +1069,7 @@ hr {
         height: 300px;
     }
 
-    /*book page*/
-    /* vote*/
+    
     .book-list h4 {
         margin-left: 130px;
     }
@@ -1055,8 +1078,7 @@ hr {
         width: 55%;
     }
 
-    /*books*/
-
+  
     .flex-container .book-column {
         margin-left: 130px;
     }
@@ -1069,13 +1091,12 @@ hr {
 
 @media screen and (max-width: 1440px) {
 
-    * {
+    /* {
         background-color: darkolivegreen;
     }
 
 
-    /*main page*/
-
+    
     .work-container {
         width: 100%;
     }
@@ -1115,8 +1136,8 @@ hr {
         width: 30%;
     }
 
-    /*book page*/
-    /*vote*/
+    
+    
 
     .flex-container .book-column {
         margin-left: 130px;
@@ -1140,6 +1161,7 @@ hr {
 }
 
 /* For larger to medium screens size from 1200px wide and down*/
+/*
 @media screen and (max-width: 1040px) {
     .bg-image {
         width: 105px;
@@ -1153,7 +1175,7 @@ hr {
         background-color: rgb(107, 64, 47);
     }
 
-    /*main page*/
+   
     .reason {
         margin-left: 20px;
     }
@@ -1171,7 +1193,7 @@ hr {
         width: 9%;
     }
 
-    /*book page*/
+   
 
     .book-list h4 {
         margin-left: 50px;
@@ -1182,7 +1204,7 @@ hr {
         text-align: justify;
     }
 
-    /*books*/
+   
 
     .flex-container .book-column {
         margin-left: 70px;
@@ -1196,7 +1218,6 @@ hr {
         background-color: rgb(142, 140, 240);
     }
 
-    /*main page*/
     blockquote {
         padding: 0;
     }
@@ -1223,13 +1244,12 @@ hr {
         height: 250px;
     }
 
-    /*about page*/
+  
     .questions {
         width: 30%;
     }
 
-    /*book page*/
-    /*vote*/
+  
     .options {
         margin-left: 120px;
     }
@@ -1243,7 +1263,7 @@ hr {
         text-align: justify;
     }
 
-    /*books*/
+    
     .flex-container .book-column {
         margin-left: 70px;
     }
@@ -1265,7 +1285,7 @@ hr {
         background-color: #568196;
     }
 
-    /*main page*/
+    
     .member-testimony {
         width: 100%;
     }
@@ -1306,7 +1326,7 @@ hr {
         width: 15%;
     }
 
-    /*about page*/
+    
 
     .team-container {
         flex-direction: column;
@@ -1324,8 +1344,7 @@ hr {
         width: 50%;
     }
 
-    /*books*/
-    /*vote*/
+   
     .vote h3 {
         font-size: 24px;
         width: 70%;
@@ -1347,8 +1366,6 @@ hr {
     .book-list p {
         width: 65%;
     }
-
-    /*books*/
 
     .flex-container .book-column {
         margin-left: 90px;
@@ -1452,7 +1469,7 @@ hr {
         margin-top: 20px;
     }
 
-    /*about page*/
+    
 
     .illustration-style img {
         width: 300px;
@@ -1481,8 +1498,6 @@ hr {
         border-left: 5px solid #a8b6c1;
     }
 
-    /*books page*/
-    /*vote*/
     .book-vote-container {
         flex-direction: column;
     }
@@ -1506,9 +1521,7 @@ hr {
         margin-left: 60px;
     }
 
-    /*books*/
-
-    /*books*/
+    
     .flex-container .book-column {
         margin-left: 85px;
     }
@@ -1519,7 +1532,7 @@ hr {
 }
 
 @media screen and (max-width: 375px) {
-    /*main page*/
+  
 
     #heading-title {
         height: 500px;
@@ -1549,14 +1562,14 @@ hr {
         margin-bottom: 5px;
     }
 
-    /*about page*/
+   
     .illustration-style img {
         width: 300px;
         height: 215px;
         margin-left: 35px;
     }
 
-    /*books*/
+    
     .options {
         margin-left: 120px;
     }
@@ -1570,7 +1583,6 @@ hr {
         margin-left: 40px;
     }
 
-    /*join us page*/
 
 
 }
@@ -1578,7 +1590,7 @@ hr {
 
 @media screen and (max-width: 320px) {
 
-    /*main page*/
+   
 
     .reason {
         margin-left: 25px;
@@ -1592,14 +1604,14 @@ hr {
         width: 305px;
     }
 
-    /*about page*/
+   
     .illustration-style img {
         width: 290px;
         height: 215px;
         margin-left: 15px;
     }
 
-    /*books page*/
+    
     .options {
         margin-left: 120px;
     }
@@ -1613,15 +1625,12 @@ hr {
         margin: auto;
     }
 
-    /*books*/
+   
     .flex-container .book-column {
         margin-left: 40px;
         margin-top: -20px;
     }
 
-    /*join us page*/
 
-
-}
 
 }
