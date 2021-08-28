@@ -405,16 +405,18 @@ hr {
 .responsive h4 {
     font-size: 2rem;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 55px;
+    color: rgb(255, 255, 255);
 }
 
 .responsive>p {
     font-size: 1.7rem;
     text-align: center;
     color: rgb(255, 255, 255);
+    padding-top: 5px;
 }
 
-.bg-image a {
+.responsive a {
     text-decoration: none;
     color: white;
 }
@@ -428,52 +430,6 @@ hr {
     font-size: 220%;
     text-align: center;
 }
-
-/**************/
-
-
-
-
-@media screen and (max-width:1024px) {
-    .responsive {
-        width: 380px;
-        height: 250px;
-        margin-left: 5px;
-    }
-}
-
-@media screen and (max-width:425px) {
-    .square {
-        flex-direction: column-reverse;
-    }
-
-    .responsive {
-        width: 415px;
-        background-size: cover;
-        height: 350px;
-        margin-left: 5px;
-        margin-bottom: 5px;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .responsive {
-        width: 365px;
-        margin-left: 5px;
-        margin-bottom: 5px;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .responsive {
-        width: 305px;
-        height: 300px;
-    }
-}
-
-
-
-
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
@@ -1008,22 +964,15 @@ hr {
 /************************************************/
 
 /*Media*/
-/*
+
 @media screen and (min-width: 2560px) {
-    * {
+    /* {
         background-color: #b2d4e6;
-    }
+    }*/
 
     .reason {
         margin-left: 60px;
     }
-
-    .bg-image {
-        width: 625px;
-        height: 370px;
-        padding-top: 60px;
-    }
-
 
     .team-container {
         width: 2500px;
@@ -1033,8 +982,6 @@ hr {
         margin-left: 270px;
     }
 
-   
-
     .flex-container .book-column {
         margin-left: 210px;
     }
@@ -1042,34 +989,21 @@ hr {
 }
 
 @media screen and (max-width: 2000px) {
-    * {
+    /* {
         background-color: #3b5999;
-    }
-
-
-    .bg-image {
-        width: 470px;
-        height: 300px;
-    }
-
+    }*/
 }
 
 @media screen and (max-width: 1680px) {
-    * {
+    /* {
         background-color: #993b4f;
-    }
+    }*/
 
-  
     .reason {
         margin-left: 40px;
     }
 
-    .bg-image {
-        width: 410px;
-        height: 300px;
-    }
 
-    
     .book-list h4 {
         margin-left: 130px;
     }
@@ -1078,7 +1012,7 @@ hr {
         width: 55%;
     }
 
-  
+
     .flex-container .book-column {
         margin-left: 130px;
     }
@@ -1093,10 +1027,8 @@ hr {
 
     /* {
         background-color: darkolivegreen;
-    }
+    }*/
 
-
-    
     .work-container {
         width: 100%;
     }
@@ -1111,11 +1043,6 @@ hr {
 
     .reason {
         margin-left: 40px;
-    }
-
-    .bg-image {
-        width: 305px;
-        height: 250px;
     }
 
     .team-container {
@@ -1136,9 +1063,6 @@ hr {
         width: 30%;
     }
 
-    
-    
-
     .flex-container .book-column {
         margin-left: 130px;
     }
@@ -1155,34 +1079,18 @@ hr {
         width: 65%;
         text-align: justify;
     }
-
-
-
 }
 
 /* For larger to medium screens size from 1200px wide and down*/
-/*
-@media screen and (max-width: 1040px) {
-    .bg-image {
-        width: 105px;
-        height: 250px;
-    }
 
-}
 
 @media screen and (max-width: 1200px) {
-    * {
-        background-color: rgb(107, 64, 47);
-    }
 
-   
+    /* {
+        background-color: rgb(107, 64, 47);
+    }*/
     .reason {
         margin-left: 20px;
-    }
-
-    .bg-image {
-        width: 295px;
-        height: 250px;
     }
 
     #email-subscribe {
@@ -1193,7 +1101,6 @@ hr {
         width: 9%;
     }
 
-   
 
     .book-list h4 {
         margin-left: 50px;
@@ -1204,8 +1111,6 @@ hr {
         text-align: justify;
     }
 
-   
-
     .flex-container .book-column {
         margin-left: 70px;
     }
@@ -1214,9 +1119,9 @@ hr {
 }
 
 @media screen and (max-width: 1024px) {
-    * {
+    /* {
         background-color: rgb(142, 140, 240);
-    }
+    }*/
 
     blockquote {
         padding: 0;
@@ -1224,6 +1129,16 @@ hr {
 
     .member p {
         width: 75%;
+    }
+
+    .responsive {
+        width: 380px;
+        height: 250px;
+        margin-left: 5px;
+    }
+
+    .responsive>h4 {
+        margin-top: -10px;
     }
 
     .about-team p {
@@ -1239,17 +1154,11 @@ hr {
         width: 85%;
     }
 
-    .bg-image {
-        width: 250px;
-        height: 250px;
-    }
-
-  
     .questions {
         width: 30%;
     }
 
-  
+
     .options {
         margin-left: 120px;
     }
@@ -1263,374 +1172,361 @@ hr {
         text-align: justify;
     }
 
-    
     .flex-container .book-column {
         margin-left: 70px;
-    }
-}
 
-@media screen and (max-width: 992px) {
-    .bg-image {
-        width: 240px;
-        height: 250px;
     }
 
-    .flex-container .book-column {
-        margin-left: 60px;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    * {
+    @media screen and (max-width: 992px) {
+
+        .flex-container .book-column {
+            margin-left: 60px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        /* {
         background-color: #568196;
+    }*/
+
+
+        .member-testimony {
+            width: 100%;
+        }
+
+        .join-container {
+            flex-direction: column;
+        }
+
+        .reason {
+            margin-left: 90px;
+        }
+
+
+        .work-container {
+            flex-direction: column;
+        }
+
+        .work-steps p {
+            width: 90%;
+            margin-left: 15px;
+        }
+
+        .responsive>h4,
+        .responsive>p {
+            font-size: 1.5rem;
+        }
+
+        #subscribe-section p {
+            width: 55%;
+        }
+
+        #email-subscribe {
+            width: 40%;
+        }
+
+        .btn-subscribe {
+            width: 15%;
+        }
+
+        .team-container {
+            flex-direction: column;
+        }
+
+        .team-line {
+            border: none;
+        }
+
+        .about-txt-1 {
+            width: 100%;
+        }
+
+        .questions {
+            width: 50%;
+        }
+
+        .vote h3 {
+            font-size: 24px;
+            width: 70%;
+            margin: auto;
+        }
+
+        .book-vote-container {
+            flex-direction: column;
+        }
+
+        .options {
+            margin-left: 270px;
+        }
+
+        .book-list h4 {
+            margin-left: 230px;
+        }
+
+        .book-list p {
+            width: 65%;
+        }
+
+        .flex-container .book-column {
+            margin-left: 90px;
+        }
+
     }
 
-    
-    .member-testimony {
-        width: 100%;
-    }
-
-    .join-container {
-        flex-direction: column;
-    }
-
-    .reason {
-        margin-left: 90px;
-    }
-
-
-    .work-container {
-        flex-direction: column;
-    }
-
-
-    .work-steps p {
-        width: 90%;
-        margin-left: 15px;
-    }
-
-    #subscribe-section p {
-        width: 55%;
-    }
-
-    .bg-image {
-        width: 185px;
-        height: 250px;
-    }
-
-    #email-subscribe {
-        width: 40%;
-    }
-
-    .btn-subscribe {
-        width: 15%;
-    }
-
-    
-
-    .team-container {
-        flex-direction: column;
-    }
-
-    .team-line {
-        border: none;
-    }
-
-    .about-txt-1 {
-        width: 100%;
-    }
-
-    .questions {
-        width: 50%;
-    }
-
-   
-    .vote h3 {
-        font-size: 24px;
-        width: 70%;
-        margin: auto;
-    }
-
-    .book-vote-container {
-        flex-direction: column;
-    }
-
-    .options {
-        margin-left: 270px;
-    }
-
-    .book-list h4 {
-        margin-left: 230px;
-    }
-
-    .book-list p {
-        width: 65%;
-    }
-
-    .flex-container .book-column {
-        margin-left: 90px;
-    }
-
-}
-
-@media screen and (max-width: 425px) {
-    * {
+    @media screen and (max-width: 425px) {
+        /* {
         background-color: #f29999;
+    }*/
+
+        .navbar-toggle {
+            position: relative;
+            float: right;
+            padding: 9px 8px;
+            background-color: transparent;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            margin-right: -10px;
+        }
+
+        .navbar-toggle .icon-bar {
+            width: 45px;
+            height: 4px;
+            margin-top: 10px;
+        }
+
+        .navbar-default .navbar-toggle:focus,
+        .navbar-default .navbar-toggle:hover {
+            background-color: transparent;
+        }
+
+        #heading-title {
+            height: 550px;
+        }
+
+        #heading-title h1 {
+            font-size: 4.5rem;
+        }
+
+        #heading-title h2 {
+            font-size: 2rem;
+        }
+
+        .member-testimony {
+            flex-direction: column;
+            padding-top: 10px;
+            margin-bottom: -40px;
+        }
+
+        .text-mark-left {
+            border: none;
+        }
+
+        .text-mark-right {
+            border: none;
+        }
+
+        .reason {
+            margin-left: 30px;
+        }
+
+        .reason p {
+            width: 100%;
+        }
+
+        .work-container {
+            flex-direction: column;
+        }
+
+        .work-steps p {
+            width: 80%;
+            margin-left: 45px;
+        }
+
+        .square {
+            flex-direction: column-reverse;
+        }
+
+        .responsive {
+            width: 415px;
+            height: 300px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        .responsive>h4,
+        .responsive>p {
+            font-size: 1.8rem;
+        }
+
+        .responsive>h4 {
+            margin-top: 10px;
+        }
+
+        #subscribe-section p {
+            width: 80%;
+        }
+
+        #email-subscribe {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .btn-subscribe {
+            width: 25%;
+            margin-top: 20px;
+        }
+
+        .illustration-style img {
+            width: 300px;
+            height: 215px;
+            margin-left: 60px;
+        }
+
+        .about-txt {
+            margin-left: 40px;
+            margin-right: -20px;
+        }
+
+        .question-container {
+            flex-direction: column;
+        }
+
+        .questions {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        blockquote {
+            padding: 0;
+            margin: 0 0 20px;
+            font-size: 17.5px;
+            border-left: 5px solid #a8b6c1;
+        }
+
+        .book-vote-container {
+            flex-direction: column;
+        }
+
+        .vote h3 {
+            font-size: 20px;
+            width: 90%;
+        }
+
+        .vote p {
+            font-size: 14px;
+            width: 80%;
+            margin-left: 40px;
+        }
+
+        .options {
+            margin-left: 150px;
+        }
+
+        .vote h4 {
+            margin-left: 60px;
+        }
+
+
+        .flex-container .book-column {
+            margin-left: 85px;
+        }
+
+        .books-section {
+            margin-bottom: 100px;
+        }
     }
 
-    .navbar-toggle {
-        position: relative;
-        float: right;
-        padding: 9px 8px;
-        background-color: transparent;
-        background-image: none;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        margin-right: -10px;
-    }
+    @media screen and (max-width: 375px) {
 
-    .navbar-toggle .icon-bar {
-        width: 45px;
-        height: 4px;
-        margin-top: 10px;
-    }
+        #heading-title {
+            height: 500px;
+        }
 
-    .navbar-default .navbar-toggle:focus,
-    .navbar-default .navbar-toggle:hover {
-        background-color: transparent;
-    }
+        #heading-title h1 {
+            font-size: 3.8rem;
+        }
 
-    #heading-title {
-        height: 550px;
-    }
+        #heading-title h2 {
+            font-size: 2rem;
+        }
 
-    #heading-title h1 {
-        font-size: 4.5rem;
-    }
+        .reason {
+            margin-left: 30px;
+        }
 
-    #heading-title h2 {
-        font-size: 2rem;
-    }
+        .work-steps p {
+            margin-left: 35px;
+        }
 
-    .member-testimony {
-        flex-direction: column;
-        padding-top: 10px;
-        margin-bottom: -40px;
-    }
-
-    .text-mark-left {
-        border: none;
-    }
-
-    .text-mark-right {
-        border: none;
-    }
-
-    .reason {
-        margin-left: 30px;
-    }
-
-    .reason p {
-        width: 100%;
-    }
-
-    .work-container {
-        flex-direction: column;
-    }
-
-    .work-steps p {
-        width: 80%;
-        margin-left: 45px;
-    }
-
-    .location {
-        flex-direction: column;
-    }
-
-    .bg-image {
-        width: 405px;
-        height: 290px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5px;
-    }
-
-    #subscribe-section p {
-        width: 80%;
-    }
-
-    #email-subscribe {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .btn-subscribe {
-        width: 25%;
-        margin-top: 20px;
-    }
-
-    
-
-    .illustration-style img {
-        width: 300px;
-        height: 215px;
-        margin-left: 60px;
-    }
-
-    .about-txt {
-        margin-left: 40px;
-        margin-right: -20px;
-    }
-
-    .question-container {
-        flex-direction: column;
-    }
-
-    .questions {
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    blockquote {
-        padding: 0;
-        margin: 0 0 20px;
-        font-size: 17.5px;
-        border-left: 5px solid #a8b6c1;
-    }
-
-    .book-vote-container {
-        flex-direction: column;
-    }
-
-    .vote h3 {
-        font-size: 20px;
-        width: 90%;
-    }
-
-    .vote p {
-        font-size: 14px;
-        width: 80%;
-        margin-left: 40px;
-    }
-
-    .options {
-        margin-left: 150px;
-    }
-
-    .vote h4 {
-        margin-left: 60px;
-    }
-
-    
-    .flex-container .book-column {
-        margin-left: 85px;
-    }
-
-    .books-section {
-        margin-bottom: 100px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-  
-
-    #heading-title {
-        height: 500px;
-    }
-
-    #heading-title h1 {
-        font-size: 3.8rem;
-    }
-
-    #heading-title h2 {
-        font-size: 2rem;
-    }
-
-    .reason {
-        margin-left: 30px;
-    }
-
-    .work-steps p {
-        margin-left: 35px;
-    }
-
-    .bg-image {
-        width: 360px;
-        height: 290px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5px;
-    }
-
-   
-    .illustration-style img {
-        width: 300px;
-        height: 215px;
-        margin-left: 35px;
-    }
-
-    
-    .options {
-        margin-left: 120px;
-    }
-
-    .flex-container .book-column {
-        margin-top: -20px;
-        margin-left: 60px;
-    }
-
-    .vote h4 {
-        margin-left: 40px;
-    }
+        .responsive {
+            width: 365px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
 
 
+        .illustration-style img {
+            width: 300px;
+            height: 215px;
+            margin-left: 35px;
+        }
 
-}
 
+        .options {
+            margin-left: 120px;
+        }
 
-@media screen and (max-width: 320px) {
+        .flex-container .book-column {
+            margin-top: -20px;
+            margin-left: 60px;
+        }
 
-   
-
-    .reason {
-        margin-left: 25px;
-    }
-
-    .work-container h5 {
-        padding-bottom: 20px;
-    }
-
-    .bg-image {
-        width: 305px;
-    }
-
-   
-    .illustration-style img {
-        width: 290px;
-        height: 215px;
-        margin-left: 15px;
-    }
-
-    
-    .options {
-        margin-left: 120px;
-    }
-
-    .book-list h4 {
-        margin-left: 15px;
-    }
-
-    .book-list p {
-        width: 90%;
-        margin: auto;
-    }
-
-   
-    .flex-container .book-column {
-        margin-left: 40px;
-        margin-top: -20px;
+        .vote h4 {
+            margin-left: 40px;
+        }
     }
 
 
+    @media screen and (max-width: 320px) {
 
-}
+        .reason {
+            margin-left: 25px;
+        }
+
+        .work-container h5 {
+            padding-bottom: 20px;
+        }
+
+        .responsive {
+            width: 310px;
+            height: 290px;
+        }
+
+        .illustration-style img {
+            width: 290px;
+            height: 215px;
+            margin-left: 15px;
+        }
+
+
+        .options {
+            margin-left: 120px;
+        }
+
+        .book-list h4 {
+            margin-left: 15px;
+        }
+
+        .book-list p {
+            width: 90%;
+            margin: auto;
+        }
+
+
+        .flex-container .book-column {
+            margin-left: 40px;
+            margin-top: -20px;
+        }
+    }
