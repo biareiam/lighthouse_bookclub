@@ -16,41 +16,39 @@
 </head>
 
 <body>
-    <!-- Navigation bar-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html" class="navbar-brand"><img src="assets/images/lighthouse-2.png"
-                        alt="lighthouse logo" class="responsive-image ml-3"
-                        style="height: 65px; margin-top: -9px; margin-left: -5px;" /> </a>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand"><img src="assets/images/lighthouse-2.png"
+                            alt="lighthouse logo" class="responsive-image ml-3"
+                            style="height: 65px; margin-top: -3px;" /> </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="about.html"><strong>ABOUT</strong></a>
+                        </li>
+                        <li>
+                            <a href="book.html#month-book"><strong>BOOKS</strong></a>
+                        </li>
+                        <li>
+                            <a href="index.html#meetup-section"><strong>MEETUP</strong></a>
+                        </li>
+                        <li>
+                            <a href="join.html"><strong>JOIN US</strong></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html"><strong>ABOUT</strong></a>
-                    </li>
-                    <li>
-                        <a href="book.html#books-page"><strong>BOOKS</strong></a>
-                    </li>
-                    <li>
-                        <a href="index.html#meetup-section"><strong>MEETUP</strong></a>
-                    </li>
-                    <li>
-                        <a href="join.html#form-section" class="active"><strong>JOIN US</strong></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section class="form-section">
-
+        </nav>
+    </header>
+    <div class="form-section">
         <form class="signup-form" method="POST" action="#">
             <h2>Join us now!</h2>
             <p>
@@ -71,7 +69,7 @@
             <input class="join-button" type="submit" value="Sign me in!" />
         </form>
 
-    </section>
+    </div>
     <footer>
         <ul class="icon-list">
             <li class="icon-item center">
@@ -90,6 +88,7 @@
                         aria-hidden="true"></i></a>
             </li>
         </ul>
+        <p id="copyright">©2021 The Lighthouse Book Club, LLC. All Rights Reserved</p>
     </footer>
 
     <!-- icons link-->
