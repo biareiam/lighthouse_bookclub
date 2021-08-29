@@ -39,6 +39,122 @@ On the website users can find out more about what a book club is, how it works, 
 * I want to be able to contact the book ambassadors. 
 * I want to know which books were already discussed and which one was the winner for the next discussion.
 
+## Structure of the website
+
+The site is designed to be easy and user-friendly on all types of devices. On a desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. Users will get some interaction from the interface as links and buttons will have hover effects.
+It contains four pages, which are the following: Home page, About, Books, and Join us. It also contains a link to one of the sections of the main page.  What is included will be explained further in this document. The footer shows how users can contact the book club along with links to the social media accounts. 
+
+## Wireframes
+
+links
+
+### Surface
+
+1. Design
+
+* Color scheme
+
+    *  The colours used in the website were chosen in accordance with the hero image used. Adobe color was used to facilitate this process, some variants of those colors were used while styling the site. 
+
+![color](https://user-images.githubusercontent.com/65717229/131248175-9de94eed-556b-4c9f-9916-577f463b61e2.PNG)
+
+*  Typography 
+
+    * The fonts used are available at Google Fonts. In the text on the hero image [Amatic](https://fonts.google.com/specimen/Amatic+SC?query=amatic) was used and for all the rest [Montserrat.](https://fonts.google.com/specimen/Montserrat?query=mont)
+
+* Imagery
+
+    *  Most of the images on the site are from [Pexels](https://www.pexels.com/), the hero image is from [Adobe Stock.](https://stock.adobe.com/ie/)
+  
+ 
+## Implementation phrase
+
+### Features
+
+As previously mentioned the website contains 4 pages. The existing features are:
+
+1. Navigation bar:
+
+    * Featured in the top of the page, it includes the book club logo on the left upper corner and on the opposite sides the links to the About, Books, Join us pages and to the Meet up sections, which is located on the home page. 
+
+    * The logo  is a direct link to the main page, so users can easily go back to it, while navigation on the other pages of the site.
+
+    * All the buttons on the site are named after corresponding sections to promote a user-friendly approach. In addition, a hover feature has been added to all buttons to highlight user interaction with potential action.
+
+    * The navigation bar is fully responsive, collapsing in small screen devices.
+
+2. Home page:
+    * The landing page heading includes an image with a text overlay, it says the name of the book club and call to action button, that directs users to the “Join us” page, where they can sign in to be a member of the community.
+    * The main page of the site contains several sections:
+        *  Member’s testimony -  This section contains the testimonies of two members of the book club. The aim of this section is to inspire new users to join the community by making them feel inspired by their comments.
+        *  Reasons to join a book club: This section lists some of the reasons why people join book clubs and what value it could bring to their lives. The aim is to keep motivating and encourage new users to sign in. 
+        *  How it works - This section gives a brief explanation of how the book club works. It is separated in three steps to make it easier and clearer. 
+        *  Let’s meet - This section shows the user which was the previous location of the meetups and the chosen one for the next month’s get together, along with the date and time. The images related to the previous location are gray, while the future ones are colorful. An emphasis was given to the name of the place. If the user clicks on it,they will be redirected to Google maps.The images have a zoom effect to make it more interactive. 
+
+3. About page:
+    * This section will allow the user to get to know more about the book club and who are the people involved in it.
+
+4. Books page:
+    * This page shows to the users all the books which were already discussed, along with the one which will be discussed at the next meet up. The images have a hove effect, so at first they are gray, becoming colorful once the user hovers over it. 
+    * Along with the images of the books’ cover, it is also displayed which was the month in which that book was picked and button “ shop now”, which directs users to Easons website. It makes it easier for users to purchase the books, if desired. 
+    * By clicking on the images, users are also directed to the Good read website, where they can read more about the books.
+
+5. Join Us:
+    * This page contains a form which users can fill in, if they want to sign in and take part in the book club. It requested a couple of information such as: First name, Last name and email address. Below it there are two check boxes, which asks the user for consent to send a biweekly newsletter and if they agree with the “Terms and conditions” and “Privacy Policy”. 
+
+6. Footer:
+    * Subscribe section
+        * In this section users can subscribe to the book club’s newsletter, it is only present at the home page.
+    * Contact us section
+        * This section contains an email address, which users can use to get in touch easily with the lighthouse book club. 
+        * The link for the book club social media accounts are also in this section. The aim is to motivate people to connect with other members of the book club. It is also an easy way to help members to connect and keep them engaged. The social media links are present in all the pages.
+
+## Future Implementations
+
+* Blog section, where there would be information related to book releases and possible interviews with some of the books’ authors. 
+* A login page, where users could receive a more personalized type of content related to the book club.
+* 404 error page.
+* The actual page with Terms and conditions (related to subscription, charging, cancellation, user license agreement etc) and information related to Privacy Policy and Cookies.
+
+## Accessibility
+
+* “Alt” descriptions of images were used.
+* Arial label were added to the book images which are clickable and will open a new page on Good reads. It also added to the social media links. 
+
+## Technologies Used:
+ 1.  [Balsamiq Wireframe](https://balsamiq.com/)
+    *  Used at the beginning of the project to help in the development of the right UX design desired for mobile and desktop resolutions.
+2. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+3. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+4. [Codepen](https://codepen.io/)
+5. [Google.com](https://www.google.com/)
+6. [GitHub](https://github.com/)
+7. [Gitpod](https://www.gitpod.io/)
+
+## Testing
+
+All tests described below have worked successfully across all browsers. Responsiveness checks have been run by using the Chrome developers's tools as well as manually resizing the windows.
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness.
+
+It was tested:
+* Form submission - If the user tries to submit the join us form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute is added to the 'First name',’Last Name' and ‘Email Address'. The users must also agree with the terms listed to be able to submit the form. 
+
+* All the links to social media accounts will open a new page, so the users do not leave the site.The same will happen in the Books page. If the user clicks on the cover of the book, a new page will be opened bringing them to Good Reads and also if they press the ‘Shop now’ button, the Eason’s page will be loaded in a separate tab. The meet up section, on the main page, also contains embedded links to google maps, which are working fine.
+
+* When the screen is 768px and down, the navigation bar will collapse. When the user clicks on it a dropdown menu will open,from which the user can easily navigate to any other page of the site or go back to the home page by clicking on the logo.
+
+* The images on the ‘Meet up’ section are responsive and they will change size whenever needed to fit better the screen size. 
+
+* To tell the user which page they are at, the menu item belonging to that page will be in red, making it simpler and easier for them to notice.
+
+### HTML 
+
+No errors were returned when passing through the official [W3C Markup Validator.](https://validator.w3.org/)
+
+### CSS
+
+No errors were found when passing through the official [W3C CSS Validator. ](http://jigsaw.w3.org/css-validator/)
+
 
 
 
