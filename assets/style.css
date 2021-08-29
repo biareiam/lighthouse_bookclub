@@ -259,7 +259,7 @@ a {
 }
 
 .quotation {
-    font-size: 15px;
+    font-size: 0.9rem;
     margin: 0 auto;
     quotes: "\201C""\201D""\2018""\2019";
     padding: 10px 0;
@@ -311,7 +311,7 @@ a {
 .reason-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #333;
     letter-spacing: 2px;
     margin-left: auto;
@@ -347,7 +347,7 @@ a {
 
 .reason p {
     text-align: justify;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 hr {
@@ -388,7 +388,7 @@ hr {
 #work-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -447,7 +447,7 @@ hr {
     text-align: justify;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .work-container h4,
@@ -457,11 +457,11 @@ hr {
 }
 
 .work-container h4 {
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .work-container h5 {
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -473,7 +473,7 @@ hr {
 .local-box {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -611,27 +611,25 @@ hr {
 
 #contact-section>h4 {
     text-align: center;
-    font-family: "Abel", sans-serif;
 }
 
 #contact {
     padding: 5px 0 10px 0;
     text-align: center;
-    font-family: "Abel", sans-serif;
     font-size: 1rem;
 }
 
 #contact p {
     padding: 10px 0 0 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 /*copyright */
 #copyright {
     text-align: center;
     background-color: #f1d9d5;
-    font-size: 12px;
+    font-size: 0.7rem;
     padding: 10px 0 10px 0;
     font-family: "Abel", sans-serif;
     text-align: center;
@@ -642,7 +640,7 @@ hr {
     text-align: center;
     background-color: #d9b18f;
     color: #fafafa;
-    font-size: 12px;
+    font-size: 0.7rem;
     padding: 10px 0 10px 0;
     font-family: "Abel", sans-serif;
     text-align: center;
@@ -651,6 +649,11 @@ hr {
 
 #follow {
     text-align: center;
+}
+
+#follow h4 {
+    padding-bottom: 10px;
+
 }
 
 /*Social media links*/
@@ -664,7 +667,7 @@ hr {
 .icon-list {
     display: flex;
     justify-content: center;
-    font-size: 90%;
+    font-size: 80%;
     color: #380404;
 }
 
@@ -676,11 +679,11 @@ hr {
 
 .icon-link {
     display: inline-flex;
-    font-size: 160%;
+    font-size: 1.3rem;
     text-decoration: none;
     color: var(--color-icon);
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     transition: 0.3s linear;
     position: relative;
     z-index: 1;
@@ -702,8 +705,8 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     background: #000;
     border-radius: 50%;
     z-index: -1;
@@ -740,7 +743,7 @@ hr {
 .about-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 1.5px;
     margin-left: auto;
     margin-right: auto;
@@ -748,7 +751,7 @@ hr {
 }
 
 .about-txt p {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: justify;
     width: 90%;
     margin: 0 auto;
@@ -768,7 +771,7 @@ hr {
 .team-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -789,6 +792,7 @@ hr {
     text-align: justify;
     line-height: 23px;
     width: 75%;
+    font-size: 0.9rem;
 }
 
 .team {
@@ -856,7 +860,7 @@ hr {
 .question-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -874,12 +878,12 @@ hr {
 .questions h4 {
     font-weight: bold;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     padding-bottom: 10px;
 }
 
 .questions p {
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .about {
@@ -894,12 +898,12 @@ hr {
 .vote h3 {
     text-align: center;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .vote p {
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 10px 0 10px 0;
 }
 
@@ -921,7 +925,7 @@ hr {
     width: 70%;
     text-align: justify;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .options {
@@ -947,13 +951,13 @@ hr {
     margin-top: -15px;
     margin-left: 120px;
     text-align: center;
-    font-size: 30px;
+
 }
 
 #book-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     margin-bottom: 20px;
     padding: 20px 0;
@@ -966,7 +970,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .books img {
@@ -1037,6 +1041,7 @@ hr {
     max-width: 400px;
     position: absolute;
     left: 10%;
+    top: 8%;
     padding: 30px;
 }
 
@@ -1055,7 +1060,8 @@ hr {
     color: #0c0c0c;
     margin-bottom: 20px;
 }
-label{
+
+label {
     font-weight: bold;
 }
 
@@ -1099,9 +1105,18 @@ label{
 /*Media*/
 
 @media screen and (min-width: 2560px) {
+
     /* {
         background-color: #b2d4e6;
     }*/
+
+    .quotation {
+        font-size: 1.3rem;
+    }
+
+    .reason p {
+        font-size: 1.1rem;
+    }
 
     .reason {
         margin-left: 60px;
@@ -1109,6 +1124,10 @@ label{
 
     .team-container {
         width: 2500px;
+    }
+
+    .work-container p {
+        font-size: 1.1rem;
     }
 
     .book-list h4 {
@@ -1121,13 +1140,13 @@ label{
 
 }
 
-/*
+
 @media screen and (max-width: 2000px) {
 
     /* {
         background-color: #3b5999;
     }*/
-/*
+
 
     .about-team p {
         width: 100%;
@@ -1143,7 +1162,7 @@ label{
     /* {
         background-color: #993b4f;
     }*/
-/*
+
 
     .reason {
         margin-left: 40px;
@@ -1174,7 +1193,7 @@ label{
     /* {
         background-color: darkolivegreen;
     }*/
-/*
+
 
     .work-container {
         width: 100%;
@@ -1193,9 +1212,15 @@ label{
     }
 
     .team-container {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
 
     }
+
+    .team-container p {
+        width: 85%;
+    }
+
 
     .about-team {
         width: 100%;
@@ -1230,13 +1255,13 @@ label{
 
 /* For larger to medium screens size from 1200px wide and down*/
 
-/*
+
 @media screen and (max-width: 1200px) {
 
     /* {
         background-color: rgb(107, 64, 47);
     }*/
-/*
+
     .reason {
         margin-left: 20px;
     }
@@ -1270,10 +1295,14 @@ label{
     /* {
         background-color: rgb(142, 140, 240);
     }*/
-/*
+
 
     blockquote {
         padding: 0;
+    }
+
+    .reasons-icon {
+        margin-left: -80px;
     }
 
     .member p {
@@ -1288,11 +1317,11 @@ label{
 
     .responsive>h4 {
         margin-top: -25px;
-        font-size: 1.8rem;
+        font-size: 1.1rem;
     }
 
     .responsive>p {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
     .about-txt {
@@ -1300,8 +1329,12 @@ label{
 
     }
 
+    .about-team {
+        width: 100%;
+    }
+
     .about-team p {
-        width: 80%;
+        width: 90%;
     }
 
     .join-container {
@@ -1316,6 +1349,11 @@ label{
     .questions {
         width: 30%;
     }
+
+    .questions p {
+        font-size: 0.9rem;
+    }
+
 
 
     .options {
@@ -1335,364 +1373,354 @@ label{
         margin-left: 70px;
 
     }
+}
 
 
-    @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
-        .flex-container .book-column {
-            margin-left: 60px;
-        }
+    .flex-container .book-column {
+        margin-left: 60px;
     }
+}
 
-    @media screen and (max-width: 768px) {
-        /* {
+@media screen and (max-width: 768px) {
+    /* {
         background-color: #568196;
     }*/
-/*
 
-
-        .member-testimony {
-            width: 100%;
-        }
-
-        .join-container {
-            flex-direction: column;
-        }
-
-        .reason {
-            margin-left: 90px;
-        }
-
-
-        .work-container {
-            flex-direction: column;
-        }
-
-        .work-steps p {
-            width: 90%;
-            margin-left: 15px;
-        }
-
-        .responsive>h4,
-        .responsive>p {
-            font-size: 1.5rem;
-        }
-
-        #subscribe-section p {
-            width: 55%;
-        }
-
-        #email-subscribe {
-            width: 40%;
-        }
-
-        .btn-subscribe {
-            width: 15%;
-        }
-
-        .team-container {
-            flex-direction: column;
-        }
-
-        .team-line {
-            border: none;
-        }
-
-        .about-txt-1 {
-            width: 100%;
-        }
-
-        .questions {
-            width: 50%;
-        }
-
-        .vote h3 {
-            font-size: 24px;
-            width: 70%;
-            margin: auto;
-        }
-
-        .book-vote-container {
-            flex-direction: column;
-        }
-
-        .options {
-            margin-left: 270px;
-        }
-
-        .book-list h4 {
-            margin-left: 230px;
-        }
-
-        .book-list p {
-            width: 65%;
-        }
-
-        .flex-container .book-column {
-            margin-left: 90px;
-        }
-
+    #heading-title {
+        height: 450px;
     }
 
-    @media screen and (max-width: 425px) {
-        /* {
+    #heading-title h1 {
+        font-size: 4.7rem;
+    }
+
+    .member-testimony {
+        width: 100%;
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .reason {
+        margin-left: 90px;
+    }
+
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-steps p {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .responsive>h4,
+    .responsive>p {
+        font-size: 1rem;
+    }
+
+    #subscribe-section p {
+        width: 55%;
+    }
+
+    #email-subscribe {
+        width: 40%;
+    }
+
+    .btn-subscribe {
+        width: 15%;
+    }
+
+    .team-container {
+        flex-direction: column;
+    }
+
+    .team-line {
+        border: none;
+    }
+
+    .about-txt-1 {
+        width: 100%;
+    }
+
+    .questions {
+        width: 50%;
+    }
+
+    .vote h3 {
+        font-size: 24px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .book-vote-container {
+        flex-direction: column;
+    }
+
+    .options {
+        margin-left: 270px;
+    }
+
+    .book-list h4 {
+        margin-left: 230px;
+    }
+
+    .book-list p {
+        width: 65%;
+    }
+
+    .flex-container .book-column {
+        margin-left: 90px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    /* {
         background-color: #f29999;
     }*/
-/*
-
-        .navbar-toggle {
-            position: relative;
-            float: right;
-            padding: 9px 8px;
-            background-color: transparent;
-            background-image: none;
-            border: 1px solid transparent;
-            border-radius: 4px;
-            margin-right: -10px;
-        }
-
-        .navbar-toggle .icon-bar {
-            width: 35px;
-            height: 4px;
-            margin-top: 10px;
-        }
-
-        .navbar-default .navbar-toggle:focus,
-        .navbar-default .navbar-toggle:hover {
-            background-color: transparent;
-        }
-
-        #heading-title {
-            height: 550px;
-        }
-
-        #heading-title h1 {
-            font-size: 4.5rem;
-        }
-
-        #heading-title h2 {
-            font-size: 2rem;
-        }
-
-        .member-testimony {
-            flex-direction: column;
-            padding-top: 10px;
-            margin-bottom: -40px;
-        }
-
-        .text-mark-left {
-            border: none;
-        }
-
-        .text-mark-right {
-            border: none;
-        }
-
-        .reason {
-            margin-left: 30px;
-        }
-
-        .reason p {
-            width: 100%;
-        }
-
-        .work-container {
-            flex-direction: column;
-        }
-
-        .work-steps p {
-            width: 80%;
-            margin-left: 45px;
-        }
-
-        .square {
-            flex-direction: column-reverse;
-        }
-
-        .responsive {
-            width: 415px;
-            height: 300px;
-            margin-left: 5px;
-            margin-bottom: 5px;
-        }
-
-        .responsive>h4,
-        .responsive>p {
-            font-size: 1.8rem;
-        }
-
-        .responsive>h4 {
-            margin-top: 10px;
-        }
-
-        #subscribe-section p {
-            width: 80%;
-        }
-
-        #email-subscribe {
-            width: 80%;
-            margin: 0 auto;
-        }
-
-        .btn-subscribe {
-            width: 25%;
-            margin-top: 20px;
-        }
-
-        .illustration-style img {
-            width: 300px;
-            height: 215px;
-            margin-left: 60px;
-        }
-
-        .about-txt {
-            margin-left: 40px;
-            margin-right: -20px;
-        }
-
-        .question-container {
-            flex-direction: column;
-        }
-
-        .questions {
-            margin: 0 auto;
-            width: 100%;
-        }
-
-        blockquote {
-            padding: 0;
-            margin: 0 0 20px;
-            font-size: 17.5px;
-            border-left: 5px solid #a8b6c1;
-        }
-
-        .book-vote-container {
-            flex-direction: column;
-        }
-
-        .vote h3 {
-            font-size: 20px;
-            width: 90%;
-        }
-
-        .vote p {
-            font-size: 14px;
-            width: 80%;
-            margin-left: 40px;
-        }
-
-        .options {
-            margin-left: 150px;
-        }
-
-        .vote h4 {
-            margin-left: 60px;
-        }
 
 
-        .flex-container .book-column {
-            margin-left: 85px;
-        }
-
-        .books-section {
-            margin-bottom: 100px;
-        }
-
-        .form-section {
-            background-position: right;
-        }
-
+    #heading-title h1 {
+        font-size: 4.4rem;
     }
 
-    @media screen and (max-width: 375px) {
+    #heading-title h2 {
+        font-size: 1.8rem;
+    }
 
-        #heading-title {
-            height: 500px;
-        }
+    .member-testimony {
+        flex-direction: column;
+        padding-top: 10px;
+        margin-bottom: -40px;
+    }
 
-        #heading-title h1 {
-            font-size: 3.8rem;
-        }
+    .text-mark-left {
+        border: none;
+    }
 
-        #heading-title h2 {
-            font-size: 2rem;
-        }
+    .text-mark-right {
+        border: none;
+    }
 
-        .reason {
-            margin-left: 30px;
-        }
+    .reason {
+        margin-left: 30px;
+    }
 
-        .work-steps p {
-            margin-left: 35px;
-        }
+    .reason p {
+        width: 85%;
+        margin: 0 auto;
+    }
 
-        .responsive {
-            width: 365px;
-            margin-left: 5px;
-            margin-bottom: 5px;
-        }
+    .reasons-icon {
+        margin-left: 10px;
+    }
 
+    .work-container {
+        flex-direction: column;
+    }
 
-        .illustration-style img {
-            width: 300px;
-            height: 215px;
-            margin-left: 35px;
-        }
+    .work-steps p {
+        width: 80%;
+        margin-left: 45px;
+    }
 
+    .square {
+        flex-direction: column-reverse;
+    }
 
-        .options {
-            margin-left: 120px;
-        }
+    .responsive {
+        width: 415px;
+        height: 300px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
 
-        .flex-container .book-column {
-            margin-top: -20px;
-            margin-left: 60px;
-        }
+    .responsive>h4,
+    .responsive>p {
+        font-size: 1.3rem;
+    }
 
-        .vote h4 {
-            margin-left: 40px;
-        }
+    .responsive>h4 {
+        margin-top: 0px;
+    }
+
+    #subscribe-section p {
+        width: 80%;
+    }
+
+    #email-subscribe {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .illustration-style img {
+        width: 300px;
+        height: 215px;
+        margin-left: 60px;
+    }
+
+    .about-txt {
+        margin-left: 40px;
+        margin-right: -20px;
+    }
+
+    .members {
+        margin: 0 auto;
+    }
+
+    .question-container {
+        flex-direction: column;
+    }
+
+    .questions {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    blockquote {
+        padding: 0;
+        margin: 0 0 20px;
+        font-size: 17.5px;
+        border-left: 5px solid #a8b6c1;
+    }
+
+    .book-vote-container {
+        flex-direction: column;
+    }
+
+    .vote h3 {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .vote p {
+        font-size: 14px;
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .options {
+        margin-left: 150px;
+    }
+
+    .vote h4 {
+        margin-left: 60px;
     }
 
 
-    @media screen and (max-width: 320px) {
-
-        .reason {
-            margin-left: 25px;
-        }
-
-        .work-container h5 {
-            padding-bottom: 20px;
-        }
-
-        .responsive {
-            width: 310px;
-            height: 290px;
-        }
-
-        .illustration-style img {
-            width: 290px;
-            height: 215px;
-            margin-left: 15px;
-        }
-
-
-        .options {
-            margin-left: 120px;
-        }
-
-        .book-list h4 {
-            margin-left: 15px;
-        }
-
-        .book-list p {
-            width: 90%;
-            margin: auto;
-        }
-
-
-        .flex-container .book-column {
-            margin-left: 40px;
-            margin-top: -20px;
-        }
+    .flex-container .book-column {
+        margin-left: 85px;
     }
+
+    .books-section {
+        margin-bottom: 100px;
+    }
+
+    .form-section {
+        background-position: right;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #heading-title {
+        height: 500px;
+    }
+
+    #heading-title h1 {
+        font-size: 3.8rem;
+    }
+
+    #heading-title h2 {
+        font-size: 2rem;
+    }
+
+    .reason {
+        margin-left: 30px;
+    }
+
+    .work-steps p {
+        margin-left: 35px;
+    }
+
+    .responsive {
+        width: 365px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .illustration-style img {
+        width: 300px;
+        height: 215px;
+        margin-left: 35px;
+    }
+
+
+    .options {
+        margin-left: 120px;
+    }
+
+    .flex-container .book-column {
+        margin-top: -20px;
+        margin-left: 60px;
+    }
+
+    .vote h4 {
+        margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .reason {
+        margin-left: 25px;
+    }
+
+    .work-container h5 {
+        padding-bottom: 20px;
+    }
+
+    .responsive {
+        width: 310px;
+        height: 290px;
+    }
+
+    .illustration-style img {
+        width: 290px;
+        height: 215px;
+        margin-left: 15px;
+    }
+
+
+    .options {
+        margin-left: 120px;
+    }
+
+    .book-list h4 {
+        margin-left: 15px;
+    }
+
+    .book-list p {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .flex-container .book-column {
+        margin-left: 40px;
+        margin-top: -20px;
+    }
+}
