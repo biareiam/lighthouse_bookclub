@@ -12,6 +12,7 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: #fffaf4;
     color: #4a5759;
+    font-weight: 300;
 }
 
 /*------------------------------------------------ Navigation bar */
@@ -159,110 +160,28 @@ a {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*logo*/
-/*
-.responsive-image {
-    border-radius: 50%;
-}
-
-.navbar {
-    background-color: #fbf6f098;
-    border: 0;
-    font-size: larger !important;
-    letter-spacing: 0.1em;
-    min-height: 80px;
-    padding-right: 15px;
-    overflow-x: hidden;
-    position: absolute;
-
-}
-
-.navbar li a,
-.navbar .navbar-brand {
-    margin-top: 1px;
-    text-decoration: none;
-    color: #333 !important;
-}
-
-.navbar-nav li a:hover {
-    color: #d9a711 !important;
-}
-
-.navbar-nav li.active a {
-    color: #d9a711 !important;
-    background-color: #29292c !important;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-}
-
-.navbar-collapse {
-    margin-top: 15px;
-}
-
-.open .dropdown-toggle {
-    color: #fff;
-    background-color: #555 !important;
-}
-
-.dropdown-menu li a {
-    color: #000 !important;
-}
-
-.open .dropdown-toggle:hover {
-    color: #fff;
-    background-color: rgb(175, 29, 29) !important;
-}
-
 /*------------------------------------------------Landing page image*/
 #heading-title {
     text-align: center;
     padding: 165px 0 0 0;
     width: 100%;
-    height: 600px;
+    height: 470px;
     background: url("../assets/images/background-image.jpg") no-repeat center center;
     background-size: cover;
     margin-bottom: 30px;
-
-
 }
 
 #heading-title>h1 {
-    font-size: 7.5rem;
+    font-size: 6.5rem;
     font-family: "Amatic SC", cursive;
     letter-spacing: 6px;
     margin-bottom: 50px;
 }
+
+#heading-title>h2 {
+    padding-bottom: 20px;
+}
+
 
 /*------------------------------------------------ button that leads to join page*/
 .btn {
@@ -272,7 +191,7 @@ a {
     border-radius: 10px;
     padding: 18px 50px;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #a8b6c1;
@@ -333,7 +252,6 @@ a {
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 10px;
-    font-size: 14px;
 }
 
 .profile {
@@ -393,12 +311,12 @@ a {
 .reason-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 24px;
+    font-size: 20px;
     color: #333;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 20px 0;
 }
 
 .join-container {
@@ -413,12 +331,14 @@ a {
     flex: 1;
     border: none;
     background-color: #fffaf4;
+    margin: 0 auto;
 }
 
 .reason p,
 .reason h4,
 .reason hr {
-    width: 90%;
+    width: 85%;
+    margin-left: 25px;
 }
 
 .reason h4 {
@@ -427,6 +347,7 @@ a {
 
 .reason p {
     text-align: justify;
+    font-size: 14px;
 }
 
 hr {
@@ -438,7 +359,7 @@ hr {
 .reasons-icon {
     color: #013440;
     font-size: 350%;
-    margin-left: -40px;
+    margin-left: 0px;
     padding-top: 20px;
 }
 
@@ -467,11 +388,11 @@ hr {
 #work-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 20px 0;
     margin-bottom: 30px;
 }
 
@@ -481,7 +402,7 @@ hr {
     background-size: cover;
     border-radius: 30%;
     width: 180px;
-    height: 180px;
+    height: 160px;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -524,14 +445,26 @@ hr {
     width: 80%;
     margin: 0 auto;
     text-align: justify;
+    padding-top: 20px;
     padding-bottom: 40px;
+    font-size: 14px;
 }
 
 .work-container h4,
 .work-container h5 {
     text-align: center;
+    padding-top: 10px;
 }
 
+.work-container h4 {
+    font-size: 18px;
+}
+
+.work-container h5 {
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 
 
 
@@ -540,11 +473,11 @@ hr {
 .local-box {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 20px 0;
     margin-bottom: 10px;
 }
 
@@ -580,17 +513,17 @@ hr {
 }
 
 .responsive h4 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-align: center;
     padding-top: 55px;
     color: rgb(255, 255, 255);
 }
 
 .responsive>p {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-align: center;
     color: rgb(255, 255, 255);
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .responsive a {
@@ -606,6 +539,7 @@ hr {
     color: white;
     font-size: 220%;
     text-align: center;
+    padding-top: 10px;
 }
 
 /*--------------------------------------- Subscribe section*/
@@ -616,13 +550,13 @@ hr {
 
 #subscribe-section h4 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
     letter-spacing: 2px;
 }
 
 #subscribe-section p {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     padding: 15px 0 15px 0;
     letter-spacing: 2px;
     width: 30%;
@@ -635,7 +569,7 @@ hr {
 
 #envelope {
     text-align: center;
-    font-size: 350%;
+    font-size: 320%;
 }
 
 .far:hover {
@@ -647,18 +581,18 @@ hr {
     height: 34px;
     border: none;
     padding-left: 6px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-left: 30px;
     text-align: left;
 }
 
 .btn-subscribe {
-    width: 6%;
+    width: 8%;
     height: 35px;
     background-color: #8a99a6;
     border: none;
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .btn-subscribe:hover,
@@ -795,23 +729,22 @@ hr {
 
 /*--------------------------------------- About page*/
 .illustration-style img {
-    width: 270px;
-    height: 205px;
+    width: 300px;
+    height: 225px;
     float: left;
     padding-right: 20px;
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
 /*title*/
 .about-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 24px;
-    color: #272727;
-    letter-spacing: 2px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 20px 0;
 }
 
 .about-txt p {
@@ -821,7 +754,10 @@ hr {
     margin: 0 auto;
     padding: 50px 60px 20px 0;
     color: #272727;
-    line-height: 30px;
+    letter-spacing: 2px;
+    line-height: 23px;
+
+
 }
 
 /*----------- Know the team*/
@@ -832,18 +768,18 @@ hr {
 .team-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 20px 0;
     margin-bottom: 30px;
 }
 
 .about-team {
     text-align: center;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 10px;
     color: #272727;
@@ -851,8 +787,8 @@ hr {
 
 .about-team p {
     text-align: justify;
-    line-height: 1.7;
-    width: 60%;
+    line-height: 23px;
+    width: 75%;
 }
 
 .team {
@@ -863,28 +799,29 @@ hr {
     background: url("../assets/images/girl-people-landscape-sun-38554.jpeg") center;
     background-size: cover;
     border-radius: 50%;
-    height: 100%;
+    height: 90%;
 }
 
 #team2 {
     background: url("../assets/images/pexels-photo-1181424.jpeg") center;
     background-size: cover;
     border-radius: 50%;
-    height: 100%;
+    height: 90%;
 }
 
 #team3 {
     background: url("../assets/images/pexels-photo-1181690.jpeg") center;
     background-size: cover;
     border-radius: 50%;
-    height: 100%;
+    height: 90%;
 }
 
 #team4 {
     background: url("../assets/images/pexels-photo-2701660.jpeg") center;
     background-size: cover;
     border-radius: 50%;
-    height: 100%;
+    height: 90%;
+
 }
 
 .circle-image {
@@ -919,11 +856,11 @@ hr {
 .question-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    padding: 20px 0;
     margin-bottom: 10px;
 }
 
@@ -937,6 +874,12 @@ hr {
 .questions h4 {
     font-weight: bold;
     text-align: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.questions p {
+    font-size: 14px;
 }
 
 .about {
@@ -951,6 +894,7 @@ hr {
 .vote h3 {
     text-align: center;
     padding-bottom: 10px;
+    font-size: 20px;
 }
 
 .vote p {
@@ -970,13 +914,14 @@ hr {
 
 .book-list h4 {
     text-align: start;
-    margin-left: 170px;
+    margin-left: 60px;
 }
 
 .book-list p {
-    width: 50%;
+    width: 70%;
     text-align: justify;
     margin: 0 auto;
+    font-size: 14px;
 }
 
 .options {
@@ -1000,7 +945,7 @@ hr {
 
 .flex-container .book-column {
     margin-top: -15px;
-    margin-left: 110px;
+    margin-left: 120px;
     text-align: center;
     font-size: 30px;
 }
@@ -1011,8 +956,8 @@ hr {
     font-size: 20px;
     letter-spacing: 2px;
     margin-bottom: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
+
 }
 
 .books p {
@@ -1021,7 +966,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 1.4rem;
+    font-size: 16px;
 }
 
 .books img {
@@ -1029,9 +974,7 @@ hr {
     -webkit-filter: grayscale(1);
 }
 
-.books p {
-    margin-bottom: -5px;
-}
+
 
 .books img:hover {
     filter: none;
@@ -1052,14 +995,14 @@ hr {
     margin-top: 40px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .btn-shop {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     letter-spacing: 2px;
     border: none;
-    margin-left: -150px;
+    margin-left: -140px;
     font-weight: bold;
     padding: 5px;
 
@@ -1103,9 +1046,17 @@ hr {
 
 }
 
+.signup-form p {
+    color: #0c0c0c;
+    margin-bottom: 10px;
+}
+
 .signup-form {
     color: #0c0c0c;
     margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
 }
 
 .text-input {
@@ -1123,7 +1074,7 @@ hr {
 }
 
 .join-button {
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -1137,6 +1088,10 @@ hr {
 .join-button:hover {
     background-color: #fafafa;
     color: #BF9780;
+}
+
+.terms-agree {
+    font-size: 12px;
 }
 
 /************************************************/
@@ -1166,11 +1121,13 @@ hr {
 
 }
 
+/*
 @media screen and (max-width: 2000px) {
 
     /* {
         background-color: #3b5999;
     }*/
+/*
 
     .about-team p {
         width: 100%;
@@ -1186,6 +1143,7 @@ hr {
     /* {
         background-color: #993b4f;
     }*/
+/*
 
     .reason {
         margin-left: 40px;
@@ -1216,6 +1174,7 @@ hr {
     /* {
         background-color: darkolivegreen;
     }*/
+/*
 
     .work-container {
         width: 100%;
@@ -1271,12 +1230,13 @@ hr {
 
 /* For larger to medium screens size from 1200px wide and down*/
 
-
+/*
 @media screen and (max-width: 1200px) {
 
     /* {
         background-color: rgb(107, 64, 47);
     }*/
+/*
     .reason {
         margin-left: 20px;
     }
@@ -1310,6 +1270,7 @@ hr {
     /* {
         background-color: rgb(142, 140, 240);
     }*/
+/*
 
     blockquote {
         padding: 0;
@@ -1387,6 +1348,7 @@ hr {
         /* {
         background-color: #568196;
     }*/
+/*
 
 
         .member-testimony {
@@ -1476,6 +1438,7 @@ hr {
         /* {
         background-color: #f29999;
     }*/
+/*
 
         .navbar-toggle {
             position: relative;
