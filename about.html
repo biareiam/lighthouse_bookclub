@@ -9,46 +9,34 @@
         content="The Lighthouse book club was created with the intent of inspiring meaningful connections through reading and discussion." />
     <meta name="keyword" content="book club, reading, discussion, book community, Dublin, Ireland" />
     <link href="https://css.gg/coffee.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/style.css" />
     <title>Book Club</title>
 
 </head>
 
 <body>
-    <!-- Navigation bar-->
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand"><img src="assets/images/lighthouse-2.png"
-                            alt="lighthouse logo" class="responsive-image ml-3"
-                            style="height: 65px; margin-top: -10px;" /> </a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="about.html"><strong>ABOUT</strong></a>
-                        </li>
-                        <li>
-                            <a href="book.html#month-book"><strong>BOOKS</strong></a>
-                        </li>
-                        <li>
-                            <a href="index.html#meetup-section"><strong>MEETUP</strong></a>
-                        </li>
-                        <li>
-                            <a href="join.html"><strong>JOIN US</strong></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header class="header">
+        <a href="index.html" class="navbar-brand"><img src="assets/images/lighthouse-2.png" alt="lighthouse logo"
+                class="logo" style="height: 65px; margin-top:0;" /> </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <span class="navicon"></span></label>
+        <ul class="menu">
+            <li>
+                <a href="about.html"><strong>ABOUT</strong></a>
+            </li>
+            <li>
+                <a href="book.html#month-book"><strong>BOOKS</strong></a>
+            </li>
+            <li>
+                <a href="index.html#meetup-section"><strong>MEETUP</strong></a>
+            </li>
+            <li>
+                <a href="join.html"><strong>JOIN US</strong></a>
+            </li>
+        </ul>
     </header>
+
     <!--Image for the heading-->
     <section id="heading-title">
         <h1>The Lighthouse Book Club</h1>
@@ -239,9 +227,7 @@
 
     <!-- icons link-->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
