@@ -46,7 +46,18 @@ It contains four pages, which are the following: Home page, About, Books, and Jo
 
 ## Wireframes
 
-links
+### Desktop
+
+![desktop.pdf](https://user-images.githubusercontent.com/65717229/131254526-3298b9ac-27f4-49e4-8410-97ff0af11b8f.PNG)
+
+### Tablet
+
+![tablet.pdf](https://user-images.githubusercontent.com/65717229/131254556-a2940dd8-d7b7-4f8c-8722-26e742993aa8.PNG)
+
+### Mobile
+
+![mobile.pdf](https://user-images.githubusercontent.com/65717229/131254578-36585cd9-9d23-4974-8f86-45d9cf0c86f6.PNG)
+
 
 ### Surface
 
