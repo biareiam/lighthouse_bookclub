@@ -122,14 +122,27 @@ As previously mentioned the website contains 4 pages. The existing features are:
 * Arial label were added to the book images which are clickable and will open a new page on Good reads. It also added to the social media links. 
 
 ## Technologies Used:
- 1.  [Balsamiq Wireframe](https://balsamiq.com/)
+ 1. [Balsamiq Wireframe](https://balsamiq.com/)
     *  Used at the beginning of the project to help in the development of the right UX design desired for mobile and desktop resolutions.
+
 2. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    * Used to write down the content of the page.
+
 3. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+    * Used to personalise colors, buttons, forms and visual details of the site.
+
 4. [Codepen](https://codepen.io/)
+    * Used to test learning on flex boxes in a quick way. 
+
 5. [Google.com](https://www.google.com/)
+    * Used for reaserch, along with Youtube.
+
 6. [GitHub](https://github.com/)
+    * As a software hosting platform to keep projects in a remote location.
+
 7. [Gitpod](https://www.gitpod.io/)
+    * As a development hosting platform.
+
 
 ## Testing
 
@@ -155,6 +168,50 @@ No errors were returned when passing through the official [W3C Markup Validator.
 
 No errors were found when passing through the official [W3C CSS Validator. ](http://jigsaw.w3.org/css-validator/)
 
+## Deployment
+
+The site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will be updated automatically upon new commits to the master branch. 
+
+I choose to deploy this project on GitHub Pages, below are the steps I used to deploy.
+Log into my github profile page and click on my project's name,clicked on settings,
+go to the option Pages,on the left side menu.Selected master branch and [here](https://biareiam.github.io/lighthouse_bookclub/) is the link to it.
+
+## Credits
+
+### Content
+
+The text for the Home page and about page were inspired by many different websites which listed reason to join a book club, what a book club is and how a book club normally works:
+* https://msa.monash.edu/7-reasons-join-book-club/
+* https://theherbaltoad.com/blog/10-reasons-to-join-a-book-club/
+* https://www.thoughtco.com/what-is-a-book-club-738891
+
+### Media 
+* The images used on all the pages are [Pexels](https://www.pexels.com/), which is a open source site.
+*
+Font Awesome was used for all social media icons: https://fontawesome.com/
 
 
+## Resources
+
+Main sources used for consultation and troubleshooting:
+1. [W3Schools](https://www.w3schools.com/)
+    * Mainly for CSS syntax help and troubleshooting.
+2. [MDN Web Docs](https://developer.mozilla.org/en-US/)
+    * Mainly for CSS syntax help and troubleshooting.
+3. [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    * Help to have a better understand of how flex boxes work.
+4. [Youtube](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    * Videos used to give me a better understading of media query and the navbar. Some of the video were :
+        * [#33 CSS Media Queries - CSS Full Tutorial](https://www.youtube.com/watch?v=XAchqU1-PWI&t=353s)
+        * [CSS Media Queries for Beginners: Breakpoints, Max-Width, Min-Width, and More](https://www.youtube.com/watch?v=P_vkS4UJNDk&t=267s)
+        * [Using CSS Media Queries To Create Responsive Web Layouts](https://www.youtube.com/watch?v=4Av7ma4v46Y&t=586s)
+        * [Responsive Navigation Bar Using HTML & CSS | HTML & CSS](https://www.youtube.com/watch?v=cO_toyF9eZQ)
+        * [Responsive Navigation Bar | Html CSS](https://www.youtube.com/watch?v=kEt5DCHeyJo)
+
+## Acknowledgements
+
+I appreciate the support, feedback and guidance of the following people throughout this project:
+my mentor Victor Miclovich the tutors and the community on slack.
+
+This is for educational use.
 
