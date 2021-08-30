@@ -897,6 +897,23 @@ hr {
     width: 60%;
 }
 
+
+/*****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------- Book page*/
 .vote {
     padding-top: 20px;
@@ -949,26 +966,32 @@ hr {
     padding: 15px 0 50px 0;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flex-container .book-column {
-    margin-top: -15px;
-    margin-left: 120px;
-    text-align: center;
-
-}
 
 #book-title {
     text-align: center;
     background-color: #f1d9d571;
     font-size: 1.3rem;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     padding: 20px 0;
+}
 
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 70px;
+    margin-bottom: 40px;
+}
+
+.books {
+    margin-left: 65px;
+}
+
+.books img {
+    height: auto;
+    border-radius: 5px;
+    filter: gray;
+    -webkit-filter: grayscale(1);
 }
 
 .books p {
@@ -979,12 +1002,6 @@ hr {
     letter-spacing: 2px;
     font-size: 1rem;
 }
-
-.books img {
-    filter: gray;
-    -webkit-filter: grayscale(1);
-}
-
 
 
 .books img:hover {
@@ -1001,9 +1018,8 @@ hr {
     width: 250px;
     padding: 5px 0 5px 0;
     text-align: center;
-
     background-color: #f7ccbd86;
-    margin-top: 40px;
+    margin-top: -30px;
     margin-bottom: 10px;
     letter-spacing: 2px;
     font-size: 1rem;
@@ -1013,7 +1029,6 @@ hr {
     font-size: 0.8rem;
     letter-spacing: 2px;
     border: none;
-    margin-left: -140px;
     font-weight: bold;
     padding: 5px;
 
