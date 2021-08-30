@@ -932,17 +932,31 @@ hr {
 }
 
 .book-vote-container {
+    /* display: flex;*/
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+}
+
+.img-book {
+    border-radius: 5px;
+    width: 70%;
+    height: auto;
 }
 
 .book-list {
-    flex: 1;
     text-align: center;
+    flex: 1;
+    line-height: 25px;
+
 }
 
 .book-list h4 {
     text-align: start;
-    margin-left: 60px;
+    margin-left: 20px;
+
 }
 
 .book-list p {
@@ -976,19 +990,29 @@ hr {
     padding: 20px 0;
 }
 
+/*****************/
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    grid-gap: 70px;
-    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+    margin-left: -25px;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
 }
 
+.cover-book {
+    display: block;
+    flex-basis: 100%;
+}
+
+
 .books {
-    margin-left: 65px;
+    padding-bottom: 60px;
+    padding-left: 50px;
 }
 
 .books img {
-    height: auto;
+
     border-radius: 5px;
     filter: gray;
     -webkit-filter: grayscale(1);
@@ -1126,7 +1150,7 @@ label {
 
 /*Media*/
 
-@media screen and (min-width: 2560px) {
+@media screen and (max-width: 2560px) {
 
     /* {
         background-color: #b2d4e6;
@@ -1153,12 +1177,18 @@ label {
     }
 
     .book-list h4 {
-        margin-left: 270px;
+        margin-left: 160px;
     }
 
-    .flex-container .book-column {
-        margin-left: 210px;
+    .book-list p {
+        font-size: 1rem;
+        line-height: 25px;
     }
+
+    .img-book {
+        width: 50%;
+    }
+
 
 }
 
@@ -1263,20 +1293,18 @@ label {
         width: 30%;
     }
 
-    .flex-container .book-column {
-        margin-left: 170px;
-    }
+
 
     .options {
         margin-left: 150px;
     }
 
     .book-list h4 {
-        margin-left: 90px;
+        margin-left: 70px;
     }
 
     .book-list p {
-        width: 65%;
+        width: 70%;
         text-align: justify;
     }
 }
@@ -1311,11 +1339,6 @@ label {
         width: 80%;
         text-align: justify;
     }
-
-    .flex-container .book-column {
-        margin-left: 70px;
-    }
-
 
 }
 
@@ -1395,27 +1418,18 @@ label {
     }
 
     .book-list h4 {
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .book-list p {
-        width: 85%;
+        width: 70%;
         text-align: justify;
     }
 
-    .flex-container .book-column {
-        margin-left: 70px;
 
-    }
 }
 
 
-@media screen and (max-width: 992px) {
-
-    .flex-container .book-column {
-        margin-left: 60px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     /* {
@@ -1515,9 +1529,10 @@ label {
         width: 65%;
     }
 
-    .flex-container .book-column {
-        margin-left: 90px;
+    .img-book {
+        width: 40%;
     }
+
 }
 
 
@@ -1651,21 +1666,20 @@ label {
 
     .vote p {
         font-size: 14px;
-        width: 80%;
-        margin-left: 40px;
+        width: 70%;
+        margin-left: 60px;
     }
 
     .options {
-        margin-left: 150px;
+        margin-left: 125px;
     }
 
     .vote h4 {
         margin-left: 60px;
     }
 
-
-    .flex-container .book-column {
-        margin-left: 85px;
+    .img-book {
+        width: 70%;
     }
 
     .books-section {
@@ -1689,8 +1703,8 @@ label {
         font-size: 3.8rem;
     }
 
-    #heading-title h2 {
-        font-size: 2rem;
+    #heading-title>h2 {
+        font-size: 1.3rem;
     }
 
     .reason {
@@ -1716,7 +1730,7 @@ label {
 
 
     .options {
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     .flex-container .book-column {
@@ -1725,7 +1739,7 @@ label {
     }
 
     .vote h4 {
-        margin-left: 40px;
+        margin-left: 60px;
     }
 }
 
@@ -1757,17 +1771,12 @@ label {
     }
 
     .book-list h4 {
-        margin-left: 15px;
+        margin-left: 45px;
     }
 
     .book-list p {
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
 
-
-    .flex-container .book-column {
-        margin-left: 40px;
-        margin-top: -20px;
-    }
 }
