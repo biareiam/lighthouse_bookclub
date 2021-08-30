@@ -772,6 +772,7 @@ hr {
 /*----------- Know the team*/
 .team-container {
     display: flex;
+    padding-bottom: 30px;
 }
 
 .team-title {
