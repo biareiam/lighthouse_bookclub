@@ -218,6 +218,7 @@ Main sources used for consultation and troubleshooting:
         * [Using CSS Media Queries To Create Responsive Web Layouts](https://www.youtube.com/watch?v=4Av7ma4v46Y&t=586s)
         * [Responsive Navigation Bar Using HTML & CSS | HTML & CSS](https://www.youtube.com/watch?v=cO_toyF9eZQ)
         * [Responsive Navigation Bar | Html CSS](https://www.youtube.com/watch?v=kEt5DCHeyJo)
+        * [Flexbox Images Responsive Grid Gallery](https://www.youtube.com/watch?v=leoG0qRaFDI)
 
 ## Acknowledgements
 
