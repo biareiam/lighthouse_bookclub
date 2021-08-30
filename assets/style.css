@@ -1214,8 +1214,14 @@ label {
         width: 9%;
     }
 
+
     .reason {
-        margin-left: 40px;
+        margin-left: auto;
+    }
+
+    .about-txt {
+        padding-top: 20px;
+        padding-bottom: 40px;
     }
 
     .team-container {
@@ -1333,7 +1339,13 @@ label {
 
     .about-txt {
         margin-left: 40px;
+        padding-top: -10px;
 
+    }
+
+    .illustration-style img {
+        height: 240px;
+        padding-top: 20px;
     }
 
     .about-team {
@@ -1442,6 +1454,14 @@ label {
         width: 15%;
     }
 
+
+    .illustration-style img {
+        height: 265px;
+        padding-top: 60px;
+    }
+
+
+
     .team-container {
         flex-direction: column;
     }
@@ -1483,14 +1503,10 @@ label {
     .flex-container .book-column {
         margin-left: 90px;
     }
-
 }
 
-@media screen and (max-width: 425px) {
-    /* {
-        background-color: #f29999;
-    }*/
 
+@media (max-width: 425px) {
 
     #heading-title h1 {
         font-size: 4.4rem;
@@ -1501,6 +1517,7 @@ label {
     }
 
     .member-testimony {
+
         flex-direction: column;
         padding-top: 10px;
         margin-bottom: -40px;
@@ -1515,7 +1532,7 @@ label {
     }
 
     .reason {
-        margin-left: 30px;
+        margin-left: auto;
     }
 
     .reason p {
@@ -1573,12 +1590,18 @@ label {
     .illustration-style img {
         width: 300px;
         height: 215px;
-        margin-left: 60px;
+        margin-left: 40px;
+        margin-top: -30px;
     }
 
     .about-txt {
-        margin-left: 40px;
-        margin-right: -20px;
+        margin-left: 60px;
+
+    }
+
+    .about-txt p {
+        width: 80%;
+
     }
 
     .members {
@@ -1587,6 +1610,7 @@ label {
 
     .question-container {
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .questions {
@@ -1639,6 +1663,7 @@ label {
 
 }
 
+
 @media screen and (max-width: 375px) {
 
     #heading-title {
@@ -1671,7 +1696,7 @@ label {
     .illustration-style img {
         width: 300px;
         height: 215px;
-        margin-left: 35px;
+        margin-left: 20px;
     }
 
 
