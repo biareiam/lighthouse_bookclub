@@ -26,7 +26,7 @@ a {
 }
 
 .header {
-    background-color: #fbf6f0c4;
+    background-color: #fbf6f0ea;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: absolute;
     width: 100%;
@@ -1143,9 +1143,9 @@ label {
 
 @media screen and (max-width: 2560px) {
 
-    * {
+    /* {
         background-color: #b2d4e6;
-    }
+    }*/
 
     .quotation {
         font-size: 1rem;
@@ -1159,8 +1159,18 @@ label {
         margin-left: 60px;
     }
 
+    .about-txt {
+        padding-left: 100px;
+        width: 90%;
+    }
+
     .team-container {
-        width: 2200px;
+        width: 100%;
+
+    }
+
+    .members {
+        padding-left: auto;
     }
 
     .work-container p {
@@ -1168,7 +1178,8 @@ label {
     }
 
     .book-list h4 {
-        margin-left: 160px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list p {
@@ -1179,16 +1190,6 @@ label {
     .img-book {
         width: 50%;
     }
-
-
-
-
-
-
-
-
-
-
 
 
     .form-section {
@@ -1243,9 +1244,9 @@ label {
 
 @media screen and (max-width: 2000px) {
 
-    * {
+    /* {
         background-color: #3b5999;
-    }
+    }*/
 
     .team-title {
         margin-top: 20px;
@@ -1255,9 +1256,7 @@ label {
         width: 50%;
     }
 
-    .members {
-        margin-left: -230px;
-    }
+
 
     .form-section {
         height: 1200px;
@@ -1279,9 +1278,9 @@ label {
 }
 
 @media screen and (max-width: 1680px) {
-    * {
+    /* {
         background-color: #993b4f;
-    }
+    }*/
 
     .reason {
         margin-left: 40px;
@@ -1304,9 +1303,9 @@ label {
 
 @media screen and (max-width: 1440px) {
 
-    * {
+    /* {
         background-color: darkolivegreen;
-    }
+    }*/
 
 
     .work-container {
@@ -1331,18 +1330,16 @@ label {
     }
 
     .team-container {
-        width: 90%;
-        margin: 0 auto;
-
+        width: 100%;
     }
 
     .team-container p {
-        width: 85%;
+        width: 90%;
     }
 
 
     .about-team {
-        width: 100%;
+        width: 80%;
 
     }
 
@@ -1355,17 +1352,63 @@ label {
     }
 
     .options {
-        margin-left: 150px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list h4 {
-        margin-left: 70px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list p {
         width: 70%;
         text-align: center;
     }
+
+    .form-section {
+        background-position: right;
+        height: 900px;
+    }
+
+    .signup-form {
+        top: 1%;
+        left: 5%;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .signup-form p {
+        font-size: 1rem;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+
+    .signup-form h2 {
+        font-size: 1.6rem;
+    }
+
+    .signup-form>p {
+        font-size: 1.1rem;
+    }
+
+    .text-input p {
+        font-size: 1.1rem;
+    }
+
+    .join-button {
+        margin-top: 40px;
+        font-size: 1.4rem;
+    }
+
+
+
+
+
+
+
 }
 
 /* For larger to medium screens size from 1200px wide and down*/
@@ -1373,9 +1416,9 @@ label {
 
 @media screen and (max-width: 1200px) {
 
-    * {
+    /* {
         background-color: rgb(107, 64, 47);
-    }
+    }*/
 
     .reason {
         margin-left: 20px;
@@ -1391,7 +1434,8 @@ label {
 
 
     .book-list h4 {
-        margin-left: 50px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list p {
@@ -1399,12 +1443,16 @@ label {
         text-align: center;
     }
 
+    .text-input {
+        width: 620px;
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-    * {
+    /* {
         background-color: rgb(142, 140, 240);
-    }
+    }*/
 
 
     blockquote {
@@ -1415,8 +1463,10 @@ label {
         margin-left: -80px;
     }
 
-    .member p {
-        width: 75%;
+
+
+    .members {
+        width: 95%;
     }
 
     .responsive {
@@ -1435,7 +1485,6 @@ label {
     }
 
     .about-txt {
-        margin-left: 40px;
         padding-top: -10px;
 
     }
@@ -1445,7 +1494,7 @@ label {
     }
 
     .about-team p {
-        width: 90%;
+        width: 55%;
     }
 
     .join-container {
@@ -1466,11 +1515,13 @@ label {
     }
 
     .options {
-        margin-left: 120px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list h4 {
-        margin-left: 50px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list p {
@@ -1488,9 +1539,9 @@ label {
 
 
 @media screen and (max-width: 768px) {
-    * {
+    /* {
         background-color: #568196;
-    }
+    }*/
 
     #heading-title {
         height: 450px;
@@ -1503,7 +1554,10 @@ label {
     .member-testimony {
         width: 100%;
         flex-direction: column;
+    }
 
+    .text-mark-left {
+        border-left: none;
     }
 
     .join-container {
@@ -1511,7 +1565,12 @@ label {
     }
 
     .reason {
-        margin-left: 60px;
+        text-align: center;
+        margin-left: 95px;
+    }
+
+    .reasons-icon {
+        text-align: center;
     }
 
     .work-container {
@@ -1528,6 +1587,10 @@ label {
         font-size: 1rem;
     }
 
+    .responsive a {
+        font-size: 1rem;
+    }
+
     #subscribe-section p {
         width: 55%;
     }
@@ -1540,7 +1603,6 @@ label {
         width: 15%;
     }
 
-
     .team-container {
         flex-direction: column;
     }
@@ -1549,8 +1611,17 @@ label {
         border: none;
     }
 
-    .about-txt-1 {
-        width: 100%;
+    .about-txt {
+        width: 80%;
+    }
+
+    .members {
+        padding-left: 25px;
+    }
+
+    .members p {
+        width: 85%;
+
     }
 
     .questions {
@@ -1568,11 +1639,13 @@ label {
     }
 
     .options {
-        margin-left: 270px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list h4 {
-        margin-left: 230px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list p {
@@ -1678,17 +1751,18 @@ label {
     }
 
     .about-txt {
-        margin-left: 60px;
-
+        width: 70%;
+        margin-left: -20px;
     }
 
     .about-txt p {
-        width: 80%;
-
+        padding-left: -30px;
+        margin-top: -20px;
+        margin-bottom: -20px;
     }
 
     .members {
-        margin: 0 auto;
+        padding-left: 5px;
     }
 
     .question-container {
@@ -1724,11 +1798,13 @@ label {
     }
 
     .options {
-        margin-left: 125px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .vote h4 {
-        margin-left: 60px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .img-book {
@@ -1823,16 +1899,14 @@ label {
 
 
     .options {
-        margin-left: 100px;
+        text-align: center;
+        margin: 0 auto;
     }
 
-    .flex-container .book-column {
-        margin-top: -20px;
-        margin-left: 60px;
-    }
 
     .vote h4 {
-        margin-left: 60px;
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
@@ -1843,8 +1917,18 @@ label {
         margin-left: 25px;
     }
 
+    .about-txt {
+        width: 100%;
+        margin-left: 30px;
+    }
+
     .work-container h5 {
         padding-bottom: 20px;
+    }
+
+    .team-container {
+        width: 95%;
+        margin-left: 113px;
     }
 
     .responsive {
@@ -1853,11 +1937,13 @@ label {
     }
 
     .options {
-        margin-left: 120px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list h4 {
-        margin-left: 45px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .book-list p {
