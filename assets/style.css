@@ -265,7 +265,7 @@ a {
 }
 
 .quotation {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin: 0 auto;
     quotes: "\201C""\201D""\2018""\2019";
     padding: 10px 0;
@@ -898,22 +898,6 @@ hr {
 }
 
 
-/*****/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------- Book page*/
 .vote {
     padding-top: 20px;
@@ -1230,10 +1214,6 @@ label {
     }
 
 
-    .flex-container .book-column {
-        margin-left: 130px;
-    }
-
     .background-image-join form {
         max-width: 800px;
         margin-left: 560px;
@@ -1258,7 +1238,6 @@ label {
     .btn-subscribe {
         width: 9%;
     }
-
 
     .reason {
         margin-left: auto;
@@ -1292,8 +1271,6 @@ label {
     .questions {
         width: 30%;
     }
-
-
 
     .options {
         margin-left: 150px;
@@ -1547,7 +1524,7 @@ label {
     }
 
     .member-testimony {
-
+        display: flex;
         flex-direction: column;
         padding-top: 10px;
         margin-bottom: -40px;
