@@ -18,8 +18,8 @@
     <header class="header">
         <a href="index.html" class="navbar-brand"><img src="assets/images/lighthouse-2.png" alt="lighthouse logo"
                 class="logo" style="height: 65px; margin-top:0;" /> </a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <input class="menu-btn" type="checkbox" id="menu-btn" aria-labelledby="menu-btn" />
+        <div class="menu-icon" for="menu-btn"><span class="navicon"></span></div>
         <ul class="menu">
             <li>
                 <a href="index.html" class="active"><strong>HOME</strong></a>
@@ -238,7 +238,6 @@
                 <div class="coffee-icon">
                     <i class="fas fa-coffee"></i>
                 </div>
-
             </div>
         </div>
     </section>
@@ -252,7 +251,8 @@
         </p>
 
         <div id="subscribe-field">
-            <input type="email" id="email-subscribe" name="email-subscribe" placeholder="Your email address" />
+            <input type="email" id="email-subscribe" name="email-subscribe" placeholder="Your email address"
+                aria-labelledby="email-subscribe" />
             <button type="submit" value="Subscribe" class="btn-subscribe">Subscribe</button>
         </div>
 
