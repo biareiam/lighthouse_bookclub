@@ -26,7 +26,7 @@ a {
 }
 
 .header {
-    background-color: #fbf6f098;
+    background-color: #fbf6f0c4;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: absolute;
     width: 100%;
@@ -221,11 +221,16 @@ a {
 .member-testimony {
     display: flex;
     justify-content: space-evenly;
+}
 
+.member {
+    margin-left: 30px;
 }
 
 .member p {
-    width: 60%;
+    width: 70%;
+    font-size: 0.9rem;
+    line-height: 25px;
 }
 
 #profile1 {
@@ -253,20 +258,11 @@ a {
     margin: 0 auto;
 }
 
-.review {
-
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
 .profile {
     text-align: center;
 }
 
 .quotation {
-    font-size: 0.7rem;
     margin: 0 auto;
     quotes: "\201C""\201D""\2018""\2019";
     padding: 10px 0;
@@ -318,7 +314,7 @@ a {
 .reason-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #333;
     letter-spacing: 2px;
     margin-left: auto;
@@ -346,6 +342,7 @@ a {
 .reason hr {
     width: 85%;
     margin-left: 25px;
+    line-height: 20px;
 }
 
 .reason h4 {
@@ -353,7 +350,7 @@ a {
 }
 
 .reason p {
-    text-align: justify;
+    text-align: center;
     font-size: 0.9rem;
 }
 
@@ -395,7 +392,7 @@ hr {
 #work-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -451,10 +448,11 @@ hr {
 .work-container p {
     width: 80%;
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
     font-size: 0.9rem;
+    line-height: 25px;
 }
 
 .work-container h4,
@@ -480,7 +478,7 @@ hr {
 .local-box {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
@@ -523,14 +521,15 @@ hr {
     font-size: 1.3rem;
     text-align: center;
     padding-top: 55px;
-    color: rgb(221, 218, 218);
+    color: rgb(255, 255, 255);
 }
 
-.responsive>p {
+.responsive h5 {
     font-size: 1.2rem;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
+    font-weight: bold;
 }
 
 .responsive a {
@@ -557,15 +556,16 @@ hr {
 
 #subscribe-section h4 {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     letter-spacing: 2px;
 }
 
 #subscribe-section p {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     padding: 15px 0 15px 0;
     letter-spacing: 2px;
+    line-height: 20px;
     width: 30%;
     margin: 0 auto;
 }
@@ -598,7 +598,7 @@ hr {
     height: 35px;
     background-color: #8a99a6;
     border: none;
-    color: #fafafa;
+    color: #0e0e0e;
     font-size: 1rem;
 }
 
@@ -743,14 +743,14 @@ hr {
     height: 225px;
     float: left;
     padding-right: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 /*title*/
 .about-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 1.5px;
     margin-left: auto;
     margin-right: auto;
@@ -758,8 +758,8 @@ hr {
 }
 
 .about-txt p {
-    font-size: 1rem;
-    text-align: justify;
+    font-size: 0.9rem;
+    text-align: center;
     width: 90%;
     margin: 0 auto;
     padding: 50px 60px 20px 0;
@@ -779,12 +779,13 @@ hr {
 .team-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .about-team {
@@ -797,7 +798,7 @@ hr {
 }
 
 .about-team p {
-    text-align: justify;
+    text-align: center;
     line-height: 23px;
     width: 75%;
     font-size: 0.9rem;
@@ -878,9 +879,10 @@ hr {
 
 .questions {
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
     padding: 15px;
     width: 25%;
+
 }
 
 .questions h4 {
@@ -891,7 +893,8 @@ hr {
 }
 
 .questions p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    line-height: 20px;
 }
 
 .about {
@@ -939,14 +942,14 @@ hr {
 }
 
 .book-list h4 {
-    text-align: start;
+    text-align: center;
     margin-left: 20px;
 
 }
 
 .book-list p {
     width: 70%;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
     font-size: 0.8rem;
 }
@@ -959,6 +962,7 @@ hr {
 .options p {
     text-align: center;
     margin-bottom: -20px;
+    font-size: 1rem;
 }
 
 #books-section {
@@ -969,7 +973,7 @@ hr {
 #book-title {
     text-align: center;
     background-color: #f1d9d571;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     margin-bottom: 60px;
     padding: 20px 0;
@@ -1041,8 +1045,9 @@ hr {
     font-weight: bold;
     padding: 5px;
 
-    color: #86a0a6;
-    border: 1px solid #86a0a6;
+    color: #3e3f3f;
+    border: 1px solid #3e3f3f;
+    ;
     text-decoration: none;
 }
 
@@ -1068,12 +1073,14 @@ hr {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #0c0c0c;
-    background-color: #fffaf44b;
+    background-color: #f8f1e7ab;
     max-width: 400px;
     position: absolute;
     left: 10%;
-    top: 8%;
+    top: 15%;
     padding: 30px;
+    border-radius: 10px;
+
 }
 
 .signup-form h2 {
@@ -1116,7 +1123,7 @@ label {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #BF9780;
+    background-color: #a37458;
     color: #fafafa;
     display: block;
     margin: 0 auto;
@@ -1129,6 +1136,12 @@ label {
 
 .terms-agree {
     font-size: 12px;
+    color: #851f1f;
+}
+
+.terms-agree a {
+    font-weight: bold;
+    color: #851f1f;
 }
 
 /************************************************/
@@ -1283,7 +1296,7 @@ label {
 
     .book-list p {
         width: 70%;
-        text-align: justify;
+        text-align: center;
     }
 }
 
@@ -1295,7 +1308,6 @@ label {
     /* {
         background-color: rgb(107, 64, 47);
     }*/
-
     .reason {
         margin-left: 20px;
     }
@@ -1315,7 +1327,7 @@ label {
 
     .book-list p {
         width: 80%;
-        text-align: justify;
+        text-align: center;
     }
 
 }
@@ -1389,8 +1401,6 @@ label {
         font-size: 0.9rem;
     }
 
-
-
     .options {
         margin-left: 120px;
     }
@@ -1401,7 +1411,7 @@ label {
 
     .book-list p {
         width: 70%;
-        text-align: justify;
+        text-align: center;
     }
 
 
