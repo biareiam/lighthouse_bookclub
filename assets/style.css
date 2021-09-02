@@ -1174,19 +1174,25 @@ label {
 /************************************************/
 
 /*Media*/
-/*
+
 @media screen and (max-width: 2560px) {
 
     /* {
         background-color: #b2d4e6;
     }*/
-/*
-    #heading-title>h1 {
-        font-size: 5rem;
+
+    #heading-title {
+        height: 650px;
+    }
+
+    #heading-title h1 {
+        font-size: 8rem;
+        margin-top: 40px;
     }
 
     #heading-title h2 {
         font-size: 3rem;
+        margin-bottom: 50px;
     }
 
     .quotation {
@@ -1279,11 +1285,6 @@ label {
         margin: 5px 0 20px 0;
         font-size: 1.6rem;
     }
-
-
-
-
-
 }
 
 
@@ -1294,7 +1295,7 @@ label {
     /* {
         background-color: #3b5999;
     }*/
-/*
+
     .team-title {
         margin-top: 20px;
     }
@@ -1328,7 +1329,7 @@ label {
         background-color: #993b4f;
     }*/
 
-/*
+
     .reason {
         margin-left: 40px;
     }
@@ -1354,18 +1355,19 @@ label {
         background-color: darkolivegreen;
     }*/
 
-/*
+
     #heading-title {
-        height: 450px;
+        height: 500px;
     }
 
     #heading-title h1 {
-        font-size: 3rem;
-        margin-top: -70px;
+        font-size: 6.8rem;
+        margin-top: -20px;
     }
 
     #heading-title h2 {
-        font-size: 2rem;
+        font-size: 3rem;
+        margin-bottom: 20px;
     }
 
     .work-container {
@@ -1383,8 +1385,6 @@ label {
     .reason {
         margin-left: auto;
     }
-
-
 
     .team-container {
         width: 100%;
@@ -1429,7 +1429,7 @@ label {
 
     .signup-form {
         top: 0%;
-        left: 50%;
+        left: 60%;
         height: fit-content;
         width: 350px;
         padding: 20px;
@@ -1473,13 +1473,17 @@ label {
 
 /* For larger to medium screens size from 1200px wide and down*/
 
-/*
+
 @media screen and (max-width: 1200px) {
 
     /* {
         background-color: rgb(107, 64, 47);
     }*/
-/*
+
+    #heading-title h1 {
+        margin-top: 25px;
+    }
+
     .reason {
         margin-left: 20px;
     }
@@ -1513,9 +1517,13 @@ label {
     /* {
         background-color: rgb(142, 140, 240);
     }*/
-/*
+
     #heading-title h1 {
-        margin-top: -60px;
+        font-size: 6rem;
+    }
+
+    #heading-title h2 {
+        margin-top: -20px;
     }
 
     blockquote {
@@ -1591,7 +1599,7 @@ label {
     }
 
     .signup-form {
-        top: 3%;
+        top: 0%;
         left: 25%;
         width: 450px;
     }
@@ -1607,19 +1615,21 @@ label {
     /* {
         background-color: #568196;
     }*/
-/*
+
     #heading-title {
         height: 450px;
-        background-position: left;
+
     }
 
     #heading-title h1 {
-        font-size: 2.8rem;
-        margin-top: -50px;
+        font-size: 4.2rem;
+        margin-top: 10px;
     }
 
     #heading-title h2 {
         font-size: 2rem;
+        margin-bottom: -5px;
+
     }
 
     .member-testimony {
@@ -1741,17 +1751,18 @@ label {
 @media screen and (max-width: 425px) {
 
     #heading-title {
-        padding-top: -50px;
+        height: 400px;
     }
 
     #heading-title h1 {
         font-size: 2.8rem;
-        margin-top: -100px;
+
     }
 
 
     #heading-title h2 {
         font-size: 1.8rem;
+        margin-top: -10px;
     }
 
     .member-testimony {
@@ -1828,11 +1839,6 @@ label {
         width: 25%;
         margin-top: 20px;
     }
-
-
-
-
-
 
     .members {
         padding-left: 5px;
@@ -1941,15 +1947,13 @@ label {
 
 
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
 
 
-    #heading-title {
-        height: 500px;
-    }
 
     #heading-title h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-top: 20px;
     }
 
     #heading-title>h2 {
