@@ -1,6 +1,7 @@
 /*font family we are using from Google fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 
 * {
     margin: 0;
@@ -10,49 +11,60 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #fffaf4;
-    color: #4a5759;
+    color: #203030;
     font-weight: 300;
+    background-color: #b0bfbe2a;
+
 }
 
 /*------------------------------------------------ Navigation bar */
 /* header */
 a {
-    color: #4a5759;
+    color: #000000;
+    text-decoration: none;
 }
+
 
 .logo {
     border-radius: 50%;
 }
 
+
 .header {
-    background-color: #fbf6f0ea;
+    /*background-color: #fbf6f0ea;*/
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: absolute;
     width: 100%;
     z-index: 3;
+    background-color: #b0bfbecb;
+
 }
+
 
 .header ul {
     margin-top: 20px;
     padding: 0;
     list-style: none;
     overflow: hidden;
+
 }
 
 .header li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: medium !important;
+    margin-left: -5px;
+    color: #ffffff;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-    color: #926464;
+    color: #a31b1b;
 }
 
 .active {
-    color: #851f1f;
+    color: #1d1677;
 }
 
 
@@ -60,7 +72,7 @@ a {
     display: block;
     float: left;
     font-size: 2em;
-    padding: 10px 20px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -144,8 +156,6 @@ a {
 }
 
 
-
-
 @media (min-width: 768px) {
     .header li {
         float: left;
@@ -171,17 +181,22 @@ a {
     text-align: center;
     padding: 165px 0 0 0;
     width: 100%;
-    height: 470px;
-    background: url("../assets/images/background-image.jpg") no-repeat center center;
+    height: 650px;
+    /*background: url("../assets/images/background-image.jpg") no-repeat center center;*/
+    background: url('../assets/images/light-house-background.jpeg') no-repeat top center;
     background-size: cover;
     margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+
 }
 
 #heading-title>h1 {
-    font-size: 6.5rem;
-    font-family: "Amatic SC", cursive;
-    letter-spacing: 6px;
-    margin-bottom: 50px;
+    /*font-size: 6.5rem;*/
+    font-size: 4.8rem;
+    letter-spacing: 2px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 #heading-title>h2 {
@@ -191,8 +206,9 @@ a {
 
 /*------------------------------------------------ button that leads to join page*/
 .btn {
-    color: #050505;
-    border: 2px solid #a8b6c1;
+    color: #ffffff;
+    /* border: 2px solid #a8b6c1;*/
+    background-color: #b5cdd3b4;
     margin-top: 30px;
     border-radius: 10px;
     padding: 18px 50px;
@@ -200,16 +216,12 @@ a {
     font-size: 1.5rem;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 #a8b6c1;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-    text-decoration: none;
 }
 
 .btn-join:hover {
-    box-shadow: inset 400px 0 0 0 #a8b6c1;
+    box-shadow: inset 400px 0 0 0 rgba(31, 64, 90, 0.712);
     color: #fafafa;
+
 }
 
 .row {
@@ -221,6 +233,7 @@ a {
 .member-testimony {
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .member {
@@ -270,7 +283,8 @@ a {
 }
 
 .team-line {
-    border-left: #f1d9d5 5px solid;
+    /* border-left: #f1d9d5 5px solid;*/
+    border-left: #3F5957 solid;
 }
 
 .quotation:before {
@@ -281,7 +295,7 @@ a {
     left: -30px;
     position: relative;
     top: 30px;
-    color: #f1d9d5;
+    color: #3F5957;
     font-size: 5em;
 }
 
@@ -293,7 +307,7 @@ a {
     left: 30px;
     position: relative;
     top: 50px;
-    color: #f1d9d5;
+    color: #3F5957;
     font-size: 5em;
 }
 
@@ -302,7 +316,7 @@ a {
 }
 
 .text-mark-left {
-    border-left: #f1d9d5 5px solid;
+    border-left: #3F5957 5px solid;
 }
 
 /*--------------------------------------- Reasons section*/
@@ -313,13 +327,14 @@ a {
 
 .reason-title {
     text-align: center;
-    background-color: #f1d9d571;
+    background-color: #b0bfbecb;
+    /*background-color: #f1d9d571;*/
     font-size: 1.2rem;
-    color: #333;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 .join-container {
@@ -335,6 +350,7 @@ a {
     border: none;
     background-color: #fffaf4;
     margin: 0 auto;
+    background-color: transparent;
 }
 
 .reason p,
@@ -355,14 +371,14 @@ a {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 2px solid #798C8C;
     width: 100%;
     margin: 5px 0;
 }
 
 .reasons-icon {
-    color: #013440;
-    font-size: 350%;
+    color: #798C8C;
+    font-size: 260%;
     margin-left: 0px;
     padding-top: 20px;
 }
@@ -372,6 +388,7 @@ hr {
     font-size: 20px;
 }
 
+/*
 #cookie {
     color: #edafb8;
 }
@@ -391,13 +408,14 @@ hr {
 /*---- How it works section*/
 #work-title {
     text-align: center;
-    background-color: #f1d9d571;
+    background-color: #b0bfbecb;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 
@@ -477,13 +495,14 @@ hr {
 /*--------------------------------------- Meetup section*/
 .local-box {
     text-align: center;
-    background-color: #f1d9d571;
+    background-color: #b0bfbecb;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 0;
     margin-bottom: 10px;
+
 }
 
 .square {
@@ -550,7 +569,7 @@ hr {
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
-    background-color: #f1d9d5;
+    background-color: #b0bfbecb;
     padding: 25px 0 25px 0;
 }
 
@@ -568,6 +587,7 @@ hr {
     line-height: 20px;
     width: 30%;
     margin: 0 auto;
+
 }
 
 #subscribe-field {
@@ -577,10 +597,7 @@ hr {
 #envelope {
     text-align: center;
     font-size: 320%;
-}
 
-.far:hover {
-    color: #f29999;
 }
 
 #email-subscribe {
@@ -604,13 +621,14 @@ hr {
 
 .btn-subscribe:hover,
 .btn-subscribe:focus {
-    background-color: #f8b8b1;
+    background-color: #A67C80;
 }
 
 /*--------------------------------------- Contact section*/
 
 #contact-section {
-    background: url("../assets/images/background-image.jpg") bottom center;
+    /*background: url("../assets/images/background-image.jpg") bottom center;*/
+    background: url("../assets/images/light-house-background-1.jpeg") center center;
     background-size: cover;
     padding-top: 5px;
     letter-spacing: 2px;
@@ -618,24 +636,27 @@ hr {
 
 #contact-section>h4 {
     text-align: center;
+    color: #ffffff;
 }
 
 #contact {
     padding: 5px 0 10px 0;
     text-align: center;
     font-size: 1rem;
+    color: #ffffff;
 }
 
 #contact p {
     padding: 10px 0 0 0;
     text-align: center;
     font-size: 0.8rem;
+    color: #ffffff;
 }
 
 /*copyright */
 #copyright {
     text-align: center;
-    background-color: #f1d9d5;
+    background-color: #b0bfbecb;
     font-size: 0.7rem;
     padding: 10px 0 10px 0;
     font-family: "Abel", sans-serif;
@@ -645,7 +666,7 @@ hr {
 
 .copyright-footer {
     text-align: center;
-    background-color: #d9b18f;
+    background-color: #b0bfbecb;
     color: #fafafa;
     font-size: 0.7rem;
     padding: 10px 0 10px 0;
@@ -660,6 +681,7 @@ hr {
 
 #follow h4 {
     padding-bottom: 10px;
+    color: #ffffff;
 
 }
 
@@ -675,7 +697,7 @@ hr {
     display: flex;
     justify-content: center;
     font-size: 80%;
-    color: #380404;
+    color: #ffffff;
 }
 
 .icon-item {
@@ -739,26 +761,15 @@ hr {
 
 /*--------------------------------------- About page*/
 
-/*title*/
-.about-title {
-    text-align: center;
-    background-color: #f1d9d571;
-    font-size: 1.2rem;
-    letter-spacing: 1.5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 0;
-}
 
 .about-txt p {
     font-size: 0.9rem;
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    padding: 50px 60px 20px 0;
-    color: #272727;
+    padding: 60px;
     letter-spacing: 2px;
-    line-height: 23px;
+    line-height: 25px;
 
 
 }
@@ -771,7 +782,7 @@ hr {
 
 .team-title {
     text-align: center;
-    background-color: #f1d9d571;
+    background-color: #b0bfbecb;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
@@ -861,7 +872,7 @@ hr {
 
 .question-title {
     text-align: center;
-    background-color: #f1d9d571;
+    background-color: #b0bfbecb;
     font-size: 1.3rem;
     letter-spacing: 2px;
     margin-left: auto;
@@ -965,7 +976,7 @@ hr {
 
 #book-title {
     text-align: center;
-    background-color: #f1d9d571;
+    background-color: #b0bfbecb;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-bottom: 60px;
@@ -1024,7 +1035,7 @@ hr {
     width: 250px;
     padding: 5px 0 5px 0;
     text-align: center;
-    background-color: #f7ccbd86;
+    background-color: #9AB2B4;
     margin-top: -30px;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -1061,7 +1072,7 @@ hr {
 
 .form-section {
     clear: left;
-    background: url('../assets/images/girl-read.jpg') center no-repeat;
+    background: url('../assets/images/light-house-background-1.jpeg') center no-repeat;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -1070,10 +1081,10 @@ hr {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #0c0c0c;
-    background-color: #f8f1e7ab;
+    background-color: #ffffffa9;
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 50%;
     top: 15%;
     padding: 30px;
     border-radius: 10px;
@@ -1120,15 +1131,17 @@ label {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #a37458;
+    background-color: rgba(31, 64, 90, 0.712);
+    ;
     color: #fafafa;
     display: block;
     margin: 0 auto;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #BF9780;
+    background-color: rgba(7, 97, 77, 0.781);
+    ;
+    color: rgb(255, 255, 255);
 }
 
 .terms-agree {
@@ -1141,6 +1154,8 @@ label {
     color: #851f1f;
 }
 
+
+
 /************************************************/
 
 /*Media*/
@@ -1150,6 +1165,14 @@ label {
     /* {
         background-color: #b2d4e6;
     }*/
+
+    #heading-title>h1 {
+        font-size: 5rem;
+    }
+
+    #heading-title h2 {
+        font-size: 3rem;
+    }
 
     .quotation {
         font-size: 1rem;
@@ -1163,6 +1186,15 @@ label {
         margin-left: 60px;
     }
 
+
+    #email-subscribe {
+        width: 20%;
+    }
+
+    .btn-subscribe {
+        width: 5%;
+    }
+
     .about-txt {
         padding-left: 100px;
         width: 90%;
@@ -1170,7 +1202,6 @@ label {
 
     .team-container {
         width: 100%;
-
     }
 
     .members {
@@ -1195,7 +1226,6 @@ label {
         width: 50%;
     }
 
-
     .form-section {
         height: 1400px;
     }
@@ -1208,36 +1238,38 @@ label {
 
     .signup-form h2 {
         font-size: 2rem;
+        text-align: center;
     }
 
-    .signup-form>p {
-        font-size: 1.3rem;
+    .signup-form h3 {
+        font-size: 1rem;
+        padding-bottom: 10px;
+
     }
 
-    .text-input p {
-        font-size: 1.1rem;
+    .terms-agree p {
+        font-size: 0.8rem;
     }
 
     .join-button {
         margin-top: 40px;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
 
     label {
         font-weight: bold;
-        font-size: 1.7rem;
+        font-size: 1.1rem;
     }
 
     .text-input {
         width: 100%;
         height: 35px;
         margin: 5px 0 20px 0;
+        font-size: 1.6rem;
     }
 
-    .terms-agree {
-        font-size: 1rem;
-    }
+
 
 
 
@@ -1256,11 +1288,10 @@ label {
         margin-top: 20px;
     }
 
+
     .about-team p {
         width: 50%;
     }
-
-
 
     .form-section {
         height: 1200px;
@@ -1269,7 +1300,7 @@ label {
     .signup-form {
         width: max-content;
         height: max-content;
-        top: 12%;
+        top: 10%;
     }
 
     .signup-form p {
@@ -1286,9 +1317,11 @@ label {
         background-color: #993b4f;
     }*/
 
+
     .reason {
         margin-left: 40px;
     }
+
 
     .book-list h4 {
         margin-left: 130px;
@@ -1297,7 +1330,6 @@ label {
     .book-list p {
         width: 55%;
     }
-
 
     .background-image-join form {
         max-width: 800px;
@@ -1311,6 +1343,18 @@ label {
         background-color: darkolivegreen;
     }*/
 
+
+    #heading-title {
+        height: 450px;
+    }
+
+    #heading-title h1 {
+        font-size: 3rem;
+    }
+
+    #heading-title h2 {
+        font-size: 2rem;
+    }
 
     .work-container {
         width: 100%;
@@ -1341,7 +1385,6 @@ label {
         width: 90%;
     }
 
-
     .about-team {
         width: 80%;
 
@@ -1371,46 +1414,49 @@ label {
     }
 
     .form-section {
-        background-position: right;
-        height: 900px;
+        background-position: left;
+        height: 780px;
     }
 
     .signup-form {
-        top: 1%;
-        left: 5%;
+        top: 0%;
+        left: 60%;
         height: fit-content;
-        width: fit-content;
+        width: 350px;
+        padding: 20px;
     }
 
-    .signup-form p {
-        font-size: 1rem;
+    .signup-form h3 {
+        font-size: 0.8rem;
+    }
+
+    .terms-agree p {
+        font-size: 0.6rem;
     }
 
     label {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 
     .signup-form h2 {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     .signup-form>p {
-        font-size: 1.1rem;
+
+        font-size: 0.8rem;
+
     }
 
-    .text-input p {
-        font-size: 1.1rem;
+    .text-input {
+        font-size: 1rem;
+        height: 25px;
     }
 
     .join-button {
         margin-top: 40px;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
-
-
-
-
-
 
 
 }
@@ -1436,7 +1482,6 @@ label {
         width: 9%;
     }
 
-
     .book-list h4 {
         text-align: center;
         margin: 0 auto;
@@ -1454,10 +1499,13 @@ label {
 }
 
 @media screen and (max-width: 1024px) {
+
     /* {
         background-color: rgb(142, 140, 240);
     }*/
-
+    #heading-title h1 {
+        margin-top: -60px;
+    }
 
     blockquote {
         padding: 0;
@@ -1488,9 +1536,8 @@ label {
         font-size: 1rem;
     }
 
-    .about-txt {
-        padding-top: -10px;
-
+    .about-txt p {
+        margin-left: -50px;
     }
 
     .about-team {
@@ -1534,25 +1581,39 @@ label {
     }
 
     .form-section {
-        background-position: right;
+        background-position: left;
     }
 
+    .signup-form {
+        top: 3%;
+        left: 25%;
+        width: 450px;
+    }
 
+    .text-input {
+        width: 100%;
+    }
 }
 
 
 
 @media screen and (max-width: 768px) {
-    /* {
+    * {
         background-color: #568196;
-    }*/
+    }
 
     #heading-title {
         height: 450px;
+        background-position: left;
     }
 
     #heading-title h1 {
-        font-size: 4.7rem;
+        font-size: 2.8rem;
+        margin-top: -50px;
+    }
+
+    #heading-title h2 {
+        font-size: 2rem;
     }
 
     .member-testimony {
@@ -1616,7 +1677,9 @@ label {
     }
 
     .about-txt {
-        width: 80%;
+        width: 100%;
+        padding-left: 30px;
+
     }
 
     .members {
@@ -1661,19 +1724,29 @@ label {
     }
 
     .signup-form {
-        left: 5%;
-        height: fit-content;
-        width: fit-content;
+        left: 18%;
+        top: 1%;
+
     }
 
+    .text-input {
+        font-size: 1rem;
+
+    }
 }
 
 
 @media screen and (max-width: 425px) {
 
-    #heading-title h1 {
-        font-size: 4.4rem;
+    #heading-title {
+        padding-top: -50px;
     }
+
+    #heading-title h1 {
+        font-size: 2.8rem;
+        margin-top: -100px;
+    }
+
 
     #heading-title h2 {
         font-size: 1.8rem;
@@ -1754,9 +1827,10 @@ label {
         margin-top: 20px;
     }
 
+
     .about-txt {
-        width: 70%;
-        margin-left: -20px;
+        width: 90%;
+        padding-left: 40px;
     }
 
     .about-txt p {
@@ -1825,7 +1899,7 @@ label {
     }
 
     .signup-form {
-        top: 1%;
+        top: 0%;
         left: 5%;
         height: fit-content;
         width: fit-content;
@@ -1837,15 +1911,15 @@ label {
 
 
     .signup-form h2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .signup-form>p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .text-input p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .join-button {
@@ -1855,7 +1929,7 @@ label {
 
     label {
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .text-input {
@@ -1864,8 +1938,8 @@ label {
         margin: 5px 0 20px 0;
     }
 
-    .terms-agree {
-        font-size: 1rem;
+    .terms-agree p {
+        font-size: 0.8rem;
     }
 
 }
@@ -1880,7 +1954,7 @@ label {
     }
 
     #heading-title h1 {
-        font-size: 3.8rem;
+        font-size: 3rem;
     }
 
     #heading-title>h2 {
@@ -1917,23 +1991,36 @@ label {
 
 @media screen and (max-width: 320px) {
 
+    #heading-title {
+        height: 320px;
+    }
+
+    #heading-title h1 {
+        font-size: 2rem;
+    }
+
+    #heading-title h2 {
+        font-size: 1.2rem;
+    }
+
     .reason {
         margin-left: 25px;
     }
 
     .about-txt {
-        width: 100%;
-        margin-left: 30px;
+        width: 80%;
+        padding-left: 40px;
     }
 
     .work-container h5 {
         padding-bottom: 20px;
     }
 
-    .team-container {
-        width: 95%;
-        margin-left: 113px;
+    .team-container p {
+        width: 90%;
+
     }
+
 
     .responsive {
         width: 310px;

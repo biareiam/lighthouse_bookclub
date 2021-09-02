@@ -17,10 +17,10 @@
 <body>
     <!--Navigation bar-->
     <header class="header">
-        <a href="index.html" class="navbar-brand"><img src="assets/images/lighthouse-2.png" alt="lighthouse logo"
-                class="logo" style="height: 65px; margin-top:0;" /> </a>
+        <a href="index.html" class="navbar-brand"><img src="assets/images/try.PNG" alt="lighthouse logo" class="logo"
+                style="height: 65px; margin-top:0;" /> </a>
         <input class="menu-btn" type="checkbox" id="menu-btn" aria-labelledby="menu-btn" />
-        <div class="menu-icon" for="menu-btn"><span class="navicon"></span></div>
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
             <li>
                 <a href="index.html"><strong>HOME</strong></a>
@@ -43,19 +43,19 @@
     <div class="form-section">
         <form class="signup-form" method="POST" action="#">
             <h2>Join us now!</h2>
-            <p>
+            <h3>
                 By sign in you will become part of this amazing and strong community!
-            </p>
+            </h3>
             <label for="fname">First Name</label>
             <input id="fname" class="text-input" type="text" name="first_name" required />
             <label for="lname">Last Name</label>
             <input id="lname" class="text-input" type="text" name="last_name" required />
             <label for="email">Email Address</label>
             <input id="email" class="text-input" type="email" name="email_address" required />
-            <div>
-                <p class="terms-agree" id="term"><input type="checkbox" name="newsletter-yes" /> I want to hear more
+            <div class="terms-agree">
+                <p id="term"><input type="checkbox" name="newsletter-yes" /> I want to hear more
                     about the book club.</p>
-                <p class="terms-agree" id="term1"><input type="checkbox" required name="terms" /> I accept the Light
+                <p id="term1"><input type="checkbox" required name="terms" /> I accept the Light
                     House book club <a href="#"> Terms and Conditions </a> and <a href="#"> Privacy Policy</a>.</p>
             </div>
             <input class="join-button" type="submit" value="Sign me in!" />
@@ -63,23 +63,6 @@
 
     </div>
     <footer>
-        <ul class="icon-list">
-            <li class="icon-item center">
-                <a href="https://www.facebook.com" class="icon-link"
-                    aria-label="visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f center"
-                        aria-hidden="true"></i></a>
-            </li>
-            <li class="icon-item">
-                <a href="https://www.instagram.com" class="icon-link"
-                    aria-label="visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram center"
-                        aria-hidden="true"></i></a>
-            </li>
-            <li class="icon-item">
-                <a href="https://twitter.com" class="icon-link"
-                    aria-label="visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square center"
-                        aria-hidden="true"></i></a>
-            </li>
-        </ul>
         <p id="copyright">©2021 The Lighthouse Book Club, LLC. All Rights Reserved</p>
     </footer>
 
