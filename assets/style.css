@@ -1,5 +1,5 @@
 /*font family we are using from Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 
@@ -11,10 +11,8 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    color: #203030;
+    color: #181818;
     font-weight: 300;
-    background-color: #b0bfbe2a;
-
 }
 
 /*------------------------------------------------ Navigation bar */
@@ -27,17 +25,15 @@ a {
 .logo {
     border-radius: 50%;
     margin-top: 5px;
-    height: 55px;
+    height: 58px;
 }
 
 
 .header {
-    /*background-color: #fbf6f0ea;*/
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: absolute;
     width: 100%;
     z-index: 3;
-    background-color: #f7f4f4;
+    background-color: #F7D6B5;
     margin-top: -10px;
 }
 
@@ -179,54 +175,53 @@ a {
 }
 
 
-
-
 /*------------------------------------------------Landing page image*/
 #heading-title {
     text-align: center;
     padding: 165px 0 0 0;
     width: 100%;
-    height: 650px;
+    height: 500px;
     /*background: url("../assets/images/background-image.jpg") no-repeat center center;*/
-    background: url('../assets/images/light-house-background.jpeg') no-repeat top center;
+    background: url('../assets/images/phone-3.png') no-repeat top center;
     background-size: cover;
+    font-family: 'Amatic SC', cursive;
     margin-bottom: 30px;
     color: #ffffff;
-    font-family: 'Nunito', sans-serif;
-
 }
 
-#heading-title>h1 {
-    /*font-size: 6.5rem;*/
-    font-size: 4.8rem;
-    letter-spacing: 2px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+#heading-title h1 {
+    font-size: 5.2rem;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-weight: bold;
 }
 
 #heading-title>h2 {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 2.4rem;
 }
 
 
 /*------------------------------------------------ button that leads to join page*/
 .btn {
-    color: #ffffff;
-    /* border: 2px solid #a8b6c1;*/
-    background-color: #b5cdd3b4;
-    margin-top: 30px;
-    border-radius: 10px;
+    color: #FFF;
+    background-color: #f29999e5;
+    margin-top: 0px;
+    border-radius: 0px;
     padding: 18px 50px;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     cursor: pointer;
+    box-shadow: inset 0 0 0 0 #f25c5c73;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .btn-join:hover {
-    box-shadow: inset 400px 0 0 0 rgba(31, 64, 90, 0.712);
+    background-color: #8DA1A6;
     color: #fafafa;
-
 }
 
 .row {
@@ -289,7 +284,7 @@ a {
 
 .team-line {
     /* border-left: #f1d9d5 5px solid;*/
-    border-left: #3F5957 solid;
+    border-left: #F29999 solid;
 }
 
 .quotation:before {
@@ -300,7 +295,7 @@ a {
     left: -30px;
     position: relative;
     top: 30px;
-    color: #3F5957;
+    color: #F29999;
     font-size: 5em;
 }
 
@@ -312,7 +307,7 @@ a {
     left: 30px;
     position: relative;
     top: 50px;
-    color: #3F5957;
+    color: #F29999;
     font-size: 5em;
 }
 
@@ -321,7 +316,7 @@ a {
 }
 
 .text-mark-left {
-    border-left: #3F5957 5px solid;
+    border-left: #F29999 5px solid;
 }
 
 /*--------------------------------------- Reasons section*/
@@ -332,13 +327,13 @@ a {
 
 .reason-title {
     text-align: center;
-    background-color: #b0bfbecb;
-    /*background-color: #f1d9d571;*/
+    background-color: #F2D1B3;
+    color: #fafafa;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0;
+    padding: 25px 0;
     margin-bottom: 20px;
 }
 
@@ -376,16 +371,16 @@ a {
 }
 
 hr {
-    border-top: 2px solid #798C8C;
+    border-top: 2px solid #262521be;
     width: 100%;
     margin: 5px 0;
 }
 
 .reasons-icon {
-    color: #798C8C;
-    font-size: 260%;
+    font-size: 300%;
     margin-left: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .reason-subtitle {
@@ -393,7 +388,7 @@ hr {
     font-size: 20px;
 }
 
-/*
+
 #cookie {
     color: #edafb8;
 }
@@ -413,12 +408,13 @@ hr {
 /*---- How it works section*/
 #work-title {
     text-align: center;
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
+    color: #fafafa;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0;
+    padding: 25px 0;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -500,12 +496,13 @@ hr {
 /*--------------------------------------- Meetup section*/
 .local-box {
     text-align: center;
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
+    color: #fafafa;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0;
+    padding: 25px 0;
     margin-bottom: 10px;
 
 }
@@ -574,7 +571,7 @@ hr {
 
 /*--------------------------------------- Subscribe section*/
 #subscribe-section {
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
     padding: 25px 0 25px 0;
 }
 
@@ -582,6 +579,7 @@ hr {
     text-align: center;
     font-size: 1.1rem;
     letter-spacing: 2px;
+    color: #fafafa;
 }
 
 #subscribe-section p {
@@ -592,6 +590,7 @@ hr {
     line-height: 20px;
     width: 30%;
     margin: 0 auto;
+    color: #fafafa;
 
 }
 
@@ -602,6 +601,7 @@ hr {
 #envelope {
     text-align: center;
     font-size: 320%;
+    color: #fafafa;
 
 }
 
@@ -633,35 +633,38 @@ hr {
 
 #contact-section {
     /*background: url("../assets/images/background-image.jpg") bottom center;*/
-    background: url("../assets/images/light-house-background-1.jpeg") center center;
+    background: url("../assets/images/phone-1.jpeg") bottom center;
     background-size: cover;
     padding-top: 5px;
     letter-spacing: 2px;
+    color: #fafafa;
+
 }
 
 #contact-section>h4 {
     text-align: center;
-    color: #ffffff;
+    color: #fafafa;
 }
 
 #contact {
     padding: 5px 0 10px 0;
     text-align: center;
     font-size: 1rem;
-    color: #ffffff;
+
 }
 
 #contact p {
     padding: 10px 0 0 0;
     text-align: center;
     font-size: 0.8rem;
-    color: #ffffff;
+    color: #fafafa;
+
 }
 
 /*copyright */
 #copyright {
     text-align: center;
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
     font-size: 0.7rem;
     padding: 10px 0 10px 0;
     font-family: "Abel", sans-serif;
@@ -671,7 +674,7 @@ hr {
 
 .copyright-footer {
     text-align: center;
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
     color: #fafafa;
     font-size: 0.7rem;
     padding: 10px 0 10px 0;
@@ -686,7 +689,8 @@ hr {
 
 #follow h4 {
     padding-bottom: 10px;
-    color: #ffffff;
+    color: #fafafa;
+
 
 }
 
@@ -702,7 +706,8 @@ hr {
     display: flex;
     justify-content: center;
     font-size: 80%;
-    color: #ffffff;
+    color: #fafafa;
+
 }
 
 .icon-item {
@@ -789,12 +794,13 @@ hr {
 
 .team-title {
     text-align: center;
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
+    color: #fafafa;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0;
+    padding: 25px 0;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -879,12 +885,13 @@ hr {
 
 .question-title {
     text-align: center;
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
+    color: #fafafa;
     font-size: 1.3rem;
     letter-spacing: 2px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0;
+    padding: 25px 0;
     margin-bottom: 10px;
 }
 
@@ -983,11 +990,12 @@ hr {
 
 #book-title {
     text-align: center;
-    background-color: #b0bfbecb;
+    background-color: #F2D1B3;
+    color: #fafafa;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin-bottom: 60px;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 /*****************/
@@ -1042,7 +1050,7 @@ hr {
     width: 250px;
     padding: 5px 0 5px 0;
     text-align: center;
-    background-color: #9AB2B4;
+    background-color: #F29999;
     margin-top: -30px;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -1079,7 +1087,7 @@ hr {
 
 .form-section {
     clear: left;
-    background: url('../assets/images/light-house-background-1.jpeg') center no-repeat;
+    background: url('../assets/images/girl-read-2.jpg') center no-repeat;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -1088,7 +1096,7 @@ hr {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #0c0c0c;
-    background-color: #ffffffa9;
+    background-color: #f2d1b398;
     max-width: 400px;
     position: absolute;
     left: 50%;
@@ -1101,12 +1109,14 @@ hr {
 .signup-form h2 {
     color: #0c0c0c;
     margin-bottom: 20px;
+    font-size: 1.5rem;
 
 }
 
-.signup-form p {
+.signup-form h3 {
     color: #0c0c0c;
     margin-bottom: 10px;
+    font-size: 0.9rem;
 }
 
 .signup-form {
@@ -1116,6 +1126,7 @@ hr {
 
 label {
     font-weight: bold;
+    font-size: 0.9rem;
 }
 
 .text-input {
@@ -1133,13 +1144,11 @@ label {
 }
 
 .join-button {
-    margin-top: 40px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
     background-color: rgba(31, 64, 90, 0.712);
-    ;
     color: #fafafa;
     display: block;
     margin: 0 auto;
@@ -1147,13 +1156,12 @@ label {
 
 .join-button:hover {
     background-color: rgba(7, 97, 77, 0.781);
-    ;
     color: rgb(255, 255, 255);
 }
 
 .terms-agree p {
-    font-size: 2rem;
-
+    padding-bottom: 10px;
+    font-size: 0.8rem;
 }
 
 .terms-agree a {
@@ -1166,13 +1174,13 @@ label {
 /************************************************/
 
 /*Media*/
-
+/*
 @media screen and (max-width: 2560px) {
 
     /* {
         background-color: #b2d4e6;
     }*/
-
+/*
     #heading-title>h1 {
         font-size: 5rem;
     }
@@ -1286,7 +1294,7 @@ label {
     /* {
         background-color: #3b5999;
     }*/
-
+/*
     .team-title {
         margin-top: 20px;
     }
@@ -1320,7 +1328,7 @@ label {
         background-color: #993b4f;
     }*/
 
-
+/*
     .reason {
         margin-left: 40px;
     }
@@ -1346,7 +1354,7 @@ label {
         background-color: darkolivegreen;
     }*/
 
-
+/*
     #heading-title {
         height: 450px;
     }
@@ -1465,13 +1473,13 @@ label {
 
 /* For larger to medium screens size from 1200px wide and down*/
 
-
+/*
 @media screen and (max-width: 1200px) {
 
     /* {
         background-color: rgb(107, 64, 47);
     }*/
-
+/*
     .reason {
         margin-left: 20px;
     }
@@ -1505,6 +1513,7 @@ label {
     /* {
         background-color: rgb(142, 140, 240);
     }*/
+/*
     #heading-title h1 {
         margin-top: -60px;
     }
@@ -1598,7 +1607,7 @@ label {
     /* {
         background-color: #568196;
     }*/
-
+/*
     #heading-title {
         height: 450px;
         background-position: left;
