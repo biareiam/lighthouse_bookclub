@@ -1,6 +1,6 @@
 /*font family we are using from Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 * {
@@ -10,7 +10,8 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Roboto', sans-serif;
+
     color: #181818;
     font-weight: 300;
 }
@@ -184,13 +185,14 @@ a {
     /*background: url("../assets/images/background-image.jpg") no-repeat center center;*/
     background: url('../assets/images/phone-3.png') no-repeat top center;
     background-size: cover;
-    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Amatic SC', cursive;*/
+    font-family: 'Glory', sans-serif;
     margin-bottom: 30px;
 
 }
 
 #heading-title h1 {
-    font-size: 5.2rem;
+    font-size: 4.2rem;
     letter-spacing: 4px;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -292,7 +294,7 @@ a {
 
 .team-line {
     /* border-left: #f1d9d5 5px solid;*/
-    border-left: #F2D1B3 solid;
+    border-left: #eee solid;
 }
 
 .quotation:before {
@@ -303,7 +305,7 @@ a {
     left: -30px;
     position: relative;
     top: 30px;
-    color: #F2D1B3;
+    color: #eee;
     font-size: 5em;
 }
 
@@ -315,7 +317,7 @@ a {
     left: 30px;
     position: relative;
     top: 50px;
-    color: #F2D1B3;
+    color: #eee;
     font-size: 5em;
 }
 
@@ -324,7 +326,7 @@ a {
 }
 
 .text-mark-left {
-    border-left: #F2D1B3 5px solid;
+    border-left: #eee 5px solid;
 }
 
 /*--------------------------------------- Reasons section*/
@@ -379,7 +381,7 @@ a {
 }
 
 hr {
-    border-top: 2px solid #262521be;
+    border-top: 2px solid #ccc;
     width: 100%;
     margin: 5px 0;
 }
@@ -1368,7 +1370,7 @@ label {
     }
 
     #heading-title h1 {
-        font-size: 6.8rem;
+        font-size: 4.8rem;
         margin-top: -20px;
     }
 
@@ -1526,7 +1528,7 @@ label {
     }*/
 
     #heading-title h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     #heading-title h2 {
@@ -1629,7 +1631,7 @@ label {
     }
 
     #heading-title h1 {
-        font-size: 4.2rem;
+        font-size: 3.8rem;
         margin-top: 10px;
     }
 
@@ -1762,7 +1764,7 @@ label {
     }
 
     #heading-title h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
 
     }
 

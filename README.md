@@ -72,7 +72,7 @@ It contains four pages, which are the following: Home page, About, Books, and Jo
 
 *  Typography 
 
-    * The fonts used are available at Google Fonts. In the text on the hero image [Amatic](https://fonts.google.com/specimen/Amatic+SC?query=ama#standard-styles) was used and for all the rest [Montserrat.](https://fonts.google.com/specimen/Montserrat?query=mont)
+    * The fonts used are available at Google Fonts. In the text on the hero image [Glory](https://fonts.google.com/specimen/Glory#pairings) was used and for all the rest [Roboto.](https://fonts.googleapis.com/css2?family=Roboto&display=swap)
 
 * Imagery
 
