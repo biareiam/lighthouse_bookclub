@@ -1096,7 +1096,7 @@ hr {
 
 .form-section {
     clear: left;
-    background: url('../assets/images/girl-read-2.jpg') center no-repeat;
+    background: url('../assets/images/girl-read-pink.jpg') center no-repeat;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -1108,7 +1108,7 @@ hr {
     background-color: #f2d1b398;
     max-width: 400px;
     position: absolute;
-    left: 50%;
+    left: 10%;
     top: 15%;
     padding: 30px;
     border-radius: 10px;
@@ -1257,8 +1257,8 @@ label {
     }
 
     .signup-form {
-        max-width: 650px;
-        height: 600px;
+        max-width: 470px;
+        height: 530px;
         top: 15%;
     }
 
@@ -1438,7 +1438,7 @@ label {
 
     .signup-form {
         top: 0%;
-        left: 60%;
+
         height: fit-content;
         width: 350px;
         padding: 20px;
@@ -1515,10 +1515,7 @@ label {
         text-align: center;
     }
 
-    .text-input {
-        width: 620px;
-        font-size: 1.4rem;
-    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -1607,15 +1604,7 @@ label {
         background-position: left;
     }
 
-    .signup-form {
-        top: 0%;
-        left: 25%;
-        width: 450px;
-    }
 
-    .text-input {
-        width: 100%;
-    }
 }
 
 
@@ -1744,10 +1733,14 @@ label {
         width: 40%;
     }
 
-    .signup-form {
-        left: 18%;
-        top: 1%;
+    .form-section {
+        background-position: right;
+    }
 
+    .signup-form {
+        left: 10%;
+        top: 1%;
+        width: 310px;
     }
 
     .text-input {
@@ -1903,16 +1896,12 @@ label {
         margin-bottom: 100px;
     }
 
-    .form-section {
-        background-position: right;
-        height: 900px;
-    }
 
     .signup-form {
         top: 0%;
-        left: 5%;
-        height: fit-content;
-        width: fit-content;
+        left: 3%;
+
+
     }
 
     .signup-form p {
@@ -1927,6 +1916,7 @@ label {
     .signup-form>p {
         font-size: 1rem;
     }
+
 
     .text-input p {
         font-size: 1rem;
@@ -2047,6 +2037,13 @@ label {
     .book-list p {
         width: 80%;
         margin: auto;
+    }
+
+    .signup-form {
+        top: 0%;
+        left: 3%;
+        width: 260px;
+
     }
 
 }
