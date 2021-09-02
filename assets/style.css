@@ -24,11 +24,11 @@ a {
     text-decoration: none;
 }
 
-
 .logo {
     border-radius: 50%;
+    margin-top: 5px;
+    height: 55px;
 }
-
 
 
 .header {
@@ -38,7 +38,7 @@ a {
     width: 100%;
     z-index: 3;
     background-color: #f7f4f4;
-
+    margin-top: -10px;
 }
 
 
@@ -562,7 +562,7 @@ hr {
 }
 
 .place-month a {
-    background-color: #8a99a6;
+    background-color: #A67C80;
 }
 
 .coffee-icon {
@@ -1149,9 +1149,9 @@ label {
     color: rgb(255, 255, 255);
 }
 
-.terms-agree {
-    font-size: 12px;
-    color: #851f1f;
+.terms-agree p {
+    font-size: 2rem;
+
 }
 
 .terms-agree a {
@@ -1355,6 +1355,7 @@ label {
 
     #heading-title h1 {
         font-size: 3rem;
+        margin-top: -70px;
     }
 
     #heading-title h2 {
@@ -1436,7 +1437,8 @@ label {
     }
 
     .terms-agree p {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
+        line-height: 23px;
     }
 
     label {
@@ -1519,8 +1521,6 @@ label {
     .reasons-icon {
         margin-left: -80px;
     }
-
-
 
     .members {
         width: 95%;
