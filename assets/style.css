@@ -284,7 +284,7 @@ a {
 
 .team-line {
     /* border-left: #f1d9d5 5px solid;*/
-    border-left: #F29999 solid;
+    border-left: #F2D1B3 solid;
 }
 
 .quotation:before {
@@ -295,7 +295,7 @@ a {
     left: -30px;
     position: relative;
     top: 30px;
-    color: #F29999;
+    color: #F2D1B3;
     font-size: 5em;
 }
 
@@ -307,7 +307,7 @@ a {
     left: 30px;
     position: relative;
     top: 50px;
-    color: #F29999;
+    color: #F2D1B3;
     font-size: 5em;
 }
 
@@ -316,7 +316,7 @@ a {
 }
 
 .text-mark-left {
-    border-left: #F29999 5px solid;
+    border-left: #F2D1B3 5px solid;
 }
 
 /*--------------------------------------- Reasons section*/

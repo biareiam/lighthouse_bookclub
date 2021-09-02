@@ -67,12 +67,12 @@ It contains four pages, which are the following: Home page, About, Books, and Jo
 
     *  The colours used in the website were chosen in accordance with the hero image used. Adobe color was used to facilitate this process, some variants of those colors were used while styling the site. 
 
-![color](https://user-images.githubusercontent.com/65717229/131845088-25077c7b-a005-476d-a801-6d3baf9d84ce.PNG)
+![phone-1](https://user-images.githubusercontent.com/65717229/131916059-d98925e9-535b-405c-ba2e-36b3ce26beaf.PNG)
 
 
 *  Typography 
 
-    * The fonts used are available at Google Fonts. In the text on the hero image [Nunito](https://fonts.google.com/specimen/Nunito) was used and for all the rest [Montserrat.](https://fonts.google.com/specimen/Montserrat?query=mont)
+    * The fonts used are available at Google Fonts. In the text on the hero image [Amatic](https://fonts.google.com/specimen/Amatic+SC?query=ama#standard-styles) was used and for all the rest [Montserrat.](https://fonts.google.com/specimen/Montserrat?query=mont)
 
 * Imagery
 
