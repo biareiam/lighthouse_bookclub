@@ -211,7 +211,7 @@ a {
     border: 2px solid #8DA1A6;
     /*border: 2px solid #D97B59;*/
     margin-top: 0px;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 18px 50px;
     display: inline-block;
     font-size: 1.3rem;
