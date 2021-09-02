@@ -766,15 +766,17 @@ hr {
 
 /*--------------------------------------- About page*/
 
+.about-txt {
+    width: fit-content;
+}
 
 .about-txt p {
     font-size: 0.9rem;
     text-align: center;
-    width: 90%;
-    margin: 0 auto;
-    padding: 60px;
+    padding: 55px;
     letter-spacing: 2px;
     line-height: 25px;
+    margin-left: -30px;
 
 
 }
@@ -1200,10 +1202,6 @@ label {
         width: 5%;
     }
 
-    .about-txt {
-        padding-left: 100px;
-        width: 90%;
-    }
 
     .team-container {
         width: 100%;
@@ -1378,10 +1376,7 @@ label {
         margin-left: auto;
     }
 
-    .about-txt {
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
+
 
     .team-container {
         width: 100%;
@@ -1392,7 +1387,7 @@ label {
     }
 
     .about-team {
-        width: 80%;
+        width: fit-content;
 
     }
 
@@ -1541,9 +1536,6 @@ label {
         font-size: 1rem;
     }
 
-    .about-txt p {
-        margin-left: -50px;
-    }
 
     .about-team {
         width: 100%;
@@ -1673,6 +1665,7 @@ label {
         width: 15%;
     }
 
+
     .team-container {
         flex-direction: column;
     }
@@ -1681,11 +1674,6 @@ label {
         border: none;
     }
 
-    .about-txt {
-        width: 100%;
-        padding-left: 30px;
-
-    }
 
     .members {
         padding-left: 25px;
@@ -1833,16 +1821,9 @@ label {
     }
 
 
-    .about-txt {
-        width: 90%;
-        padding-left: 40px;
-    }
 
-    .about-txt p {
-        padding-left: -30px;
-        margin-top: -20px;
-        margin-bottom: -20px;
-    }
+
+
 
     .members {
         padding-left: 5px;
@@ -2012,10 +1993,6 @@ label {
         margin-left: 25px;
     }
 
-    .about-txt {
-        width: 80%;
-        padding-left: 40px;
-    }
 
     .work-container h5 {
         padding-bottom: 20px;
@@ -2026,6 +2003,9 @@ label {
 
     }
 
+    .about-txt {
+        padding: 0;
+    }
 
     .responsive {
         width: 310px;
