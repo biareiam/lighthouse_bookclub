@@ -177,22 +177,23 @@ a {
 
 
 /*------------------------------------------------Landing page image*/
+
 #heading-title {
     text-align: center;
-    padding: 150px 0 0 0;
+    padding: 160px 0 0 0;
     width: 100%;
-    height: 500px;
-    /*background: url("../assets/images/background-image.jpg") no-repeat center center;*/
+    height: 450px;
+
     background: url('../assets/images/phone-3.png') no-repeat top center;
     background-size: cover;
-    /* font-family: 'Amatic SC', cursive;*/
+
     font-family: 'Glory', sans-serif;
     margin-bottom: 30px;
 
 }
 
 #heading-title h1 {
-    font-size: 4.2rem;
+    font-size: 5.2rem;
     letter-spacing: 4px;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -200,37 +201,26 @@ a {
     color: #fff;
 }
 
-#heading-title>h2 {
-    padding-bottom: 40px;
-    font-size: 2.4rem;
-    color: #fff;
-}
+
+
 
 
 /*------------------------------------------------ button that leads to join page*/
 .btn {
     color: #FFF;
-    border: 2px solid #8DA1A6;
-    /*border: 2px solid #D97B59;*/
-    margin-top: 0px;
+    background-color: #4c8492;
+    margin-top: 40px;
     border-radius: 10px;
     padding: 18px 50px;
     display: inline-block;
     font-size: 1.3rem;
     letter-spacing: 1px;
     cursor: pointer;
-    /*box-shadow: inset 0 0 0 0 #D97B59;*/
-    box-shadow: inset 0 0 0 0 #8DA1A6;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-    text-decoration: none;
     font-family: "Montserrat", sans-serif;
 }
 
 .btn-join:hover {
-    box-shadow: inset 400px 0 0 0 #8DA1A6;
-    /*box-shadow: inset 400px 0 0 0 #D97B59;*/
+    background-color: rgb(122, 35, 52);
     color: #fafafa;
 }
 
@@ -338,9 +328,8 @@ a {
 .reason-title {
     text-align: center;
     background-color: #F2D1B3;
-
     font-size: 1.2rem;
-    letter-spacing: 2px;
+
     margin-left: auto;
     margin-right: auto;
     padding: 25px 0;
@@ -358,17 +347,18 @@ a {
 .reason {
     flex: 1;
     border: none;
-    background-color: #fffaf4;
     margin: 0 auto;
     background-color: transparent;
+
 }
 
 .reason p,
 .reason h4,
 .reason hr {
-    width: 85%;
+    width: 80%;
     margin-left: 25px;
-    line-height: 20px;
+    line-height: 25px;
+
 }
 
 .reason h4 {
@@ -378,6 +368,7 @@ a {
 .reason p {
     text-align: center;
     font-size: 0.9rem;
+
 }
 
 hr {
@@ -569,7 +560,7 @@ hr {
 }
 
 .place-month a {
-    background-color: #A67C80;
+    background-color: #a06066;
 }
 
 .coffee-icon {
@@ -1178,331 +1169,394 @@ label {
     color: #851f1f;
 }
 
+/*********************************/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+
+
+
+@media (min-width: 1281px) {
+    body {
+        background-color: rgba(170, 170, 255, 0.678);
+    }
+
+    #cover-text {
+        top: 180px;
+        left: 900px;
+        width: 700px;
+        font-size: 380%;
+    }
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    body {
+        background-color: rgb(137, 137, 185);
+    }
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        background-color: rgb(112, 112, 119);
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .reason {
+        margin-left: 90px;
+    }
+
+    .reasons-icon {
+        margin-left: -80px;
+    }
+
+    #email-subscribe {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 12%;
+    }
+
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    body {
+        background-color: rgb(145, 145, 145);
+    }
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        background-color: rgb(138, 138, 160);
+    }
+
+    .member-testimony {
+        flex-direction: column;
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .square {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+
+    }
+
+    .responsive {
+        width: 470px;
+        height: max-content;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .responsive h4 {
+        padding-top: 30px;
+    }
+
+    .coffee-icon {
+        font-size: 210%;
+        padding-bottom: 20px;
+    }
+
+    #subscribe-section p {
+        width: 80%;
+    }
+
+    #email-subscribe {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 20%;
+    }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 375px) and (max-width: 480px) {
+
+    body {
+        background-color: rgb(185, 137, 139);
+    }
+
+    #heading-title {
+        height: 340px;
+        background-size: 195%;
+        background-position: center;
+    }
+
+    #heading-title h1 {
+        font-size: 3rem;
+        margin-bottom: -50px;
+
+    }
+
+    .member-testimony {
+        flex-direction: column;
+        margin-top: -40px;
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .reason {
+        margin-left: 35px;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .square {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .responsive {
+        width: 415px;
+        height: max-content;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .responsive h4 {
+        padding-top: 30px;
+    }
+
+    .coffee-icon {
+        font-size: 210%;
+        padding-bottom: 20px;
+    }
+
+    #subscribe-section p {
+        width: 80%;
+    }
+
+    #email-subscribe {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 20%;
+    }
+}
+
+@media (min-width:320px)and (max-width: 376px) {
+    body {
+        background-color: rgba(233, 233, 83, 0.541);
+    }
+
+    .responsive {
+        width: 370px;
+        height: max-content;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    .reason {
+        margin-left: 25px;
+    }
+
+    #email-subscribe {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 23%;
+    }
+}
+
+@media (max-width:320px) {
+    body {
+        background-color: rgba(83, 233, 128, 0.541);
+    }
+
+    #heading-title {
+        height: 250px;
+        background-size: 180%;
+        background-position: center;
+
+    }
+
+    #heading-title h1 {
+        font-size: 2.5rem;
+        margin-bottom: -40px;
+        margin-top: -70px;
+
+    }
+
+    .member-testimony {
+        flex-direction: column;
+        margin-top: -40px;
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .reason {
+        margin-left: 35px;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .square {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .responsive {
+        width: 315px;
+        height: max-content;
+        margin-bottom: 5px;
+    }
+
+    .responsive h4 {
+        margin-top: -35px;
+    }
+
+    #subscribe-section p {
+        width: 80%;
+    }
+
+    #email-subscribe {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 26%;
+    }
+
+    #contact-section {
+        background-size: 180%;
+        background-position: bottom;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /************************************************/
 
 /*Media*/
 
-@media screen and (max-width: 2560px) {
-
-    /* {
-        background-color: #b2d4e6;
-    }*/
+/*
+@media screen and (max-width: 320px) {
 
     #heading-title {
-        height: 650px;
+        height: 320px;
     }
 
     #heading-title h1 {
-        font-size: 8rem;
-        margin-top: 40px;
+        font-size: 2rem;
     }
 
     #heading-title h2 {
-        font-size: 3rem;
-        margin-bottom: 50px;
-    }
-
-    .quotation {
-        font-size: 1rem;
-    }
-
-    .reason p {
-        font-size: 0.9rem;
-    }
-
-    .reason {
-        margin-left: 60px;
-    }
-
-
-    #email-subscribe {
-        width: 20%;
-    }
-
-    .btn-subscribe {
-        width: 5%;
-    }
-
-
-    .team-container {
-        width: 100%;
-    }
-
-    .members {
-        padding-left: auto;
-    }
-
-    .work-container p {
-        font-size: 0.9rem;
-    }
-
-    .book-list h4 {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .book-list p {
-        font-size: 1rem;
-        line-height: 25px;
-    }
-
-    .img-book {
-        width: 50%;
-    }
-
-    .form-section {
-        height: 1400px;
-    }
-
-    .signup-form {
-        max-width: 470px;
-        height: 530px;
-        top: 15%;
-    }
-
-    .signup-form h2 {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .signup-form h3 {
-        font-size: 1rem;
-        padding-bottom: 10px;
-
-    }
-
-    .terms-agree p {
-        font-size: 0.8rem;
-    }
-
-    .join-button {
-        margin-top: 40px;
-        font-size: 1.4rem;
-    }
-
-
-    label {
-        font-weight: bold;
-        font-size: 1.1rem;
-    }
-
-    .text-input {
-        width: 100%;
-        height: 35px;
-        margin: 5px 0 20px 0;
-        font-size: 1.6rem;
-    }
-}
-
-
-
-
-@media screen and (max-width: 2000px) {
-
-    /* {
-        background-color: #3b5999;
-    }*/
-
-    .team-title {
-        margin-top: 20px;
-    }
-
-
-    .about-team p {
-        width: 50%;
-    }
-
-    .form-section {
-        height: 1200px;
-    }
-
-    .signup-form {
-        width: max-content;
-        height: max-content;
-        top: 10%;
-    }
-
-    .signup-form p {
         font-size: 1.2rem;
     }
 
-    .join-button {
-        margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 1680px) {
-    /* {
-        background-color: #993b4f;
-    }*/
-
-
     .reason {
-        margin-left: 40px;
+        margin-left: 25px;
     }
 
 
-    .book-list h4 {
-        margin-left: 130px;
-    }
-
-    .book-list p {
-        width: 55%;
-    }
-
-    .background-image-join form {
-        max-width: 800px;
-        margin-left: 560px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-
-    /* {
-        background-color: darkolivegreen;
-    }*/
-
-
-    #heading-title {
-        height: 500px;
-    }
-
-    #heading-title h1 {
-        font-size: 4.8rem;
-        margin-top: -20px;
-    }
-
-    #heading-title h2 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-    }
-
-    .work-container {
-        width: 100%;
-    }
-
-    #email-subscribe {
-        width: 30%;
-    }
-
-    .btn-subscribe {
-        width: 9%;
-    }
-
-    .reason {
-        margin-left: auto;
-    }
-
-    .team-container {
-        width: 100%;
+    .work-container h5 {
+        padding-bottom: 20px;
     }
 
     .team-container p {
         width: 90%;
-    }
-
-    .about-team {
-        width: fit-content;
 
     }
 
-    .questions h4 {
-        font-size: 20px;
+    .about-txt {
+        padding: 0;
     }
 
-    .questions {
-        width: 30%;
+    .responsive {
+        width: 310px;
+        height: 290px;
     }
 
     .options {
         text-align: center;
         margin: 0 auto;
-    }
-
-    .book-list h4 {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .book-list p {
-        width: 70%;
-        text-align: center;
-    }
-
-    .form-section {
-        background-position: left;
-        height: 780px;
-    }
-
-    .signup-form {
-        top: 0%;
-
-        height: fit-content;
-        width: 350px;
-        padding: 20px;
-    }
-
-    .signup-form h3 {
-        font-size: 0.8rem;
-    }
-
-    .terms-agree p {
-        font-size: 0.8rem;
-        line-height: 23px;
-    }
-
-    label {
-        font-size: 0.9rem;
-    }
-
-    .signup-form h2 {
-        font-size: 1.2rem;
-    }
-
-    .signup-form>p {
-
-        font-size: 0.8rem;
-
-    }
-
-    .text-input {
-        font-size: 1rem;
-        height: 25px;
-    }
-
-    .join-button {
-        margin-top: 40px;
-        font-size: 1rem;
-    }
-
-
-}
-
-/* For larger to medium screens size from 1200px wide and down*/
-
-
-@media screen and (max-width: 1200px) {
-
-    /* {
-        background-color: rgb(107, 64, 47);
-    }*/
-
-    #heading-title h1 {
-        margin-top: 25px;
-    }
-
-    .reason {
-        margin-left: 20px;
-    }
-
-    #email-subscribe {
-        width: 30%;
-    }
-
-    .btn-subscribe {
-        width: 9%;
     }
 
     .book-list h4 {
@@ -1512,77 +1566,196 @@ label {
 
     .book-list p {
         width: 80%;
-        text-align: center;
+        margin: auto;
     }
 
+    .signup-form {
+        top: 0%;
+        left: 3%;
+        width: 260px;
+
+    }
 
 }
 
-@media screen and (max-width: 1024px) {
-
-    /* {
-        background-color: rgb(142, 140, 240);
-    }*/
-
-    #heading-title h1 {
-        font-size: 5rem;
+@media (max-width: 375px) {
+    #hero-image {
+        height: 450px;
     }
 
-    #heading-title h2 {
-        margin-top: -20px;
+    #cover-text {
+        top: 130px;
+        left: 10px;
+        font-size: 170%;
+        width: 350px;
+    }
+
+    .btn {
+        padding: 15px 35px;
+        font-size: 1.3rem;
+    }
+
+    .member-testimony {
+        margin-top: -120px;
+    }
+
+    .reason {
+        margin-left: 30px;
+    }
+
+    .reasons-icon {
+        margin-left: 0;
+    }
+
+    .work-steps p {
+        margin-left: 35px;
+    }
+
+    .responsive {
+        width: 365px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+
+    }
+
+
+    .options {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .vote h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and(max-width: 425px) {
+
+    #hero-image {
+        height: 500px;
+    }
+
+    #cover-text {
+        top: 150px;
+        left: -45px;
+        font-size: 190%;
+        width: 460px;
+    }
+
+
+    .member-testimony {
+        display: flex;
+        flex-direction: column;
+        margin-top: -60px;
+        padding-top: 10px;
+        margin-bottom: -40px;
+    }
+
+    .member-testimony .member {
+        flex-direction: column;
+    }
+
+    .member-testimony .text-mark-left {
+        border: none;
+    }
+
+    .text-mark-right {
+        border: none;
+    }
+
+    .reason {
+        margin-left: 40px;
+    }
+
+    .reason p {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .reasons-icon {
+        margin-left: 10px;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-steps p {
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .square {
+        flex-direction: column-reverse;
+
+    }
+
+    .responsive {
+        width: 415px;
+        height: 300px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .responsive>h4,
+    .responsive>p {
+        font-size: 1.3rem;
+    }
+
+    .responsive>h4 {
+        margin-top: 0px;
+    }
+
+    #subscribe-section p {
+        width: 80%;
+    }
+
+    #email-subscribe {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .btn-subscribe {
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .members {
+        padding-left: 5px;
+    }
+
+    .question-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .questions {
+        margin: 0 auto;
+        width: 90%;
     }
 
     blockquote {
         padding: 0;
+        margin: 0 0 20px;
+        font-size: 17.5px;
+        border-left: 5px solid #a8b6c1;
     }
 
-    .reasons-icon {
-        margin-left: -80px;
-    }
-
-    .members {
-        width: 95%;
-    }
-
-    .responsive {
-        width: 380px;
-        height: 250px;
-        margin-left: 5px;
-    }
-
-    .responsive>h4 {
-        margin-top: -25px;
-        font-size: 1.1rem;
-    }
-
-    .responsive>p {
-        font-size: 1rem;
-    }
-
-
-    .about-team {
-        width: 100%;
-    }
-
-    .about-team p {
-        width: 55%;
-    }
-
-    .join-container {
+    .book-vote-container {
         flex-direction: column;
     }
 
-    .reason {
-        margin-left: 115px;
-        width: 85%;
+    .vote h3 {
+        font-size: 20px;
+        width: 90%;
     }
 
-    .questions {
-        width: 30%;
-    }
-
-    .questions p {
-        font-size: 0.9rem;
+    .vote p {
+        font-size: 14px;
+        width: 70%;
+        margin-left: 60px;
     }
 
     .options {
@@ -1590,45 +1763,77 @@ label {
         margin: 0 auto;
     }
 
-    .book-list h4 {
+    .vote h4 {
         text-align: center;
         margin: 0 auto;
     }
 
-    .book-list p {
+    .img-book {
         width: 70%;
-        text-align: center;
     }
 
-    .form-section {
-        background-position: left;
+    .books-section {
+        margin-bottom: 100px;
     }
 
+
+    .signup-form {
+        top: 0%;
+        left: 3%;
+
+    }
+
+    .signup-form p {
+        font-size: 1rem;
+    }
+
+
+    .signup-form h2 {
+        font-size: 1.4rem;
+    }
+
+    .signup-form>p {
+        font-size: 1rem;
+    }
+
+
+    .text-input p {
+        font-size: 1rem;
+    }
+
+    .join-button {
+        margin-top: 40px;
+        font-size: 1.4rem;
+    }
+
+    label {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .text-input {
+        width: 100%;
+        height: 35px;
+        margin: 5px 0 20px 0;
+    }
+
+    .terms-agree p {
+        font-size: 0.8rem;
+    }
 
 }
-
-
 
 @media screen and (max-width: 768px) {
     /* {
         background-color: #568196;
     }*/
-
-    #heading-title {
-        height: 450px;
-
+/*
+    #cover-text {
+        top: 150px;
+        left: 20px;
+        font-size: 300%;
     }
 
-    #heading-title h1 {
-        font-size: 3.8rem;
-        margin-top: 10px;
-    }
-
-    #heading-title h2 {
-        font-size: 2rem;
-        margin-bottom: -5px;
-
-    }
 
     .member-testimony {
         width: 100%;
@@ -1745,283 +1950,72 @@ label {
 
     .text-input {
         font-size: 1rem;
-
     }
 }
 
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 425px) {
-
-    #heading-title {
-        height: 400px;
-    }
-
-    #heading-title h1 {
-        font-size: 2.5rem;
-
-    }
-
-
-    #heading-title h2 {
-        font-size: 1.8rem;
-        margin-top: -10px;
-    }
-
-    .member-testimony {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
-        margin-bottom: -40px;
-    }
-
-    .member-testimony .member {
-        flex-direction: column;
-    }
-
-    .member-testimony .text-mark-left {
-        border: none;
-    }
-
-    .text-mark-right {
-        border: none;
-    }
-
-    .reason {
-        margin-left: 40px;
-    }
-
-    .reason p {
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    .reasons-icon {
-        margin-left: 10px;
-    }
-
-    .work-container {
-        flex-direction: column;
-    }
-
-    .work-steps p {
-        width: 80%;
-        margin-left: 45px;
-    }
-
-    .square {
-        flex-direction: column-reverse;
-    }
-
-    .responsive {
-        width: 415px;
-        height: 300px;
-        margin-left: 5px;
-        margin-bottom: 5px;
-    }
-
-    .responsive>h4,
-    .responsive>p {
-        font-size: 1.3rem;
-    }
-
-    .responsive>h4 {
-        margin-top: 0px;
-    }
-
-    #subscribe-section p {
-        width: 80%;
-    }
-
-    #email-subscribe {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .btn-subscribe {
-        width: 25%;
-        margin-top: 20px;
-    }
-
-    .members {
-        padding-left: 5px;
-    }
-
-    .question-container {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .questions {
-        margin: 0 auto;
-        width: 90%;
+    /* {
+        background-color: rgb(142, 140, 240);
+    }*/
+/*
+    #cover-text {
+        top: 150px;
+        left: 150px;
+        font-size: 350%;
     }
 
     blockquote {
         padding: 0;
-        margin: 0 0 20px;
-        font-size: 17.5px;
-        border-left: 5px solid #a8b6c1;
     }
 
-    .book-vote-container {
+    .reasons-icon {
+        margin-left: -80px;
+    }
+
+    .members {
+        width: 95%;
+    }
+
+    .responsive {
+        width: 380px;
+        height: 250px;
+        margin-left: 5px;
+    }
+
+    .responsive>h4 {
+        margin-top: -25px;
+        font-size: 1.1rem;
+    }
+
+    .responsive>p {
+        font-size: 1rem;
+    }
+
+
+    .about-team {
+        width: 100%;
+    }
+
+    .about-team p {
+        width: 55%;
+    }
+
+    .join-container {
         flex-direction: column;
     }
 
-    .vote h3 {
-        font-size: 20px;
-        width: 90%;
-    }
-
-    .vote p {
-        font-size: 14px;
-        width: 70%;
-        margin-left: 60px;
-    }
-
-    .options {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .vote h4 {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .img-book {
-        width: 70%;
-    }
-
-    .books-section {
-        margin-bottom: 100px;
-    }
-
-
-    .signup-form {
-        top: 0%;
-        left: 3%;
-
-
-    }
-
-    .signup-form p {
-        font-size: 1rem;
-    }
-
-
-    .signup-form h2 {
-        font-size: 1.4rem;
-    }
-
-    .signup-form>p {
-        font-size: 1rem;
-    }
-
-
-    .text-input p {
-        font-size: 1rem;
-    }
-
-    .join-button {
-        margin-top: 40px;
-        font-size: 1.4rem;
-    }
-
-    label {
-        font-weight: bold;
-        font-size: 1rem;
-    }
-
-    .text-input {
-        width: 100%;
-        height: 35px;
-        margin: 5px 0 20px 0;
-    }
-
-    .terms-agree p {
-        font-size: 0.8rem;
-    }
-
-}
-
-
-
-@media (max-width: 375px) {
-
-
-
-    #heading-title h1 {
-        font-size: 2rem;
-        margin-top: 20px;
-    }
-
-    #heading-title>h2 {
-        font-size: 1.3rem;
-    }
-
     .reason {
-        margin-left: 30px;
+        margin-left: 115px;
+        width: 85%;
     }
 
-    .work-steps p {
-        margin-left: 35px;
+    .questions {
+        width: 30%;
     }
 
-    .responsive {
-        width: 365px;
-        margin-left: 5px;
-        margin-bottom: 5px;
-    }
-
-
-    .options {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-
-    .vote h4 {
-        text-align: center;
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
-
-    #heading-title {
-        height: 320px;
-    }
-
-    #heading-title h1 {
-        font-size: 2rem;
-    }
-
-    #heading-title h2 {
-        font-size: 1.2rem;
-    }
-
-    .reason {
-        margin-left: 25px;
-    }
-
-
-    .work-container h5 {
-        padding-bottom: 20px;
-    }
-
-    .team-container p {
-        width: 90%;
-
-    }
-
-    .about-txt {
-        padding: 0;
-    }
-
-    .responsive {
-        width: 310px;
-        height: 290px;
+    .questions p {
+        font-size: 0.9rem;
     }
 
     .options {
@@ -2035,15 +2029,339 @@ label {
     }
 
     .book-list p {
+        width: 70%;
+        text-align: center;
+    }
+
+    .form-section {
+        background-position: left;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* {
+        background-color: rgb(107, 64, 47);
+    }*/
+/*
+    #cover-text {
+        top: 150px;
+        left: 250px;
+        width: 700px;
+        font-size: 350%;
+    }
+
+    .reason {
+        margin-left: 20px;
+    }
+
+    #email-subscribe {
+        width: 30%;
+    }
+
+    .btn-subscribe {
+        width: 9%;
+    }
+
+    .book-list h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .book-list p {
         width: 80%;
-        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    /* {
+        background-color: darkolivegreen;
+    }*/
+/*
+    #cover-text {
+        left: 400px;
+        width: 700px;
+    }
+
+    .work-container {
+        width: 100%;
+    }
+
+    #email-subscribe {
+        width: 30%;
+    }
+
+    .btn-subscribe {
+        width: 9%;
+    }
+
+    .reason {
+        margin-left: auto;
+    }
+
+    .team-container {
+        width: 100%;
+    }
+
+    .team-container p {
+        width: 90%;
+    }
+
+    .about-team {
+        width: fit-content;
+
+    }
+
+    .questions h4 {
+        font-size: 20px;
+    }
+
+    .questions {
+        width: 30%;
+    }
+
+    .options {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .book-list h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .book-list p {
+        width: 70%;
+        text-align: center;
+    }
+
+    .form-section {
+        background-position: left;
+        height: 780px;
     }
 
     .signup-form {
         top: 0%;
-        left: 3%;
-        width: 260px;
+
+        height: fit-content;
+        width: 350px;
+        padding: 20px;
+    }
+
+    .signup-form h3 {
+        font-size: 0.8rem;
+    }
+
+    .terms-agree p {
+        font-size: 0.8rem;
+        line-height: 23px;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    .signup-form h2 {
+        font-size: 1.2rem;
+    }
+
+    .signup-form>p {
+
+        font-size: 0.8rem;
 
     }
 
+    .text-input {
+        font-size: 1rem;
+        height: 25px;
+    }
+
+    .join-button {
+        margin-top: 40px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+
+    /* {
+        background-color: #993b4f;
+    }
+    #cover-text {
+        top: 180px;
+        left: 100px;
+        width: max-content;
+        font-size: 350%;
+    }
+
+    .reason {
+        margin-left: 40px;
+    }
+
+
+    .book-list h4 {
+        margin-left: 130px;
+    }
+
+    .book-list p {
+        width: 55%;
+    }
+
+    .background-image-join form {
+        max-width: 800px;
+        margin-left: 560px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+
+    /* {
+        background-color: #3b5999;
+    }
+
+    #cover-text {
+        top: 150px;
+        left: 450px;
+        width: max-content;
+        font-size: 350%;
+    }
+
+
+    .team-title {
+        margin-top: 20px;
+    }
+
+
+    .about-team p {
+        width: 50%;
+    }
+
+    .form-section {
+        height: 1200px;
+    }
+
+    .signup-form {
+        width: max-content;
+        height: max-content;
+        top: 10%;
+    }
+
+    .signup-form p {
+        font-size: 1.2rem;
+    }
+
+    .join-button {
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 2560px) {
+
+    /* {
+        background-color: #b2d4e6;
+    }
+
+    #cover-text {
+        top: 150px;
+        left: 750px;
+        width: max-content;
+        font-size: 350%;
+    }
+
+
+    .quotation {
+        font-size: 1rem;
+    }
+
+    .reason p {
+        font-size: 0.9rem;
+    }
+
+    .reason {
+        margin-left: 60px;
+    }
+
+
+    #email-subscribe {
+        width: 20%;
+    }
+
+    .btn-subscribe {
+        width: 5%;
+    }
+
+
+    .team-container {
+        width: 100%;
+    }
+
+    .members {
+        padding-left: auto;
+    }
+
+    .work-container p {
+        font-size: 0.9rem;
+    }
+
+    .book-list h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .book-list p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .img-book {
+        width: 50%;
+    }
+
+    .form-section {
+        height: 1400px;
+    }
+
+    .signup-form {
+        max-width: 470px;
+        height: 530px;
+        top: 15%;
+    }
+
+    .signup-form h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .signup-form h3 {
+        font-size: 1rem;
+        padding-bottom: 10px;
+
+    }
+
+    .terms-agree p {
+        font-size: 0.8rem;
+    }
+
+    .join-button {
+        margin-top: 40px;
+        font-size: 1.4rem;
+    }
+
+
+    label {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .text-input {
+        width: 100%;
+        height: 35px;
+        margin: 5px 0 20px 0;
+        font-size: 1.6rem;
+    }
 }
