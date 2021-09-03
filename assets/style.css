@@ -184,7 +184,7 @@ a {
     width: 100%;
     height: 450px;
 
-    background: url('../assets/images/phone-3.png') no-repeat top center;
+    background: url('../assets/images/phone-3.webp') no-repeat top center;
     background-size: cover;
 
     font-family: 'Glory', sans-serif;
@@ -247,14 +247,14 @@ a {
 }
 
 #profile1 {
-    background: url("../assets/images/kate.jpeg") center;
+    background: url("../assets/images/kate.webp") center;
     background-size: cover;
     border-radius: 50%;
     height: 100%;
 }
 
 #profile2 {
-    background: url("../assets/images/rita.jpeg") center;
+    background: url("../assets/images/rita.webp") center;
     background-size: cover;
     border-radius: 50%;
     height: 100%;
@@ -422,7 +422,7 @@ hr {
 
 
 #step1 {
-    background: url("../assets/images/join.jpeg") center;
+    background: url("../assets/images/join.webp") center;
     background-size: cover;
     border-radius: 30%;
     width: 180px;
@@ -432,7 +432,7 @@ hr {
 }
 
 #step2 {
-    background: url("../assets/images/work.jpeg") center;
+    background: url("../assets/images/work.webp") center;
     background-size: cover;
     border-radius: 30%;
     width: 180px;
@@ -441,7 +441,7 @@ hr {
 }
 
 #step3 {
-    background: url("../assets/images/book-fun.jpeg") center;
+    background: url("../assets/images/book-fun.webp") center;
     background-size: cover;
     border-radius: 30%;
     width: 180px;
@@ -559,6 +559,7 @@ hr {
     color: white;
 }
 
+
 .place-month a {
     background-color: #a06066;
 }
@@ -634,7 +635,7 @@ hr {
 
 #contact-section {
     /*background: url("../assets/images/background-image.jpg") bottom center;*/
-    background: url("../assets/images/phone-1.jpeg") bottom center;
+    background: url("../assets/images/phone-1.webp") bottom center;
     background-size: cover;
     padding-top: 5px;
     letter-spacing: 2px;
@@ -826,28 +827,28 @@ hr {
 }
 
 #team1 {
-    background: url("../assets/images/girl-people-landscape-sun-38554.jpeg") center;
+    background: url("../assets/images/girl-people-landscape-sun-38554.webp") center;
     background-size: cover;
     border-radius: 50%;
     height: 90%;
 }
 
 #team2 {
-    background: url("../assets/images/pexels-photo-1181424.jpeg") center;
+    background: url("../assets/images/pexels-photo-1181424.webp") center;
     background-size: cover;
     border-radius: 50%;
     height: 90%;
 }
 
 #team3 {
-    background: url("../assets/images/pexels-photo-1181690.jpeg") center;
+    background: url("../assets/images/pexels-photo-1181690.webp") center;
     background-size: cover;
     border-radius: 50%;
     height: 90%;
 }
 
 #team4 {
-    background: url("../assets/images/pexels-photo-2701660.jpeg") center;
+    background: url("../assets/images/pexels-photo-2701660.webp") center;
     background-size: cover;
     border-radius: 50%;
     height: 90%;
@@ -1087,7 +1088,7 @@ hr {
 
 .form-section {
     clear: left;
-    background: url('../assets/images/girl-read-pink.jpg') center no-repeat;
+    background: url('../assets/images/girl-read.webp') center no-repeat;
     background-size: cover;
     background-position: center;
     height: 900px;

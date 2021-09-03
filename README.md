@@ -180,6 +180,13 @@ No errors were returned when passing through the official [W3C Markup Validator.
 
 No errors were found when passing through the official [W3C CSS Validator. ](http://jigsaw.w3.org/css-validator/)
 
+### Performance on Web.dev
+
+
+
+
+
+
 ## Deployment
 
 The site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will be updated automatically upon new commits to the master branch. 
