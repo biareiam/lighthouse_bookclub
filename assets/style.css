@@ -899,7 +899,7 @@ hr {
     margin: 0 auto;
     text-align: center;
     padding: 15px;
-    width: 25%;
+
 
 }
 
@@ -1182,7 +1182,7 @@ label {
 
 @media (min-width: 1281px) {
     body {
-        background-color: rgba(170, 170, 255, 0.678);
+        background-color: rgba(255, 194, 170, 0.678);
     }
 
     #cover-text {
@@ -1191,6 +1191,19 @@ label {
         width: 700px;
         font-size: 380%;
     }
+
+
+    .form-section {
+        background-position: top;
+        height: 740px;
+    }
+
+    .signup-form {
+        left: 10%;
+        top: 20px;
+    }
+
+
 
 }
 
@@ -1204,6 +1217,7 @@ label {
     body {
         background-color: rgb(137, 137, 185);
     }
+
 
 }
 
@@ -1239,6 +1253,15 @@ label {
         width: 12%;
     }
 
+    .form-section {
+        background-position: top;
+        height: 740px;
+    }
+
+    .signup-form {
+        left: 10%;
+        top: 20px;
+    }
 
 }
 
@@ -1388,6 +1411,53 @@ label {
     .btn-subscribe {
         width: 20%;
     }
+
+    .btn-subscribe {
+        width: 12%;
+    }
+
+    .about-txt {
+        margin-top: -80px;
+    }
+
+    .about-txt p {
+        margin-left: auto;
+    }
+
+    .team-container {
+        flex-direction: column;
+    }
+
+    .question-container {
+        flex-direction: column;
+
+    }
+
+    .question-container p {
+        width: 100%;
+    }
+
+    .book-vote-container {
+        flex-direction: column;
+    }
+
+    .vote h3 {
+        margin-top: -60px;
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+
+    .form-section {
+        background-position: right;
+        height: 740px;
+    }
+
+    .signup-form {
+        left: 10%;
+        top: 20px;
+    }
+
 }
 
 @media (min-width:320px)and (max-width: 376px) {
@@ -1413,6 +1483,12 @@ label {
 
     .btn-subscribe {
         width: 23%;
+    }
+
+    .vote h3 {
+        margin-top: -90px;
+        font-size: 1.2rem;
+        padding: 10px;
     }
 }
 
@@ -1452,6 +1528,16 @@ label {
         flex-direction: column;
     }
 
+    .reason {
+        margin-left: 10px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .reasons-icon {
+        margin-top: 20px;
+    }
+
     .square {
         flex-direction: column-reverse;
         justify-content: space-evenly;
@@ -1483,7 +1569,45 @@ label {
     #contact-section {
         background-size: 180%;
         background-position: bottom;
+    }
 
+    .about-txt {
+        margin-top: -100px;
+        margin-bottom: -50px;
+    }
+
+    .about-txt p {
+        padding-left: 70px;
+    }
+
+    .team-container {
+        flex-direction: column;
+    }
+
+    .question-container {
+        flex-direction: column;
+
+    }
+
+    .question-container p {
+        width: 100%;
+    }
+
+    .book-vote-container {
+        flex-direction: column;
+    }
+
+
+    .form-section {
+        background-position: right;
+        height: 740px;
+    }
+
+    .signup-form {
+        left: 15px;
+        top: 20px;
+        padding: 10px;
+        width: fit-content;
     }
 
 }
