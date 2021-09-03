@@ -108,7 +108,7 @@ As previously mentioned the website contains 4 pages. The existing features are:
 
 4. Books page:
     * This page shows to the users all the books which were already discussed, along with the one which will be discussed at the next meet up. The images have a hove effect, so at first they are gray, becoming colorful once the user hovers over it. 
-    * Along with the images of the books’ cover, it is also displayed which was the month in which that book was picked and button “ shop now”, which directs users to Easons website. It makes it easier for users to purchase the books, if desired. 
+    * Along with the images of the books’ cover, it is also displayed which was the month in which that book was picked and button “shop now”, which directs users to Easons website. It makes it easier for users to purchase the books, if desired. 
     * By clicking on the images, users are also directed to the Good read website, where they can read more about the books.
 
 5. Join Us:
@@ -143,17 +143,8 @@ As previously mentioned the website contains 4 pages. The existing features are:
 3. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
     * Used to personalise colors, buttons, forms and visual details of the site.
 
-4. [Codepen](https://codepen.io/)
-    * Used to test learning on flex boxes in a quick way. 
-
-5. [Google.com](https://www.google.com/)
+4. [Google.com](https://www.google.com/)
     * Used for reaserch, along with Youtube.
-
-6. [GitHub](https://github.com/)
-    * As a software hosting platform to keep projects in a remote location.
-
-7. [Gitpod](https://www.gitpod.io/)
-    * As a development hosting platform.
 
 
 ## Testing
@@ -170,7 +161,6 @@ It was tested:
 
 * The images on the ‘Meet up’ section are responsive and they will change size whenever needed to fit better the screen size. 
 
-* To tell the user which page they are at, the menu item belonging to that page will be in red, making it simpler and easier for them to notice.
 
 ### HTML 
 
@@ -190,9 +180,9 @@ No errors were found when passing through the official [W3C CSS Validator. ](htt
 
 The site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will be updated automatically upon new commits to the master branch. 
 
-I choose to deploy this project on GitHub Pages, below are the steps I used to deploy.
-Log into my github profile page and click on my project's name,clicked on settings,
-go to the option Pages,on the left side menu.Selected master branch and [here](https://biareiam.github.io/lighthouse_bookclub/) is the link to it.
+The project was deployed using GitHub Pages, below are the steps to do so.
+Log into the github profile page and click on the project's name,click on settings,
+go to the option Pages,on the left side menu.Select master branch and [here](https://biareiam.github.io/lighthouse_bookclub/) is the link to the final project.
 
 ## Credits
 
@@ -205,8 +195,7 @@ The text for the Home page and about page were inspired by many different websit
 
 ### Media 
 * The images used on all the pages are [Pexels](https://www.pexels.com/), which is a open source site.
-*
-Font Awesome was used for all social media icons: https://fontawesome.com/
+* Font Awesome was used for all social media icons: https://fontawesome.com/
 
 
 ## Resources
