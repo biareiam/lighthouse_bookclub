@@ -182,8 +182,7 @@ No errors were found when passing through the official [W3C CSS Validator. ](htt
 
 ### Performance on Web.dev
 
-
-
+![performance-web](https://user-images.githubusercontent.com/65717229/132029441-dd4d2662-c940-4747-8745-6c30ffd6a0a3.PNG)
 
 
 
